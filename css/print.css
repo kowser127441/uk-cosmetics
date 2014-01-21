@@ -1,0 +1,1172 @@
+/*
+* Superdrug v5
+*
+* Frontend development (CSS, Venda templates and JavaScript) by alex[at]threefour[dot]co[dot]uk / www.threefour.co.uk
+* Optimised and compressed by BT
+* Most of the styles should be self explanitory, some classes have been combined to reduced server overhead.
+* Sprites have been used for background images (where possible)
+*
+* Order of this document is as follows:
+* 1. 	Reset
+* 2. 	Global styles
+* 2.1 	Structure
+* 2.2 	Homepage
+* 2.3 	Category List
+* 2.4 	Branded Category List - todo
+* 2.5 	Sub Cateogory List
+* 2.6 	Product List
+* 2.7 	Search Results List
+* 2.8 	Featured Products (category specials)
+* 2.9 	Product Detail (including jquery tabs styles, accessory products, product reviews and delivery info)
+* 2.10 	Tell a friend
+* 2.11 	Write a review (including all reviews)
+* 2.12 	Pagination (for product and search list)
+* 2.13 	Staticpages (including pcat)
+* 3. 	Header
+* 4. 	Sidebar
+* 5. 	Footer
+* 6 	My account
+* 7. 	Checkout
+* 8. 	Utility (greybox and jquery UI and others)
+*
+ ************************************************************* RESET BROWSER DEFAULTS ************************************************************* */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { background:transparent; border:0; font-size:100%; font-weight:400; margin:0; outline:0; padding:0; vertical-align:baseline; }
+body { font-size:62.5%; line-height:1; }
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:none; }
+/* tables still need 'cellspacing="0"' in the markup  */
+table { border-collapse:collapse; border-spacing:0; }
+input { vertical-align:middle; }
+/************************************************************** CORE ************************************************************* */
+html { color:#111; font-family:Arial, Helvetica Neue, Helvetica, sans-serif; }
+a { color:#D91E63; text-decoration:none; }
+/************************************************************** STRUCTURE ************************************************************* */
+#wrapper, #checkoutwrapper { margin:0 auto; width:966px; }
+#homepage, #content, #staticpages, #checkout, #myaccount { background:#fff url('../images/core/bkgrd_content.png') no-repeat 50% 0; margin:0 auto; width:960px; }
+#colone, #col-one, .checkoutR, #myacc-col-one, .checkoutorcfR, .checkoutorfnR { float:left; padding:20px 0 20px 20px; width:160px; }
+#coltwo, #col-two-three { float:right; margin:20px 0 0; min-height:200px; padding:0 0 20px; width:760px; }
+#staticpages #coltwo, .checkoutL, #myacc-col-two, .checkoutorcfL, .checkoutorfnL, #staticpages #coltwo { float:right; padding:20px 20px 0 0; width:740px; position:relative; }
+/************************************************************** HOMEPAGE ************************************************************* */
+.fade { height:310px; overflow:hidden; }
+.goldspot { float:left; height:310px; padding:20px; width:690px; }
+.silverspot { float:right; height:310px; padding:20px 20px 0 0; width:210px; }
+.silverspot ul li { font-size:0; height:90px; margin:20px 0 0; }
+.bronzespot { display:inline; float:right; font-size:0; margin:0 20px 20px 0; }
+.bronzespot ul li { display:inline; margin:0 0 0 15px; }
+.bronzespot ul li.first { display:inline; margin:0; }
+.homeoffers { display:inline; float:right; margin:0 0 20px; width:690px; }
+.homeoffers ul li { display:inline; margin:0 0 0 16px; }
+.homeoffers ul li.first { display:inline; margin:0; }
+.homeoffers ul.textlinks { display:inline; float:left; font-size:1.1em; margin:0; padding:10px 20px 0 0; width:210px; }
+.homeoffers ul.textlinks li { background:url('../images/core/bullet_grey.png') no-repeat 0 6px; border-bottom:1px solid #e0e0e0; clear:both; display:inline-block; margin:0; padding:4px 0 4px 10px; width:200px; }
+#homepage .starbuys { display:inline; float:left; font-size:1.1em; margin:0 0 20px 20px; width:230px; }
+.starbuyselement h2 { background:url('../images/core/hdr_starbuys.png') no-repeat 0 0; display:block; height:22px; text-indent:-5000px; width:230px; }
+.starbuyselement ol { height:1%; width:230px; }
+.starbuyselement ol li { background:url('../images/core/bullet_grey.png') no-repeat 0 6px; border-bottom:1px solid #e0e0e0; clear:both; display:inline-block; padding:4px 0 4px 10px; width:220px; }
+.starbuyselement span.invtname { display:block; float:left; width:145px; }
+.starbuyselement span.price { color:#d91e63; float:right; text-align:right; width:30px; }
+.starbuyselement span.wasprice { float:left; text-align:left; text-decoration:line-through; width:30px; }
+/************************************************************** CATEGORY LIST ************************************************************* */
+.categorylisttop {padding:12px 0 0 12px; width:740px; margin-bottom:30px; font-weight:bold; }
+.categorylisttop h1 {float:left; font-size:19px; font-weight:400; margin:0; padding:0 12px 12px; width:240px; }
+.categorylisttop .shortdesc { font-size:1.3em; line-height:1.3em; padding:0 20px 10px 12px; width:450px; }
+.categorylisttop .longdesc { font-size:1.2em; margin-left:12px; margin-top:-2px; width:500px; }
+/* featured products within banner areas*/
+.banner_feauture_three {bottom:10px;height:175px;margin-left:-20px;position:absolute;top:165px;width:725px}
+.banner_feauture_three .element{float:left}
+.banner_feauture_three .element, .banner_feauture_three .element a { display:inline-block;height:175px;width:240px;}
+/*end */
+.categorylisttop ul { margin:0 0 0 20px; }
+.categorylisttop ul li { background:url('../images/core/bullet_grey.png') no-repeat 0 6px; padding:0 0 0 14px; }
+.categorylisttop ul li a { font-size:1.2em; line-height:1.4em; }
+.categorylistfeature { padding:0 0 5px; }
+.categorylistfeature ul.catlistfp { clear:both; height:180px; }
+.categorylistfeature ul.catlistfp li { display:inline; float:left; margin:0 0 20px 20px; width:360px; }
+.categorylistfeature ul.catlistfp li.first { display:inline; float:left; margin:0; width:360px; }
+.categorylistfeature ul.subCatNav { clear:both; width:760px; }
+.categorylistfeature ul.subCatNav li { display:inline; float:left; }
+.categorylistfeature ul.subCatNav li a { background:url('../images/core/bullet_grey.png') no-repeat 0 6px; border-bottom:1px solid #e0e0e0; clear:both; color:#d91e63; display:inline-block; float:left; font-size:1.2em; margin:0 20px 0 0; padding:4px 0 4px 10px; width:160px; }
+#offersbar { background:#e3457f url('../images/core/bkgrd_bar.png') no-repeat 0 0; clear:both; color:#fff; height:20px; padding:8px 10px 0; width:720px; }
+#offersbar h4 { display:inline; float:left; font-size:1.2em; }
+#offersbar p a { background:url('../images/core/bullet_whiteonpink.png') no-repeat 0 2px; color:#fff; float:right; font-size:1.1em; padding:0 0 0 10px; }
+ul.subcategories li { display:inline; float:left; height:120px; margin:0 0 0 23px; width:230px; }
+ul.subcategories li h2 { bottom:96px; float:right; font-size:15px; padding:4px 13px 4px 10px; position:relative; text-align:right; }
+ul.subcategories li h2 a { color:#777; font-size:1.2em; }
+/************************************************************** PRODUCT, SEARCH AND FEATURED ************************************************************* */
+#productlist h1, #searchresults h1 { font-size:3em; font-weight:700; }
+.categorylisttop ul.featprods, ul.featprods { padding:20px 0 0; }
+#productlist .featured h3 { background-color:#c36; background-position:-250px -780px; display:block; height:55px; margin:10px 0; text-indent:-5000px; width:740px; }
+ul.bigfeatprods li { display:block; float:left; height:300px; margin:0 22px 20px 0; position:relative; width:230px; }
+ul.products li.details { display:block; float:left; height:260px; margin:0 20px 20px 0; position:relative; width:170px; }
+ul.featprods li.details { display:block; float:left; height:228px; margin:0 20px 20px 0; position:relative; width:170px; }
+ul.featprods li.details.last { margin:0 0 20px; }
+ul.products li.details .image, ul.featprods li.details .image { background:url('../images/core/bkgrd_productimage.png') no-repeat 0 0; height:100px; }
+ul.bigfeatprods li.details .image { background:url('../images/core/bkgrd_featuredimage.png') no-repeat 0 0; height:150px; }
+ul.bigfeatprods li.details .image a img { margin:2px 0; padding:0 43px; }
+ul.products li.details .image a img, ul.featprods li.details .image a img { margin:8px 0; padding:0 43px; }
+ul.products li.details h2, ul.featprods li.details h2, ul.bigfeatprods li.details h2 { font-size:1.1em; height:30px; margin:5px 0; }
+ul.products li.details h2 a, ul.featprods li.details h2 a, ul.bigfeatprods li.details h2 a, .top10products .popup h2 a { color:#111; font-weight:700; text-decoration:none; }
+ul.products li.details .promotext, ul.featprods li.details .promotext, ul.bigfeatprods li.details .promotext { color:#d91e63; font-size:1.1em; font-weight:700; height:24px; }
+ul.products li.details .was, ul.featprods li.details .was, ul.bigfeatprods li.details .was { float:left; font-weight:700; padding:1px 2px 0 0; }
+ul.products li.details .unitofmeasure, ul.featprods li.details .unitofmeasure, ul.bigfeatprods li.details .unitofmeasure { clear:both; color:#999; font-size:1em; height:1.2em; }
+ul.products li.details form .qty2 label, ul.bigfeatprods li.details form .qty2 label, .top10products .popup form .qty2 label { font-size:1.2em; padding:0 10px 0 0; }
+ul.products li.details .emailbackinstock a, ul.featprods li.details .emailbackinstock a, ul.bigfeatprods li.details .emailbackinstock a, .top10products .popup .emailbackinstock a { background-position: 0 -38px; bottom:1px; display:block; height:19px; left:1px; position:absolute; text-indent:-5000px; width:105px; }
+ul.products li.details .addtobasket, ul.featprods li.details .addtobasket, ul.bigfeatprods li.details .addtobasket { display:block; margin:2px 0; }
+ul.products li.details .addtobasket a, ul.featprods li.details .addtobasket a, ul.bigfeatprods li.details .addtobasket a, .top10products .popup .addtobasket a {bottom:0; display:block; height:19px; left:-1px; position:absolute; text-indent:-5000px; width:105px; }
+/* e.g. http://www.superdrug.com/invt/583677 - Fabulous  */
+#productdetail .desc .desc1 p.descimg { float:left; margin-bottom:14px; }
+#productdetail .desc .desc1 p.desctext { float:left; font-weight:700; margin-bottom:14px; margin-left:10px; }
+/************************************************************** PRODUCT DETAIL ************************************************************* */
+#productdetail { margin:0 20px 0 0; position:relative;width:740px; }
+#productdetail h1 { font-size:1.6em; font-weight:700; width:400px; }
+#productdetail .invtmedia { float:left; width:350px; position:relative; }
+#productdetail .invtmedia img { padding:30px 63px; }
+#productdetail .desc { float:right; padding:0 0 10px; width:350px; }
+#productdetail .desc p.backlink a { background-position: 0 -668px; display:block; height:19px; position:absolute; right:0; text-indent:-5000px; top:0; width:51px; }
+#productdetail .desc p.backlink a:hover { background-position: 0 -687px; }
+#productdetail .desc .desc1 { border-bottom:1px solid #efefef; clear:both; font-size:1.1em; line-height:1.4em; margin:0 0 10px; padding:16px 0 10px; }
+#productdetail .desc .desc1 ol { list-style-type:decimal; margin-left:18px; }
+#productdetail .desc .desc1 ul { list-style-type:square; margin-left:14px; margin-top:10px; }
+#productdetail .desc .desc1 p { margin-top:10px; }
+#productdetail .desc p.promotext { color:#d91e63; font-size:1.1em; font-weight:700; padding:5px 0; }
+#productdetail .desc .price { padding:10px 0 0; }
+#productdetail form#addtobasketform { padding:10px 0; }
+#productdetail .desc .qty { float:left; font-size:1.2em; font-weight:700; width:115px; }
+#productdetail .desc .instock { color:#090; float:left; font-size:1.1em; font-weight:700; padding:8px 0 0; }
+#productdetail .desc .outstock { color:#e31230; float:left; font-size:1.1em; font-weight:700; padding:8px 0 0; }
+#productdetail .desc p.addtobasket a { background-position: 0 -802px; float:left; height:29px; text-indent:-5000px; width:135px; }
+#productdetail .desc p.addtobasket a:hover { background-position: 0 -831px; }
+#productdetail .desc p.viewbasketlink a { background-position: 0 -764px; float:left; height:19px; margin:9px 0 0 20px; text-indent:-5000px; width:92px; }
+#productdetail .desc p.viewbasketlink a:hover { background-position: 0 -783px; }
+#productdetail .desc p.emailme a { background-position: 0 -706px; float:left; height:29px; text-indent:-5000px; width:135px; }
+#productdetail .desc p.emailme a:hover { background-position: 0 -735px; }
+#productdetail ul#actions { border-top:1px solid #efefef; padding:10px 0; }
+#productdetail ul#actions li a { color:#cf4170; display:block; float:left; font-size:1.1em; font-weight:700; height:14px; padding:5px 0 0 23px; text-decoration:none; width:86px; }
+#productdetail ul#actions li.printthis a { background-position: -1050px 0; }
+#productdetail ul#actions li.tellafriend a { background-position: -1050px -22px; }
+#productdetail ul#actions li.addyourreview a { background-position: -1050px -44px; }
+/************************************************************** TABS AND CONTENT ************************************************************* */
+#tabs { clear:both; width:738px; }
+#tabs .deliveryinfo ul { margin:0 0 1.4em; }
+#tabs .deliveryinfo ul li { font-size:1.1em; line-height:1.4em; list-style-image:url('../images/core/bullet_grey.png'); margin:0 0 0 14px; }
+/************************************************************** ACCESSORY PRODUCTS (TABS) ************************************************************* */
+
+ul#iacc { clear:both; padding:0; overflow:hidden; height:175px;}
+ul#iacc li.detail { display:block; float:left; height:175px; margin:0 0 0 20px; position:relative; width:160px; }
+ul#iacc li.detail.first{ margin:0!important; }
+ul#iacc li.detail .accimage a { display:block; height:70px; overflow:hidden; padding:0; text-align:center; }
+ul#iacc li.detail .details h2 a { color:#111; display:block; font-size:1.1em; font-weight:700; height:30px; padding:2px 0; text-decoration:none; }
+ul#iacc li.detail .details .was { float:left; font-weight:700; padding:0 2px 0 0; }
+ul#iacc li.detail .details .addtobasket a { bottom:0; display:block; height:19px; left:0; position:absolute; text-indent:-5000px; width:105px; }
+ul#iacc li.detail .details .emailbackinstock a { background-position: 0 -38px; bottom:0; display:block; height:19px; left:1px; position:absolute; text-indent:-5000px; width:105px; }
+/************************************************************** PRODUCT REVIEW ************************************************************* */
+#productreviews blockquote { border-bottom:1px solid #efefef; display:block; font-size:1.1em; line-height:1.4em; padding:5px 0; }
+#productreviews blockquote span { clear:both; display:block; font-weight:700; padding:1px 0; }
+#tellafriendimage .invtmedia, #writereviewimage .invtmedia, #emailmebackimage .invtmedia { padding:10px 58px; width:244px; }
+#tellafriendimage h1, #writereviewimage h1, #emailmebackimage h1 { font-size:3em; font-weight:700; }
+#tellafriendform, #writereviewform, #emailmebackform { float:right; margin:0 20px 0 0; width:360px; }
+#tellafriendform h2, #writereviewform h2, #emailmebackform h2 { font-size:1.4em; font-weight:700; margin:0 0 14px; }
+#tellafriendform .desc1 { clear:both; font-size:1.1em; line-height:1.4em; padding:16px 0 0; }
+#writereviewform .desc1 { border-bottom:1px solid #efefef; clear:both; font-size:1.1em; line-height:1.4em; padding:16px 0 10px; }
+#tellafriendform .desc1 p.promotext { color:#d91e63; font-weight:700; margin:0; padding:5px 0; }
+#tellafriendform .price { border-bottom:1px solid #efefef; margin:10px 0; padding:10px 0; }
+#writereviewform ol { border-bottom:1px solid #efefef; margin:0 0 10px; padding:0 0 10px; }
+#writereviewform ol li { font-size:1.1em; line-height:1.4em; list-style-type:decimal; margin:0 0 0 14px; }
+#tellafriendform form p, #writereviewform form p, #emailmebackform form p { clear:both; font-size:1.1em; line-height:0; margin:0; padding:2px 0; }
+#tellafriendform form label, #writereviewform form label { float:left; font-weight:700; line-height:30px; width:130px; }
+#emailmebackform form label { float:left; font-weight:700; line-height:20px; width:130px; }
+#tellafriendform form input, #writereviewform form input, #emailmebackform form input#email { -moz-border-radius:3px; -webkit-border-radius:3px; background:url('../images/core/bkgrd_input.png') repeat-x 0 0; border:1px solid #e1e1e1; font-size:1.1em; height:16px; padding:2px 1px; width:215px; }
+#writereviewform form select { -moz-border-radius:3px; -webkit-border-radius:3px; background:url('../images/core/bkgrd_input.png') repeat-x 0 0; border:1px solid #e1e1e1; font-size:1.1em; height:22px; padding:2px 1px; width:218px; }
+#tellafriendform form textarea, #writereviewform form textarea { -moz-border-radius:3px; -webkit-border-radius:3px; background:url('../images/core/bkgrd_textarea.png') repeat-x 0 0; border:1px solid #e1e1e1; font:1.1em Arial, Helvetica Neue, sans-serif; height:86px; padding:2px 1px; width:215px; }
+#tellafriendform ul.buttons, #writereviewform ul.buttons, #emailmebackform ul.buttons { float:right; margin:5px 12px 0 0; }
+ul.buttons a { background-position:0 -114px; display:block; height:19px; text-indent:-5000px; }
+ul.buttons .back a { margin:0 10px 0 0; width:50px; }
+ul.buttons .back a:hover { background-position:0 -133px; }
+#tellafriendform ul.buttons .send a { background-position:0 -152px; width:117px; }
+#tellafriendform ul.buttons .send a:hover { background-position:0 -171px; }
+#writereviewform ul.buttons .send input, #emailmebackform ul.buttons .send input { border:0; height:19px; padding:0; width:93px; }
+#emailmebackform ul.buttons .send input { width:73px; }
+#writereviewform p.backtoproduct a { background-position: 0 -76px; display:block; height:19px; text-indent:-5000px; width:177px; }
+span.required { color:#e3457f; font-family:Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif; font-size:1.4em; font-style:italic; }
+/************************************************************** PAGER ************************************************************* */
+.psel { background:#e3457f url('../images/core/bkgrd_bar.png') no-repeat 0 0; clear:both; color:#fff; font-size:1.1em; height:20px; margin:10px 20px 10px 0; padding:8px 8px 0; position:relative; }
+.psel a { color:#fff;}
+.psel span.currentpage { color:#000;text-decoration:underline; }
+.psel span.pselpages { float:right; height:1.2em; line-height:1.2em; overflow:hidden; padding:0; text-align:right; width:600px; }
+.psel span.pnumber-search { overflow:scroll; }
+.psel span.pnumber a, .psel span.pnumber-search a, .psel span.currentpage { border-right:1px solid #fff; padding:0 5px 0 0; }
+/************************************************************** STATICPAGES ************************************************************* */
+#staticpages #coltwo { font-size:12px; padding:0 20px 20px 0; }
+#staticpages #coltwo h1 { color:#d91e63; font-size:2em; font-weight:700; margin:0 0 0.9em; }
+#staticpages #coltwo p { line-height:1.4em; margin:0 0 0.9em; }
+#staticpages #coltwo li { font-size:12px; line-height:1.4em; list-style-image:url('../images/core/bullet_grey.png'); margin:0 0 0 14px; }
+#staticpages #coltwo ol li { line-height:1.4em; list-style-image:none; list-style-type:decimal; margin:0 0 0 18px; }
+/************************************************************** newspages 
+************************************************************* */
+.mainpressblocks .blocks { background:#fff url(../images/presscentre/pr_mainbox.gif) no-repeat 0 0; float:left; height:95px; margin-right:9px; padding:15px; position:relative; width:210px; }
+.mainpressblocks .penquiries { margin-right:0; }
+.leftpressblocks .blocks { clear:both; padding:13px; position:relative; }
+.leftpressblocks .pimages { background:#fff url(../images/presscentre/pr_leftshort.gif) no-repeat top left; height:86px; margin:20px 0 10px; }
+.leftpressblocks .penquiries { background:#fff url(../images/presscentre/pr_leftlong.gif) no-repeat top left; height:125px; }
+.blocks h2 { color:#D91E63; display:block !important; font-size:1.4em; font-weight:700; margin-bottom:0.4em; text-transform:capitalize; }
+.blocks h2 a { color:#D91E63; font-weight:700; text-decoration:none !important; text-transform:capitalize; }
+.penquiries { float:right; margin-right:0; }
+.newscentretop { background:transparent url(../images/presscentre/presstop.jpg) no-repeat scroll 0 0; height:215px; margin-bottom:15px; width:740px; }
+.newscentretop h1 { color:#fff !important; padding:10px; width:170px; }
+.preldease h2 { background:#fff url(../images/presscentre/press_release.gif) no-repeat 0 0; }
+ul.pressreleasenav li { margin-left:20px; }
+.newspagelinks ul li.parent { border-bottom:none !important; }
+.newspages #colone h3 { font-size:12px; margin:3px 0 5px 10px; }
+.newspages .newslist { border-bottom:1px solid #ccc; list-style-image:none !important; margin:0 5px 10px 0 !important; padding-bottom:5px; }
+.newspages .newslist p, .newspages .newslist h3 { margin:0 0 3px !important; }
+.newspages .floatL img { float:left; margin-bottom:20px; margin-right:20px; }
+.moreinfo { clear:both; padding:5px 0; }
+a.downloadarticle { background-position:-1050px -66px; padding:3px 0 2px 23px; text-decoration:none !important; }
+a.readmore, a.back { background-position:0 -1164px; display:block; float:left; height:19px; margin-right:5px; position:relative; text-indent:-5000px; top:-1px; width:84px; }
+a.readmore:hover { background-position:-84px -1164px; }
+a.back { background-position:0 -668px; position:relative; top:-4px; width:50px; }
+a.back:hover { background-position:0 -688px; }
+.summary * { font-style:italic; font-weight:700; }
+.was { text-decoration:line-through; }
+.lower { text-transform:lowercase; }
+/* End hide from IE Mac  ************************************************************* HEADER ************************************************************* */
+#header, #headercheckout { background-position: -250px -200px; height:139px; position:relative; width:966px; }
+/*#headercheckout { background-position: -250px -920px; }*/
+h1#logo a {   display:block; height:40px; left:24px; position:absolute; ; top:0; width:179px; }
+
+#logo a{
+	font-size:20px;
+}
+#logo a:link:after, #logo a:visited:after {
+   content: " (" attr(href) ") ";
+}
+/* Header Top  */
+div.headertop { float:right; font-size:1.2em; width:700px; }
+/* Minicart  */
+div.headerright { float:right; padding:0 10px 0 0; position:relative; width:200px; }
+div.minicartitemsandtotal { height:63px; padding:10px 0 0; width:189px; }
+div.minicartitemsandtotal h2 { display:inline; float:left; font-size:1.2em; margin:0 0 0 32px; width:40px; }
+div.minicartitemsandtotal h2 a { color:#fff; }
+div.minicartitemsandtotal ul a { color:#fff; font-size:1.2em; }
+div.minicartitemsandtotal ul li.items { float:left; padding:0 0 0 6px; }
+div.minicartitemsandtotal ul li.total { float:right; width:50px; }
+div.minicartitemsandtotal h3 { text-indent:-9999px; }
+div.minicartitemsandtotal h3 a { background-position: 0 -860px; clear:both; display:block; height:19px; position:absolute; right:30px; top:34px; width:77px; }
+/* Sign In / Sign Out  */
+ul.signinsignout { position:absolute; right:380px; top:10px; }
+ul.signinsignout li a { color:#fff; padding:0 6px 0 8px; }
+/* Header Links  */
+div.headerlinks { display:inline-block; position:absolute; right:200px; top:10px; width:180px; }
+div.headerlinks ul li a { background:url('../images/core/pipe_mainnav.png') no-repeat 0 50%; color:#fff; padding:0 5px 0 8px; }
+ul.mainNav { display:block; float:left; font-size:1.4em; padding:6px 0 4px 16px; width:auto; }
+ul.mainNav li a { background:url('../images/core/pipe_mainnav.png') no-repeat 0 50%; color:#fff; padding:0 2px 0 8px; }
+ul.mainNav li.first a { background:none; padding:0 2px 0 0; }
+/* Navigation features full cateogory tree - this hides the subcategory, at somepoint I was going to turn this into a dropdown list using jquery superfish plugin but the aussie one changed her mind halfway through development so it was shelved, pitty really as it would have looked good and worked like a dream   Site Search  */
+div.sitesearch, div.checkoutsitesearch { float:right; height:36px; position:relative; width:215px; }
+div.sitesearch form fieldset, div.checkoutsitesearch form fieldset { width:151px; }
+div.sitesearch form fieldset input#termtextkeywordsearch, div.checkoutsitesearch form fieldset input#termtextkeywordsearch { background:transparent; border:0; font-size:1.1em; height:18px; left:5px; letter-spacing:-0.5px; position:absolute; top:5px; width:138px; }
+div.sitesearch form input#searchsubmit, div.checkoutsitesearch form input#searchsubmit { position:absolute; right:24px; top:3px; }
+/* Crumbtrail  */
+p.crumbtrail { color:#444; font-size:1.1em; left:17px; position:absolute; top:120px; }
+/* Welcome Message  */
+p.welcomemessage { color:#fff; left:240px; position:absolute; text-align:right; top:10px; width:200px; }
+.categorynavigation ul li ul { padding:4px 0 4px 10px; width:120px; }
+.categorynavigation ul li ul li { background:0; border-bottom:0; }
+.categorynavigation ul li ul li a:hover { color:#000; }
+#colone p, #checkoutR p { font-size:1.2em; line-height:1.4em; }
+.refinelist h2, .refinelist h3, .checkoutR h2, .Lcat_myaccountnav h2, .checkoutorcfR h2, .checkoutorfnR h2 { font-size:1.2em; font-weight:700; margin:5px 0 4px; }
+.Lcat_myaccountnav .contact ul li { background:none; border:0; font-size:1.2em; line-height:1.4em; padding:0; }
+.Lcat_myaccountnav .contact ul li.last a { background:url('../images/core/bullet_grey.png') no-repeat 0 6px; border-bottom:1px solid #e0e0e0; clear:both; display:block; font-size:1em; line-height:1; padding:4px 0 4px 10px; }
+.refinelist a { color:#d91e63; font-size:1.1em; }
+#searchresults div.sort form { float:right; padding:10px 20px; text-align:right; width:300px; }
+/************************************************************** FOOTER ************************************************************* */
+
+#footer { background-position: -250px -400px; clear:both; height:292px; margin:0 auto; position:relative; width:960px; }
+#footercheckout { background-position: -250px -1100px; clear:both; height:111px; margin:0 auto; position:relative; width:960px; }
+/* Social Media Marketing - logos  */
+.smm { position:absolute; right:10px; top:232px; }
+.smm a { margin-right:10px; }
+/* Newsletter  */
+div.footernewsletter { clear:both; height:31px; }
+.footernewsletter form label { font-size:1.2em; left:190px; position:absolute; top:11px; }
+.footernewsletter form fieldset input#emailsignup { background:transparent; border:0; position:absolute; right:96px; top:7px; width:160px; }
+.footernewsletter form fieldset input#newslettersubmit { border:0; position:absolute; right:20px; top:6px; }
+#footer h3 { color:#fff; font-size:1.4em; font-weight:700; margin:0 0 9px; }
+#footer ul li { background:url('../images/core/bullet_footer.gif') no-repeat 0 4px; padding:0 0 0 14px; }
+#footer ul li a { color:#fff; font-size:1.1em; line-height:1.4em; text-decoration:none; }
+/* IE6 hack */
+#footer .Lfooter { float:left; margin:10px 20px 20px; width:200px; }
+#footer .ourpartners { float:right; margin:10px 0 0; width:220px; }
+#footerlogos { clear:both; height:88px; margin:0 0 0 20px; }
+#footerlogos h5 { color:#fff; font-size:1.3em; font-weight:700; margin:18px 0 9px; }
+#footerlogos .paymentmethods img { margin-right:30px; }
+.pcilogo, .vendalogo { float:right; margin:45px 0 0 10px; }
+#footer .copyright a, #footercheckout .copyright a { bottom:4px; color:#fff; display:block; font-size:1.1em; left:20px; position:absolute; }
+#footer .copyright a:hover, #footercheckout .copyright a:hover { color:#aaa; text-decoration:none; }
+/************************************************************** CHECKOUT ************************************************************* */
+#checkout h1, #myaccount h1 { font-size:3em; font-weight:700; margin:0 0 14px; text-transform:capitalize; }
+#checkout .checkoutL, #checkout .checkoutorcfL, #checkout .checkoutorfnL{ margin-top:40px;}
+#checkout form fieldset input, #myaccount form fieldset input { -moz-border-radius:3px; -webkit-border-radius:3px; background-repeat:repeat-x; background-position: -300px -66px; border:1px solid #bbb; float:left; font-size:1.1em; height:16px; padding:2px; }
+#checkout fieldset form label, #myaccount fieldset form label { float:left; font-size:1.1em; font-weight:700; }
+#checkout form fieldset div div, #myaccount form fieldset div div { clear:none; float:left; }
+#checkout form fieldset div div label.dontFloat{ float:left!important;}
+#checkout form fieldset div, #myaccount form fieldset div { clear:both; font-size:11px; line-height:1.2; padding:0 0 5px; }
+label.dontFloat.invisible, label.invisible { padding:0; width:0; }
+/* Buttons  */
+#buttons { clear:both; padding:14px 0; position:relative; }
+#buttons a { display:inline; margin:0 20px 0 0; }
+h2.error { color:red; font-size:1.2em; font-weight:700; margin:10px 0; }
+.invisible { margin:0; padding:0 9px; }
+#redeemgiftcert label { width:63%; }
+.newline { width:100%; }
+.container #productlist fieldset p { margin-left:0; }
+/* ORDER SUMMARY  */
+#orderconfirmation .checkoutorcfL h1 { background:url('../images/header_ordersum.gif') no-repeat; }
+#orderconfirmation .deliveryaddress, .deliveryrate, .orderitems, #ordersummary, #promotions, #additionalservices, #paymentdetails, #contactdetails { background-color:#F4F7F8; margin-bottom:10px; padding-bottom:10px; }
+/* OREDER DETAILS PAGE  */
+#orderdetail table.wizrtable { margin:18px; width:95%; }
+#orderdetail table.wizrtable th { border-bottom:1px solid #CCC; color:#d91e63; font-weight:400; width:460px; }
+#orderdetail table.wizrtable td { border-bottom:1px solid #CCC; padding:3px; vertical-align:top; }
+#orderdetail #buttons { margin-top:10px; padding-top:10px; }
+#orderdetail table.wizrtable th.name, #orderdetail table.wizrtable th.priceeach, #orderdetail table.wizrtable th.quantity, #orderdetail table.wizrtable th.totalprice, #orderdetail table.wizrtable th.status, #orderdetail table.wizrtable th.thumb { background:#d91e63; color:#fff; font-weight:700; }
+/* DELIVERY ADDRESS  */
+.checkoutorcfL .deliveryaddress h2, .checkoutorfnL .deliveryaddress h2, .checkoutorcfL .deliveryrate h2, .checkoutorfnL .deliveryrate h2, .checkoutorcfL .orderitems h2, .checkoutorfnL .orderitems h2, #paymentdetails h2, #additionalservices h2, #orderconfirmation #contactdetails h2 { height:28px; padding-bottom:10px; text-indent:-5000px; }
+.checkoutorcfL .deliveryaddress h2, .checkoutorfnL .deliveryaddress h2 { background:url('../images/core/bkgrd_summerydeladdress.png') no-repeat 0 0; }
+.checkoutorcfL .deliveryrate h2, .checkoutorfnL .deliveryrate h2 { background:url('../images/core/bkgrd_summerydetails.png') no-repeat 0 0; }
+.checkoutorcfL .orderitems h2, .checkoutorfnL .orderitems h2 { background:url('../images/core/bkgrd_summeryitems.png') no-repeat 0 0; }
+#additionalservices h2 { background:url('../images/core/bkgrd_summeryadditional.png') no-repeat 0 0; }
+#orderconfirmation #contactdetails h2 { background:url('../images/core/bkgrd_summerybilling.png') no-repeat 0 0; }
+.checkoutorcfL .deliveryaddress p, .checkoutorfnL .deliveryaddress p { font-size:1.2em; font-weight:700; text-transform:capitalize; }
+.checkoutorcfL .deliveryaddress img, .checkoutorfnL .deliveryaddress img { clear:both; margin:5px 0; }
+/* DELIVERY RATE  */
+.checkoutorcfL .deliveryrate ul, .checkoutorfnL .deliveryrate ul { font-size:1.2em; padding:0 10px; }
+.checkoutorcfL .deliveryrate ul li, .checkoutorfnL .deliveryrate ul li { padding-bottom:5px; }
+/* ORDER ITEMS TABLE  */
+.checkoutorcfL .orderitems table.wizrtable, .checkoutorfnL table.wizrtable { margin:0 10px; text-align:left; width:740px; }
+.checkoutorcfL table.wizrtable thead tr th.thumb, .checkoutorfnL table.wizrtable thead tr th.thumb { text-indent:20px; }
+.checkoutorcfL table.wizrtable thead tr th.thumb span, .checkoutorfnL table.wizrtable thead tr th.thumb span { color:#111; font-weight:700; text-indent:10px; }
+.checkoutorcfL .orderitems table.wizrtable tbody tr td, .checkoutorcfL table.wizrtable thead tr th, .checkoutorfnL table.wizrtable tbody tr td, .checkoutorfnL table.wizrtable thead tr th { font-size:1.1em; padding:5px 0; vertical-align:top; }
+.checkoutorcfL .orderitems table.wizrtable tbody tr td.quantity, .checkoutorfnL table.wizrtable tbody tr td.name { padding-left:5px; }
+.checkoutorcfL table.wizrtable tbody tr th div, .checkoutorfnL .ordersummary table.wizrtable tbody tr th div, .checkoutorcfL table.wizrtable tbody tr th div.hdr-ordertotal, .checkoutorfnL table.wizrtable tbody tr th div.hdr-ordertotal { color:#111; font-size:1.2em; font-weight:700; padding:3px 0 0 10px; text-align:left; }
+.checkoutorcfL table.wizrtable tbody tr th div, .checkoutorfnL .ordersummary table.wizrtable tbody tr th div { text-transform:uppercase; }
+.checkoutorcfL table.wizrtable tbody tr th div.hdr-ordertotal span.includingvat, .checkoutorfnL table.wizrtable tbody tr th div.hdr-ordertotal span.includingvat { color:#666; text-transform:lowercase; }
+.checkoutorcfL table.wizrtable tbody tr td div.includingvat, .checkoutorfnL table.wizrtable tbody tr td div.includingvat { padding:0 0 5px 13px; }
+.hdr-subtotal, .hdr-discount, .hdr-delivery { padding:0 0 0 10px; text-align:left; }
+.checkoutorcfL .Lcat_orcfcolone p.finalstep { background-color:#ECEDED; bottom:15px;display:block;padding:10px;position:absolute;right:275px; }
+.checkoutorcfL table.orderdetails, .checkoutorfnL table.orderdetails { float:right; margin-right:10px; text-transform:uppercase; width:260px; }
+.checkoutorcfL table.orderdetails thead tr th, .checkoutorfnL table.orderdetails thead tr th { font-weight:700; padding:2px 0 2px 5px; text-align:left; }
+.checkoutorcfL table.orderdetails tbody tr td, .checkoutorfnL table.orderdetails tbody tr td { font-weight:700; padding:2px 5px; text-align:right; }
+.checkoutorcfL table.orderdetails tbody tr td div { font-size:1.2em; font-weight:700; }
+/* ADDITIONAL SERVICES  */
+#additionalservices { float:right; height:92px; width:360px; }
+#additionalservices ul li { display:block; margin:0 10px 5px; }
+/* GIFT WRAP LINK  */
+#additionalservices ul li.giftwrap a { background-position: 0 -630px; display:block; height:19px; width:154px; }
+#additionalservices ul li.giftwrap a:hover { background-position: 0 -649px; display:block; height:19px; width:154px; }
+/* PROMOTIONAL VOUCHER LINK  */
+#additionalservices ul li.coupon a { background-position: 0 -592px; display:block; height:19px; width:173px; }
+#additionalservices ul li.coupon a:hover { background-position: 0 -611px; display:block; height:19px; width:173px; }
+#paymentdetails h2 { background:url('../images/core/bkgrd_summerypayment.png') no-repeat 0 0; }
+#checkout #paymentdetails fieldset .credit { display:block !important; padding-left:5px; }
+#paymentdetails fieldset .credit input, .paypal input{margin:0 5px 0 0;}
+#paymentdetails fieldset .credit label { font-size:1.1em; font-weight:700; width:250px; }
+#paymentdetails fieldset .credit img { margin-bottom:5px; }
+#paymentdetails fieldset div label { font-weight:700; width:100px; }
+#checkout #paymentdetails fieldset.f-payment_details div{ padding-left:15px; } 
+#checkout #paymentdetails fieldset.f-payment_details div.credit{ padding-left:0;}
+#checkout #paymentdetails fieldset.f-payment_details img{ margin-bottom:10px; margin-left:15px;}
+#paymentdetails fieldset div label.re-waiHide { width:65px; } 
+#paymentdetails fieldset div a { left:4px; position:relative; top:4px; }
+#paymentdetails fieldset div select { margin:0 10px 0 0; }
+#paymentdetails fieldset div.switchsolo { position:relative; top:-14px; }
+#paymentdetails table { font-size:1.1em; margin-left:5px; }
+#paymentdetails table th, #paymentdetails table td { text-align:left; }
+#paymentdetails .f-paypal { clear:both; margin-top:10px; }
+#paymentdetails .f-paypal p.paypaltext{ margin-left:8px; }
+/* ORFN ONLY - RIGHT HAND NAV  */
+.checkoutorfnL img { text-align:center; vertical-align:middle;}
+.checkoutorfnL p { font-size:1.2em; margin:0 0 9px; }
+.checkoutorfnL p.thankyou .printicon { display:block; height:30px; margin:2px; width:200px; }
+span.printicon { display:block; height:30px; padding:5px 0; }
+span.printicon a { font-size:1.2em; vertical-align:middle; }
+#orderreceipt #paymentdetails { height:150px; width:360px; }
+#orderreceipt #paymentdetails table tr td, #orderreceipt #paymentdetails table tr th { font-size:1.2em; font-weight:700; padding:5px 10px 0 0; }
+#orderreceipt #contactdetails h2 { background:url('../images/core/bkgrd_summerybilling.png') no-repeat 0 0; height:38px; text-indent:-5000px; }
+#orderconfirmation #contactdetails, #orderreceipt #contactdetails { float:right; width:360px; }
+#contactdetails img { margin:5px 10px; }
+#contactdetails p { font-size:1.2em; font-weight:700; line-height:1.4em; margin:0 0 0 10px; }
+/* STYLES SPECIFICALLY FOR ORCF AND ORFN  */
+#ordersummary { background-color:#eceded; clear:both; height:110px; }
+#promotions h2 { background:url('../images/core/bkgrd_summerypromo.png') no-repeat 0 0; height:38px; text-indent:-5000px; }
+#promotions p { font-size:1.2em; font-weight:700; line-height:1.4em; margin:0 0 0.9em; }
+p.finalstep { font-size:1.2em; font-weight:700; }
+/* ADD DELIVERY ADDRESS AND REMINDER AND REDEEM VOUCHER  */
+#reminderslist h3, #addreminder h3, #editreminder h3 { font-size:1.4em; font-weight:700; margin:0 0 0.9em; }
+#addreminder table.wizrtable, #editreminder table.wizrtable, #reminderslist table.wizrtable { clear:both; width:740px; }
+#reminderslist table thead, #addreminder table thead, #editreminder table thead { background:url('../images/core/bkgrd_thead740.png') no-repeat 0 0; height:28px; line-height:28px; width:740px; }
+#reminderslist td, #addreminder td, #editreminder td { font-size:1.1em; padding:10px 3px; text-align:center; }
+#reminderslist th, #addreminder th, #editreminder th { color:#fff; font-size:1.1em; }
+#redeempromocode div div.left div { float:left; font-size:1.1em; }
+#redeempromocode div.totaldiscount { clear:both; font-size:1.2em; padding:10px 0; text-align:left; }
+#redeempromocode p { clear:both; color:#333; font-size:1.2em; padding:10px 0; }
+#reminderslist h3 { margin:0 0 9px; }
+#reminderslist p { margin:0 0 5px; }
+#reminderslist p.addreminder { clear:both; height:48px; padding-top:18px; width:66%; }
+#giftwrap table.wizrtable { width:920px; }
+#giftwrap table.wizrtable thead { background:url('../images/core/bkgrd_thead920.png') no-repeat 0 0; line-height:28px; }
+#giftwrap table.wizrtable thead tr th { color:#fff; font-size:1.1em; text-align:left; }
+#giftwrap table.wizrtable thead tr th.wrapitem { text-indent:10px; }
+#giftwrap table.wizrtable thead tr th.giftmessage { text-indent:30px; }
+#giftwrap table.wizrtable td { font-size:1.1em; padding:5px 0 5px 5px; vertical-align:top; }
+#giftwrap table.wizrtable tbody td textarea { -moz-border-radius:3px; -webkit-border-radius:3px; background-repeat: repeat-x; background-position: -300px -86px; border:1px solid #e1e1e1;float:right; font-size:1.1em; height:80px; padding:2px 1px; width:485px; }
+/* BASKSET  */
+#yourbasket table { font-size:1.1em; width:740px; }
+#yourbasket table thead tr { background:#de2d75 url('../images/core/bkgrd_basketthead.png') no-repeat 0 0; color:#fff; height:28px; }
+#yourbasket table thead th { letter-spacing:0.1em; line-height:28px; text-align:left; }
+#yourbasket table thead th.thumb { text-indent:10px; width:69px; }
+#yourbasket table thead th.name { text-indent:-5000px; width:180px; }
+#yourbasket table tbody tr { border-bottom:1px solid #efefef; height:76px; }
+#yourbasket table tbody tr td { padding:20px 0; vertical-align:top; }
+#yourbasket table tbody td.thumb { width:69px; }
+#yourbasket table tbody td.thumb a { padding:3px; }
+#yourbasket table tbody td.name a { color:#111; font-weight:700; }
+#yourbasket table tbody td.priceeach { color:#d91e63; font-weight:700; width:150px; }
+#yourbasket table tbody td.priceeach p { clear:both; color:#aaa; font-weight:400; }
+#yourbasket table tbody td.quantity { color:#d91e63; width:180px; }
+#yourbasket table tbody td.quantity input { background:url('../images/core/bkgrd_qtyinput.png') no-repeat 0 0; border:0; font-size:1.2em; height:25px; padding:5px 0 0 10px; width:49px; }
+#yourbasket table tbody td.totalprice { color:#d91e63; font-weight:700; width:100px; }
+#yourbasket table tbody tr.orsctotal { background:url('../images/core/bkrgd_basketsubtotal.png') no-repeat 0 0; border:0; height:50px; }
+#yourbasket table tbody tr.orsctotal td.space { padding:0; width:5px; }
+#yourbasket div#buttons { position:relative; top:-40px; }
+#yourbasket #buttons a img.btContinueShopping { position:absolute; top:12px; }
+#yourbasket #buttons input.btUpdateBasket { left:330px; position:absolute; top:5px; }
+#yourbasket #buttons input.btCheckout { left:640px; position:absolute; top:5px; }
+.Lcat_basketcontent h3 { color:#111; font-size:1.4em; margin:0 0 0.9em; }
+.Lcat_basketcontent ul li { font-size:1.2em; line-height:1.4em; list-style-image:url('../images/core/bullet_grey.png'); margin:0 0 0 14px; }
+/* OREDER HISTORY PAGE  */
+#orderhistory { clear:both; float:none; padding:0 20px 20px 0; width:100%; }
+#orderhistory ul#productlist li table.wizrtable th, #orderhistory ul#productlist li table.wizrtable td { padding:8px 0 0 10px; }
+#orderhistory ul#productlist li { border-bottom:1px solid #efefef; padding-bottom:10px; }
+#orderhistory ul#productlist li table li { background:none; }
+#orderhistory img { margin:0 10px; }
+#orderhistory ul#orders_list li table.wizrtable { margin:0 0 10px 10px; }
+#orderhistory ul#orders_list li table.wizrtable tbody tr th { width:140px; }
+ul#orders_list li { border-bottom:1px solid #efefef; padding:10px 0; }
+#orderhistory ul#orders_list li table.wizrtable tr td ul li { border:0; }
+/* COMMUNICATION OPTIONS PAGE  */
+fieldset#myformcommoption label { text-align:left; width:720px; }
+/* CUSTOMER PROFILE PAGE  */
+fieldset.cprofile h3 { clear:both; color:#d91e63; font-size:1.2em; font-weight:700; height:16px; padding:5px 0; }
+/* YOUR CONTACT DETAILS  */
+input#ustandc, input#blkemail, .cbtxt { float:left; margin:0 5px 0 0; text-align:left; }
+.addcontactaddress form { width:600px; }
+#checkout .addcontactaddress form fieldset { background-color:#F4F7F8; margin-bottom:10px; padding:10px; }
+#checkout .addcontactaddress form fieldset.f-orbtpersonal, #checkout .addcontactaddress form fieldset.f-orbtadddetail, #checkout .addcontactaddress form fieldset.f-orbtfaccdetail, #checkout .addcontactaddress form fieldset.f-orbtpwd { padding-top:32px; }
+#checkout .addcontactaddress form fieldset.f-orbtpersonal { background:#f4f7f8 url('../images/core/bkgrd_contactpersonal.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtadddetail { background:#f4f7f8 url('../images/core/bkgrd_contactaddress.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtfaccdetail { background:#f4f7f8 url('../images/core/bkgrd_contactcontact.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtpwd { background:#f4f7f8 url('../images/core/bkgrd_contactpassword.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtfaccdetail input#area { margin:0 3px 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtfaccdetail span.cbtxt { width:510px; }
+fieldset.f-orbtfaccdetail div div label.dontFloat{ float:left!important; height:20px; font-size:11px; font-weight:normal}
+fieldset.f-orbtfaccdetail div label.dontFloat{ font-size:12px; font-weight:bold;}
+/* EDIT YOUR CONTACT DETAILS  */
+#tlusermyform { width:740px; }
+input#addr2 { margin:0 0 0 140px; }
+/* SIGN IN / REGISTER  */
+#checkout .signin form { background:#F4F7F8 url('../images/core/bkgrd_signinform.png') no-repeat 0 0; margin-bottom:20px; padding:0 0 10px; position:relative; width:361px; }
+#checkout .signin form fieldset { padding:38px 10px 10px; }
+#checkout .signin form fieldset.f-loginiam {background:#F4F7F8 url('../images/core/bkgrd_signinselectform.png') no-repeat 0 0; }
+.notregisterinput, .registered { padding:5px 0; position:relative; }
+.notregistertxt, label#lLoginPassword { color:#666; font-style:italic; left:24px; margin:0; padding:0 !important; position:absolute; top:16px; width:300px; }
+label#lLoginPassword { left:25px; top:20px; }
+#checkout .signin #lLoginEmail { width:60px; }
+#checkout .signin form #password { margin:5px 0; }
+#checkout .signin form input#alreadyRegistered, #checkout .signin form input#notRegistered { height:20px; margin:0 5px 0 0; width:20px; }
+#checkout .signin .notregister, #checkout .signin .registered { display:block; height:40px; position:relative; }
+#checkout .signin .registered { height:60px; }
+#checkout .signin form .registered input#password { left:23px; position:absolute; top:30px; }
+#checkout .signin form #buttons { padding:5px 33px; }
+#usemail { width:190px; }
+.pclookupcontact div { padding:10px; }
+.pclookupcontact fieldset,.pclookupcontact #buttons { padding:0 10px; }
+.pclookupcontact form { background:#F4F7F8 url('../images/core/bkgrd_enterpostcode.png') no-repeat 0 0; clear:both; padding:38px 0 0; width:361px; }
+.pclookupcontact  div label  { width:90px;}
+.pclookupcontact #buttons { position:relative; left:90px; }
+.Lcat_orzccontent p { width:361px; }
+.pclookupcontact form div a { color:#d91e63; font-size:1.2em; line-height:1.4em; margin:0 0 0.9em; }
+.addressbook ul li { display:inline; float:left; height:160px; position:relative; width:210px; }
+.addressbook ul li fieldset legend { color:#d91e63; font-size:1.2em; }
+.addressbook ul li fieldset div a { bottom:30px; left:0; position:absolute; }
+.addressbook ul li fieldset div { bottom:1px; position:absolute; }
+#checkout .addressbook form ul li fieldset.f-oradsaddbook div label.dontFloat { padding:4px 0 0; width:180px; }
+.pclookupdelivery div { margin:10px 0 0 10px; }
+.containeroradeditadd p { margin:0 auto; }
+.containeroradeditadd #buttons { margin:0 0 0 10px; padding:0 0 20px; }
+.containeroradeditadd fieldset div div { width:145px; }
+.f-oradedetail input#area { margin:0 0 2px 145px; }
+/* MY ACCOUNT  */
+#myaccount #coltwo h2 { font-size:1.4em; margin:0 0 14px; }
+
+#myaccount #coltwo p.signoutlink a { background-position: 0 -1012px; display:block; height:19px; text-indent:-5000px; width:73px; }
+#myaccount #coltwo p.signoutlink a:hover { background-position: 0 -1031px; }
+/* COMMUNICATION OPTIONS  */
+#myacc-col-two #tlusermyform form fieldset#myformcommoption { padding:0 10px 0 17px; position:relative; }
+#myacc-col-two #tlusermyform form fieldset#myformcommoption div label { width:95%; }
+/* LABEL STYLING FOR ALL CHECKOUT AND MY ACCOUNT FORMS  */
+form fieldset.f-myformemail label, form fieldset.f-myformdetail label, form fieldset div label { float:left; font-size:11px; height:16px; padding:2px 0; width:140px; }
+/* FORGOTTEN PASSWORD  */
+.containerpwrm, .containerpwrmthankyou { padding-bottom:30px; }
+.containerpwrm h1, .containerpwrmthankyou h1 { background:url(../images/header_checkout.gif ) no-repeat left top; }
+/************************************************************** GREYBOX ************************************************************* */
+#GB_overlay { background-image:url(../images/overlay.png); height:100%; left:0; margin:auto; position:absolute; top:0; width:100%; z-index:100; }
+#GB_window { background:#fff; border:5px solid #aaa; height:400px; left:0; overflow:auto; position:absolute; top:10px; width:400px; z-index:150; }
+#GB_frame { border:0; height:378px; overflow:auto; width:100%; }
+#GB_caption { background:#888; color:#fff; font:12px bold helvetica, verdana, sans-serif; margin:0; padding:2px 0 2px 5px; text-align:left; }
+#GB_window img { cursor:pointer; position:absolute; right:5px; top:2px; }
+.ui-helper-hidden-accessible { left:-99999999px; position:absolute; }
+.ui-helper-reset { border:0; font-size:100%; line-height:1.3; list-style:none; margin:0; outline:0; padding:0; text-decoration:none; }
+/* END CLEARFIX  */
+.ui-helper-zfix { height:100%; left:0; opacity:0; position:absolute; top:0; width:100%; }
+/* INTERACTION CUES  */
+.ui-state-disabled { cursor:default !important; }
+/* ICONS   STATES AND IMAGES  */
+.ui-icon { background-repeat:no-repeat; display:block; overflow:hidden; text-indent:-99999px; }
+/* OVERLAYS  */
+.ui-widget-overlay { height:100%; left:0; position:absolute; top:0; width:100%; }
+/* TABS  */
+.ui-tabs { padding:.2em; }
+.ui-tabs .ui-tabs-nav { list-style:none; position:relative; height:24px; }
+.ui-tabs .ui-tabs-nav li { border-bottom-width:0 !important; float:left; margin:0 .2em -1px 0; padding:0; position:relative; }
+/* STYLING  */
+.ui-tabs .ui-tabs-nav li a { background-color:#d91e63; background-position: -710px -24px; color:#fff; float:left; font-size:1.1em; font-weight:700; height:24px; line-height:24px; text-align:center; text-decoration:none; text-transform:uppercase; width:130px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected { border-bottom-width:0; padding-bottom:1px; }
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-disabled a, .ui-tabs .ui-tabs-nav li.ui-state-processing a { cursor:text; }
+.ui-tabs .ui-tabs-nav li a, .ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a { cursor:pointer; }
+/* first selector in group seems obsolete, but required to overcome bug in Opera applying cursor: text overall if defined elsewhere...  */
+.ui-tabs .ui-tabs-panel { background:none; border:1px solid #d91e63; display:block; padding:1em 1.4em; clear:both; }
+.ui-tabs .ui-tabs-nav li.ui-state-active a, .ui-tabs .ui-tabs-nav li.ui-tabs-selected a, .ui-tabs .ui-tabs-nav li.ui-state-default a:hover { background-color:#f4679b; background-position: -710px 0; color:#fff; }
+#summerlink img { margin:0 !important; }
+#generalconditionsofpurcha ol h2 { margin-left:-20px; }
+#generalconditionsofpurcha ol li ol li { list-style-type:lower-roman !important; }
+#generalconditionsofpurcha ol li ol li ol li { list-style-type:lower-alpha !important; }
+#generalconditionsofpurcha #staticpages #coltwo ol li, #generalconditionsofpurcha #staticpages #coltwo p { font-size:12px; }
+.logo_beautysteals { text-align:right; }
+/* CHRISTMAS  */
+.shortdesc .xmascatbanner { width:550px; }
+.xmascatbanner a { color:#000 !important; font-weight:700; }
+.featgiftguide img, .icon_product_promotion img {height:64px;margin-left:-385px;position:absolute;width:79px;}
+.featBlueCross img { margin-left:-350px; }
+ul#mainNavChristmas { padding:6px 0 4px 6px; }
+#press h2 { margin:0 0 0.3em; }
+#press hr { border:1px solid #ccc; clear:both; }
+#press .pr-link { float:left; margin-bottom:10px; margin-right:10px; }
+a:hover, #footer ul li a:hover { color:#111; text-decoration:underline; }
+.clear, body:last-child #reminderslist table.wizrtable, fieldset#myformcommoption p, #press h1 { clear:both; }
+.silverspot ul li.first, .homeoffers ul.textlinks.first, ul.subcategories li.first { margin:0; }
+.homeoffers ul, #productdetail ul#actions li, ul#iacc li, #tellafriendform ul.buttons li, #writereviewform ul.buttons li, #emailmebackform ul.buttons li, div.headertop ul li, div.minicartitemsandtotal ul li, div.headerlinks ul li, ul.mainNav li, div.sitesearch form { display:inline; }
+.categorylistfeature ul.catlistfp li img, .storemap { float:right; }
+.categorylistfeature ul.catlistfp li.first img, #tellafriendform ul.buttons a, #writereviewform ul.buttons a, #emailmebackform ul.buttons a, .psel span.ptotalitems, .psel span.pselall, #searchresults h4, .paymentmethods, input#alreadyRegistered, #paymentdetails fieldset div select, #paymentdetails fieldset div select#cardtype, #paymentdetails fieldset div.issuenumber, #redeempromocode div div { float:left; }
+ul.subcategories, .container #productlist fieldset div img, #myacc-col-two #tlusermyform form fieldset#myformcommoption p { margin:0 0 10px; }
+ul.subcategories li h2 a:hover, ul.products li.details .viewdetails a:hover, ul.featprods li.details .viewdetails a:hover, ul.bigfeatprods li.details .viewdetails a:hover, ul#iacc li.detail .viewdetails a:hover, body#home ul.mainNav li.first a, body#beauty ul.mainNav li.beautyCat a,/* del on live */
+ body#hair ul.mainNav li.hairCat a, body#fragrance ul.mainNav li.fragranceCat a, body#mens ul.mainNav li.mensCat a, body#offers ul.mainNav li.offersCat a, body#health ul.mainNav li.healthCat a, body#electrical ul.mainNav li.electricalCat a,/* del on live */
+ body#makeup ul.mainNav li.makeupCat a, body#skincare ul.mainNav li.skincareCat a, body#toiletries ul.mainNav li.toiletriesCat a, body#summer ul.mainNav li.summmerCat a, body#webdeals ul.mainNav li.webdealsCat a { color:#111; text-decoration:none; }
+ul.products li.details .viewdetails, ul.featprods li.details .viewdetails, ul.bigfeatprods li.details .viewdetails, ul#iacc li.detail .viewdetails { padding:3px 0 4px; }
+ul.products li.details .viewdetails a, ul.featprods li.details .viewdetails a, ul.bigfeatprods li.details .viewdetails a, ul#iacc li.detail .viewdetails a { background:url('../images/core/bullet_grey.png') no-repeat 0 50%; padding:0 0 0 10px; }
+ul.products li.details .now, ul.featprods li.details .now, ul.bigfeatprods li.details .now, ul#iacc li.detail .details .now, .top10products .popup .now { color:#d91e63; float:left; font-size:1.1em; font-weight:700; text-transform:uppercase; }
+ul.products li.details form input#qty, ul.products form li.details input#qty, ul.bigfeatprods li.details form input#qty, #productdetail .desc .qty input#qty, .top10products .popup input#qty { background-position: -290px -22px; border:0; font-size:1.2em; height:25px; padding:5px 0 0 10px; width:49px; }
+ul.products li.details .addtobasket a:hover, ul.featprods li.details .addtobasket a:hover, ul.bigfeatprods li.details .addtobasket a:hover, ul#iacc li.detail .details .addtobasket a:hover { background-position: 0 -19px; }
+ul.products li.details .emailbackinstock a:hover, ul.featprods li.details .emailbackinstock a:hover, ul.bigfeatprods li.details .emailbackinstock a:hover, ul#iacc li.detail .details .emailbackinstock a:hover { background-position:0 -57px; }
+#productdetail .desc .desc1 p.fabulous, #summerlink { margin-top:24px; }
+#productdetail .desc .desc1 a, #productdetail .desc .desc1 a:link, #productdetail .desc .desc1 a:visited, #productdetail .desc .desc1 a:active, .blocks .info a { color:#D91E63; }
+#productdetail .desc .desc1 a:hover, #productdetail ul#actions li a:hover, #staticpages #coltwo #sitemap h2, ul.signinsignout li a:hover, p.crumbtrail a, .categorynavigation ul li a:hover, .termtext a:hover, .checkoutR ul li a:hover, .Lcat_myaccountnav ul li a:hover, .checkoutorcfR ul li a:hover, .checkoutorfnR ul li a:hover, .refinelist a:hover, body#beauty .categorynavigation ul li.navbeauty a span, body#makeup .categorynavigation ul li.navmakeup a span, body#skincare .categorynavigation ul li.navskincare a span, body#toiletries .categorynavigation ul li.navtoiletries a span, body#hair .categorynavigation ul li.navhair a span, body#fragrance .categorynavigation ul li.navfragrance a span, body#mens .categorynavigation ul li.navmens a span, body#health .categorynavigation ul li.navhealth a span, body#offers .categorynavigation ul li.navoffers a span, body#gifts .categorynavigation ul li.navgifts a span, body#electrical .categorynavigation ul li.navelectrical a span, body#webdeals .categorynavigation ul li.navwebdeals a span, body#summer .categorynavigation ul li.navsummer a span, span.printicon a:hover { color:#111; }
+#productdetail .desc .price .was, #tellafriendform .price .was { float:left; font-size:1.1em; font-weight:700; padding:3px 2px 0 0; }
+#productdetail .desc .price .now, #tellafriendform .price .now { color:#d91e63; float:left; font-size:1.4em; font-weight:700; text-transform:uppercase; }
+#productdetail .desc .price .unitofmeasure, #tellafriendform .price .unitofmeasure { clear:both; color:#999; }
+#productdetail .desc .stockinfo, #productdetail .desc .basketlinks { clear:both; height:40px; }
+#tabs .deliveryinfo h4, #staticpages #coltwo h2, #staticpages #coltwo h3, #staticpages #coltwo h4, #staticpages #coltwo h5 { color:#d91e63; font-size:1.4em; margin:0 0 0.9em; }
+#tabs .deliveryinfo p, #writereviewform p, #tellafriendform p { font-size:1.1em; line-height:1.4em; margin:0 0 0.9em; }
+#tellafriendimage, #writereviewimage, #emailmebackimage, #paymentdetails { float:left; width:360px; }
+#writereviewform form select option, * html .pclookupcontact { background:#fff; }
+#staticpages #coltwo h2, .newspages h2, strong, .strong, .checkoutorcfL .orderitems table.wizrtable tbody tr td.name, .checkoutorfnL table.wizrtable tbody tr td.name, .checkoutorcfL table.wizrtable tbody tr td.veryImportant, .checkoutorfnL table.wizrtable tbody tr td.veryImportant, #yourbasket table tbody tr.orsctotal td.basketTot { font-weight:700; }
+#staticpages #coltwo h3, .newspages .newslist h3, .categorynavigation ul li ul li a { font-size:1.2em; }
+#staticpages #coltwo h4, #coltwo h5 { font-size:1em; }
+#staticpages #coltwo ul, #staticpages #coltwo ol, .Lcat_basketcontent ul { margin:0 0 1.8em; }
+#staticpages #colone ul, .categorynavigation ul, #paymentdetails input#ohccnum, #paymentdetails input#ohccname, #paymentdetails select#cardtype, #paymentdetails fieldset div select#cardtype { width:160px; }
+#staticpages #colone ul li, .categorynavigation ul li, .termtext, .checkoutR ul li, .Lcat_myaccountnav ul li, .checkoutorcfR ul li, .checkoutorfnR ul li { background:url('../images/core/bullet_grey.png') no-repeat 0 6px; border-bottom:1px solid #e0e0e0; clear:both; display:block; padding:4px 0 4px 10px; }
+#staticpages #colone ul li a, .categorynavigation ul li a, .termtext a, .checkoutR ul li a, .Lcat_myaccountnav ul li a, .checkoutorcfR ul li a, .checkoutorfnR ul li a { font-size:1.2em; }
+.newspagelinks ul ul li, #paymentdetails p { padding-left:10px; }
+.newspages .floatR, .pclookupdelivery #buttons { margin-bottom:20px; }
+.now, .checkoutorcfL .orderitems table.wizrtable tbody tr td.priceeach, .checkoutorfnL table.wizrtable tbody tr td.priceeach, .checkoutorcfL .orderitems table.wizrtable tbody tr td.totalprice, .checkoutorfnL table.wizrtable tbody tr td.totalprice, #giftwrap table.wizrtable tbody td strong { color:#d91e63; }
+.hide, body#home p.crumbtrail, #productdetail #tabs #productreviews h2, #staticpages #colone h2, #orderdetail input, div.headertop h2, ul.subNav, div.sitesearch h2, .categorynavigation h2, #searchresults div.sort h2, .footernewsletter h2, .footernewsletter form legend, .geotrustlogo, legend.orzcemail, legend.pwrm, .companydiv, .faxdiv, .mnamediv, #redeemgiftcert legend, label.dontFloat.invisible, label.invisible, #additionalservices li.redeemgift, #paymentdetails legend#paymentdetails fieldset .credit input, #paymentdetails fieldset div.switchsolo a, p.final, .newscentretop h1, #orfnfeatured, #giftwrap table.wizrtable label.re-waiHide, #orderhistory .balance, fieldset#myformcommoption .emailformat, fieldset div.smsbox, fieldset div.thirdpartybox, fieldset.cprofile legend, #checkout .addcontactaddress form fieldset legend, span#statelistbox select, #checkout .signin form fieldset legend, .pclookupcontact fieldset legend, fieldset#myformcommoption label img, span.re-waiHide, .ui-helper-hidden, #paymentdetails legend, #headercheckout .checkoutsteps li .no,  div.checkoutsitesearch h2 { display:none; }
+.clearfix:after, #iacc:after, #checkout .addcontactaddress form fieldset:after, #checkout form fieldset div:after, #myaccount form fieldset div:after, .ui-helper-clearfix:after { clear:both; content:"."; display:block; height:0; visibility:hidden; }
+.clearfix, #iacc, .ui-helper-clearfix { display:block; }
+ul.signinsignout li.login, ul.signinsignout li.logout { background:url('../images/core/pipe_mainnav.png') no-repeat 0 50%; }
+div.headerbottom, div.checkoutheaderbottom { clear:both; height:20px; position:absolute; top:85px; width:966px; }
+#headercheckout .checkoutsteps{ background:transparent url(../images/core/steps/stepline.gif) no-repeat -37px 26px;right:20px;top:155px;width:740px;position:absolute; display:block;} 
+#headercheckout .checkoutsteps li {float:left;height:35px;margin-left:20px; display:inline;}
+#headercheckout .checkoutsteps li.checkoutBasketOn span,#headercheckout .checkoutsteps li.checkoutLoginOn span,#headercheckout .checkoutsteps li.checkoutStep1On span,#headercheckout .checkoutsteps li.checkoutStep2On span,#headercheckout .checkoutsteps li.checkoutStep3On span,#headercheckout .checkoutsteps li.checkoutStep4On span{ background:transparent url(../images/core/steps/stepon.gif) no-repeat 50% 20px;}
+#headercheckout .checkoutsteps li.checkoutBasket,#headercheckout .checkoutsteps li.checkoutBasketOn{margin-left:160px;}
+#headercheckout .checkoutsteps li.checkoutStep4On span{background:transparent url(../images/core/steps/stepofffinal.gif) no-repeat 50% 17px;}
+#headercheckout .checkoutsteps li.checkoutStep4On{background:transparent url(../images/core/steps/steponfinal.gif) no-repeat 50% 17px;}
+#headercheckout .checkoutsteps span{display:block;height:35px;background:transparent url(../images/core/steps/stepoff.gif) no-repeat 50% 20px;}
+#headercheckout .checkoutsteps li span{font-size:12px;}
+#colone img, .containerpwrm p, .containerpwrmthankyou p { margin:10px 0; }
+.refinelist p, #redeempromocode div label { font-size:1.1em; }
+#footer .Lcat_footer, * html .ui-helper-clearfix { height:1%; }
+#buttons input, #orderhistory ul#productlist li table.wizrtable tr { vertical-align:top; }
+.required, #orderconfirmation h2.error, #redeempromocode h2.error { color:red; }
+.dontFloat, fieldset.cprofile select { float:none; }
+.deliveryaddress p, .deliveryaddress a, #paymentdetails fieldset { padding:0 10px; }
+.orderitems, * html .pclookupcontact #buttons { margin-bottom:0; }
+.checkoutorcfL .deliveryrate ul input, .checkoutorfnL .deliveryrate ul input, #paymentdetails fieldset input#dontsavecc { margin:0 5px 0 0; }
+.checkoutorcfL .orderitems table.wizrtable thead tr, .checkoutorcfL table.wizrtable tbody tr, .checkoutorfnL .orderitems table.wizrtable thead tr, .checkoutorfnL table.wizrtable tbody tr, #reminderslist tbody td, #addreminder tbody td, #editreminder tbody td, #giftwrap table.wizrtable tbody tr { border-bottom:1px solid #efefef; }
+.checkoutorcfL table.wizrtable thead tr th.priceeach span, .checkoutorfnL table.wizrtable thead tr th.priceeach span, .checkoutorcfL table.wizrtable thead tr th.quantity span, .checkoutorfnL table.wizrtable thead tr th.quantity span, .checkoutorcfL table.wizrtable thead tr th.totalprice span, .checkoutorfnL table.wizrtable thead tr th.totalprice span { color:#111; font-weight:700; text-transform:uppercase; }
+#additionalservices ul li a, #ordersummary h2, #yourbasket table thead th.remove, #yourbasket table tbody tr.orsctotal th, fieldset#myformcommoption legend { text-indent:-5000px; }
+* html #paymentdetails fieldset label a, *:first-child+html #paymentdetails fieldset label a { display:block; font-weight:400; width:170px; }
+#reminderslist p, #addreminder p, #editreminder p, #giftwrap p, .Lcat_basketcontent p, .Lcat_orzccontent p, .addcontactaddress p, .addressbook p, #myaccount #coltwo p { font-size:1.2em; line-height:1.4em; margin:0 0 0.9em; }
+#reminderslist tbody td input, #addreminder tbody td input, #editreminder tbody td input, #redeempromocode div input#promo { -moz-border-radius:3px; -webkit-border-radius:3px; background-repeat: repeat-x; background-position: -300px -66px; border:1px solid #e1e1e1; font-size:1.1em; height:16px; padding:2px 1px; }
+#reminderslist tbody td select, #addreminder tbody td select, #editreminder tbody td select, #giftwrap table.wizrtable tbody td select, #checkout .addcontactaddress form fieldset select { -moz-border-radius:3px; -webkit-border-radius:3px; background-repeat:repeat-x; background-position: -300px -66px; border:1px solid #e1e1e1; font-size:1.1em; height:20px; padding:2px 1px; }
+#redeempromocode, #giftwrap, .addressbook { padding:60px 20px 20px; }
+#yourbasket table tbody td.name, #checkout .signin #email { width:180px; }
+fieldset div.postbox, fieldset div.emailbox { padding:0 0 0 18px; }
+fieldset div.postbox label.input, fieldset div.emailboxl label.input { position:relative; }
+.pclookupcontact, .pclookupdelivery { background:#fff; padding:0 0 20px; }
+.pclookupdelivery h1, .containeroradeditadd h1 { background:url('../images/header_checkout.gif') no-repeat; }
+.ui-tabs .ui-tabs-hide, li.summerCat, li.christmasgiftsCat { display:none !important; }
+
+
+/* GENERIC TOP10 STYLES */
+.top10header .mdtopblock{
+	height:140px;
+	margin-bottom:10px;
+
+}
+.top10header .mdtopblock p.slogan{
+	top:0;
+}
+
+.top10block{
+	margin-bottom:20px;
+}
+
+
+.top10products{
+	float:left;
+	margin:0 0 0 20px;
+	width:860px;
+	background:transparent;
+}
+
+.topdetail{
+	position:relative;
+	display:inline;
+	float:left;
+}
+.topdetail .bubbleInfo{
+	float:left;
+	position:relative;
+	margin-left:-25px;
+	padding:30px 0 0 0;
+	display:none;
+
+}
+.topdetail a.imagelink{
+	float:left;
+	padding-left:5px;
+	position:relative;
+  	z-index:1;
+ 	height:200px;
+	width:65px;
+ 
+}
+.topdetail a.imagelink:hover{
+	background:url(../images/events/2010e3/mothersday/md_glow.png) no-repeat  34% 95px;
+	z-index:3;
+ 	text-decoration:none;
+	padding:0 10px;
+ }
+.topno{
+	position:absolute!important;
+	left:-7px;
+	display:block;
+	text-align:center;
+	height:32px;
+	width:32px;
+	top:0;
+}
+.topdisplay .bubbleInfo{
+	display:block;
+}
+.topno1 .bubbleInfo{margin-left:0;}
+ 
+
+.topno10 .topno{width:40px;height:40px;}
+.topno1 .topno{	background-position:0 0;}
+.topno2 .topno{	background-position:-34px 0;}
+.topno3 .topno{	background-position:-68px 0;}
+.topno4 .topno{	background-position:-101px 0;}
+.topno5 .topno{	background-position:-134px 0;}
+.topno6 .topno{	background-position:-167px 0;}
+.topno7 .topno{	background-position:-200px 0;}
+.topno8 .topno{	background-position:-234px 0;}
+.topno9 .topno{	background-position:-267px 0;}
+.topno10 .topno{ background-position:-301px 0}
+
+.topno .no{
+	font-weight:bold;
+	color:#fff;
+	position:relative;
+	top:4px;
+	font-size:24px;
+}
+.top10wrap{
+ 	bottom:0;
+	position:absolute!important;
+}
+.bubbleInfo {
+	position: relative;
+}
+
+/* Bubble pop-up */
+
+.top10products .popup {
+	display:none;
+	padding:10px;
+	position:absolute;
+	z-index:50;
+	width:120px;
+	 -moz-border-radius:10px; -webkit-border-radius:10px;
+	
+}
+.top10products .popup h2{
+	font-size:1.5em;
+	color:#fff;
+}
+ .top10products .popup .qty2{
+ 	display:none;
+ }
+  .top10products .popup .price{
+  	margin-bottom:5px;
+  }
+ .top10products .popup .now{
+ 	float:none;
+	margin:5px 0;
+ }
+ .top10products .popup .addtobasket a,
+ .top10products .popup .emailbackinstock a {
+ 	position:relative;
+ }
+.top10inline{
+	padding:15px;
+	margin:20px 40px 20px 20px;
+	 -moz-border-radius:10px; -webkit-border-radius:10px;
+}
+.top10title{
+	display:none;
+}
+.inlineno .top10title{
+	display:block;
+}
+.top10inline li {
+	float:left;
+	height:25px;
+	margin-bottom:5px;
+	width:210px;
+	padding-right:10px;
+}
+.top10inline li span{
+	background-repeat:no-repeat;
+	display:block;
+	float:left;
+	height:17px;
+	width:17px; 
+	margin-right:5px;
+	vertical-align:middle;
+}
+.top10inline li a{
+	vertical-align:middle;
+}
+
+.top10inline li.no1inline  span {background-position:0 -40px;}
+.top10inline li.no2inline  span{background-position:-17px -40px;}
+.top10inline li.no3inline span{	background-position:-34px -40px;}
+.top10inline li.no4inline span{	background-position:-52px -40px;}
+.top10inline li.no5inline span{	background-position:-68px -40px;}
+.top10inline li.no6inline span{	background-position:-85px -40px;}
+.top10inline li.no7inline span{	background-position:-102px -40px;}
+.top10inline li.no8inline span{	background-position:-119px -40px;}
+.top10inline li.no9inline span{	background-position:-136px -40px;}
+.top10inline li.no10inline span{ background-position:-153px -40px; width:18px;}
+
+
+
+/* TOP 10 Fragrance  SPECIFIC STYLES */
+
+#mothersdaywrap .md_top10fragrance,
+div.exclusivewebdeals{
+	background:url(../images/events/2010e3/mothersday/md_bluebg.png) no-repeat 0 0;
+	padding-bottom:10px;
+}
+
+#mothersdaywrap .top10header .headertitle{
+	background:url(../images/events/2010e3/mothersday/title_r.png) no-repeat top right;
+	color:#FFFFFF;
+	display:block;
+	float:left;
+	font-size:24px;
+	font-weight:bold;
+	margin-left:40px;
+	padding-right:12px;
+	margin-bottom:20px;
+}
+
+#mothersdaywrap .top10header .headertitle span{
+	background:url(../images/events/2010e3/mothersday/title_l.png) no-repeat top left;
+	float:left;
+	padding:15px 0 15px 15px;
+}
+
+#mothersdaywrap .topno,
+#mothersdaywrap .top10inline li span{
+	background-image:url(../images/events/2010e3/mothersday/no_blue.png);
+	background-repeat:no-repeat; 
+
+}
+#mothersdaywrap .top10products .popup,
+#mothersdaywrap .top10inline {
+	background-color:#fff;
+	border:3px solid #5FBFF3;
+}
+
+
+/* TOP 10 Skincare  SPECIFIC STYLES */
+
+#mothersdaywrap .md_top10skincare,
+.mdskincarespecials{
+	background:url(../images/events/2010e3/mothersday/md_orangebg.png) no-repeat 0 0;
+	padding-bottom:10px;
+}
+
+.mdskincarespecials .headertitle {
+	text-indent:-9999px;
+	background:url(../images/events/2010e3/mothersday/md_titletop10skincare.png) no-repeat 0 0;
+	display:block;
+	width:257px;
+	height:54px;
+	margin-left:40px;
+}
+
+#mothersdaywrap .md_top10skincare .topno,
+#mothersdaywrap .md_top10skincare .top10inline li span{
+	background-image:url(../images/events/2010e3/mothersday/no_orange.png);
+	background-repeat:no-repeat; 
+
+}
+#mothersdaywrap .md_top10skincare .top10products .popup,
+#mothersdaywrap .md_top10skincare .top10inline {
+	background-color:#fff;
+	border:3px solid #FFA201;
+}
+
+#mothersdaywrap .md_top10skincare .mdtopblock .butterflies, .mdskincarespecials .mdtopblock .butterflies{
+	background:transparent url(../images/events/2010e3/mothersday/md_butterflyorange.png) no-repeat top right;
+} 
+.mdskincaregifts .mdtopblock{
+	background:url(../images/events/2010e3/mothersday/md_skincaregiftsbg.png) no-repeat 0 0;
+	height:250px;
+}
+
+
+#mothersdaywrap .md_top10skincare .top10header .headertitle{
+	background:url(../images/events/2010e3/mothersday/title_ro.png) no-repeat top right;
+}
+
+#mothersdaywrap .md_top10skincare .top10header .headertitle span{
+	background:url(../images/events/2010e3/mothersday/title_lo.png) no-repeat top left;
+}
+
+
+
+.skincarespecialslist{
+	margin-left:20px;
+}
+
+.skincarespecialslist li a{
+	position:relative;
+	display:block;
+	color:#fff;
+	margin-right:3px;
+}
+
+.skincarespecialslist li a .moreinfo{
+	background:transparent url(../images/events/2010e3/mothersday/arrow.png) no-repeat scroll 0 50%;
+	bottom:10px;
+	padding:0 0 0 15px;
+	position:absolute;
+	right:10px;
+
+}
+
+#mothersdaywrap .md_top10fragrance .topdetail a.imagelink{
+	height:270px;
+}
+
+/* Mothers DAy */
+#mothersdaywrap #staticpages #colone ul{
+	width:140px;
+}
+
+#mothersdaywrap #staticpages #colone ul li{
+ }
+
+#mothersdaywrap #staticpages #colone ul li ul li{
+	background:none;
+	border-bottom:none;
+}
+.glow{
+	position:absolute;
+	background:url(../images/events/2010e3/mothersday/hoverglow.png) no-repeat  50% 50%;
+	display:block;
+	height:100%;
+	width:100%;
+	display:none;
+}
+.glowlink{
+	position:relative;
+	display:block;
+}
+.skincarespecialslist li a:hover .glow,
+.glowlink:hover .glow{
+	display:block;
+}
+
+
+#staticpages .mothersday .mdbody{
+	float:left;
+	width:760px;
+}
+
+.mdtopblock{
+	display:block;
+	width:720px;
+	padding:0 0 0 20px;
+	position:relative;
+
+}
+.mothersdayhome .mdtopblock{
+	background:url(../images/events/2010e3/mothersday/md_bg.jpg) no-repeat 0 0;
+	height:250px;
+}
+.mothersdayhome .mdbody{
+	float:left;
+	width:760px;
+}
+.mdfragrancegifts .mdtopblock{
+	background:url(../images/events/2010e3/mothersday/md_fragbg.jpg) no-repeat 0 0;
+	height:250px;
+}
+.mdtopblock h1 a{
+	text-indent:-9999px;
+	background:url(../images/events/2010e3/mothersday/md_title.png) no-repeat 0 0;
+	display:block;
+	width:491px;
+	height:109px;
+	position:relative;
+	top:-10px;
+	
+}
+
+.mdtopblock p.description{
+	font-size:16px;
+	color:#ec008c;
+	width:450px;
+	position:relative;
+	top:-10px;
+}
+
+.mdtopblock .butterflies {
+	text-indent:-9999px;
+	background:url(../images/events/2010e3/mothersday/md_butterflyblue.png) no-repeat top right;
+	display:block;
+	width:180px;
+	height:230px;
+	position:absolute;
+	right:-10px;
+	top:-20px;
+
+}
+.mdtopblock p.slogan{
+	text-indent:-9999px;
+	background:url(../images/events/2010e3/mothersday/md_slogan.png) no-repeat 0 0;
+	display:block;
+	width:283px;
+	height:28px;
+	position:relative;
+	top:-10px;
+	margin-left:20px;
+}
+#staticpages  #coltwo li{
+	margin:0 5px 5px 0;
+	float:left;
+	list-style-image:none;
+}
+#staticpages  #coltwo li.even{
+	margin-right:0;
+}
+
+div.exclusivewebdeals .headertitle{
+	background:url(../images/events/2010e3/mothersday/md_titleexclusivewebdeals.png) no-repeat 0 0;
+	width:270px;
+	margin-bottom:0!important;
+
+}
+
+
+#staticpages .top10exclusivelist{
+	margin-left:20px;
+	padding-top:30px;
+}
+
+#staticpages #coltwo .top10exclusivelist li{
+	margin-right:20px;
+		width:216px;
+		background-color:#fff;
+}
+
+#staticpages #coltwo .top10exclusivelist li .eitemimage h3{
+	padding:10px 10px 0;	
+}
+
+
+#staticpages #coltwo .top10exclusivelist li a.glowlink{
+	display:block;
+	position:relative;
+
+}
+
+.exclusivewebdeals .headertitle{
+	text-indent:-9999px;
+	background:url(../images/events/2010e3/mothersday/md_titletop10fragrances.png) no-repeat 0 0;
+	display:block;
+	width:257px;
+	height:54px;
+	margin-left:40px;
+}
+
+.top10exclusivelist .md_ebase{
+	background:url(../images/events/2010e3/mothersday/md_ebossb.jpg) no-repeat 0 0;
+	padding:15px 10px 5px;
+	position:relative;
+	height:53px;
+}
+.top10exclusivelist .earmanibase{
+	background:url(../images/events/2010e3/mothersday/md_earmanib.jpg) no-repeat 0 0;
+}
+.top10exclusivelist .ebossbase{
+	background:url(../images/events/2010e3/mothersday/md_ebossb.jpg) no-repeat 0 0;
+}
+.top10exclusivelist .eelizabethbase{
+	background:url(../images/events/2010e3/mothersday/md_eelizabethb.jpg) no-repeat 0 0;
+}
+.top10exclusivelist .md_ebase .price {
+	padding-top:10px;
+	text-align:right;
+}
+.top10exclusivelist .md_ebase .price .now{
+	color:#fff;
+	font-size:38px;
+	margin-bottom:5px;
+}
+
+.top10exclusivelist .md_ebase .price .rrp{color:#fff;}
+
+.top10exclusivelist a.addtobasket{
+	background:url(../images/events/2010e3/mothersday/addtobasket.png) no-repeat 0 0;
+	display:block;
+	height:30px;
+	text-indent:-9999px;
+	width:140px;
+	position:absolute;
+	top:-15px;
+	right:5px;
+ }
+.top10exclusivelist a.moreinfo{
+	background:url(../images/events/2010e3/mothersday/moreinfo.png) no-repeat 0 0;
+	display:block;
+	height:10px;
+	text-indent:-9999px;
+	width:84px;
+	position:absolute;
+	bottom:-10px;
+}
+
+.top10exclusivelist .moreinfobox{
+	background:#fff url(../images/events/2010e3/mothersday/md_ebasewhite.jpg) no-repeat bottom left;
+	padding:20px 10px;
+	color:#666;
+}
+.mdskincarespecials .headertitle{
+	background:url(../images/events/2010e3/mothersday/md_titleskincarespecials.png) no-repeat 0 0;
+
+}
+
+#mothersdaywrap .psel{
+	background:url(../images/events/2010e3/mothersday/bkgrd_bar.gif) no-repeat 0 0;
+
+}
+
+#mothersdaywrap .psel a { color:#D91E63; font-weight:bold; }
+
+#mothersdaywrap .image a .minibutterfly { display:block; position:relative; }
+
+#mothersdaywrap .image a .minibutterfly { background:url(../images/events/2010e3/mothersday/minibutterfly.png) no-repeat 0 0; display:block; height:38px; left:-10px; position:absolute; top:-10px; width:44px; }
+
+#mothersdaywrap #productlist { background:url(../images/events/2010e3/mothersday/catbg.gif) repeat-y 0 0; padding:10px; }
+
+#mothersdaywrap ul.products li.details { background-color:#FFFFFF; width:157px; margin:0 10px 20px 0; padding:5px; border:2px dotted #9CB364; }
+
+#mothersdaywrap #productlist h1 { color:#9CB364;padding-right:300px; }
+
+#mothersdaywrap ul.products li.details .image { background:none; }
+
+#mothersdaywrap #productlist .mothersdaywidget { position:relative; }
+
+#mothersdaywrap #productlist .mothersdaywidget a { float:right; width:261px; height:50px; background:url(../images/events/2010e3/mothersday/mdtitlewidget.png) no-repeat 0 0; text-indent:-9999px; position:absolute; right:10px; top:-20px; }
+
+#mothersdaywrap ul.products li.details .addtobasket a, #mothersdaywrap ul.products li.details .emailbackinstock a { left:5px; bottom:10px; }
+
+.mothersdayLink {
+	bottom:79px;
+left:450px;
+position:absolute;
+
+}
+.mothersdayLink a{
+	position:absolute;
+	background:url(../images/events/2010e3/mothersday/mothersdayLink.png) no-repeat 0 0;
+	display:block;
+	height:57px;
+	width:227px;
+	text-indent:-9999px;
+
+}
+
+.mothersdaycompetition .mdtopblock {
+	background:transparent url(../images/events/2010e3/mothersday/md_competitionbg.gif) no-repeat scroll 0 0;
+}
+.perfectformum{
+ }
+.perfectformum a {
+position:absolute;
+	background:url(../images/events/2010e3/mothersday/perfectformum.png) no-repeat 0 0;
+	display:block;
+	height:106px;
+	width:98px;
+	text-indent:-9999px;
+	top:10px;
+	left:-5px;
+	}
+	
+	/* LIVE */

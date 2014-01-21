@@ -1,0 +1,1872 @@
+@import "extras.css";
+/*
+* Superdrug v6
+*
+* Frontend development (CSS, Templates and JavaScript) 
+* Author: Baki Toktas
+*
+ *** RESET BROWSER DEFAULTS *** */
+html, body, div, span, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, img, strong, sub, sup, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { border:0; font-size:100%; font-weight:400; margin:0; outline:0; padding:0; vertical-align:baseline; }
+body { font-size:62.5%; line-height:1;background-color:#f6f6f6;}
+ol, ul { list-style:none; }
+blockquote, q { quotes:none; }
+blockquote:before, blockquote:after, q:before, q:after { content:none; }
+/* tables still need 'cellspacing="0"' in the markup  */ 
+table { border-collapse:collapse; border-spacing:0; }
+input { vertical-align:middle; }
+/*** CORE *** */
+html { color:#222; font-family:Arial, Helvetica Neue, Helvetica, sans-serif; }
+a { color:#EF018D; text-decoration:none; }
+/*** STRUCTURE *** */
+.details .addtobasket a, .details .emailbackinstock a, #productdetail .desc .basketlinks a, #productdetail ul#actions li a,ul.buttons a, #writereviewform p.backtoproduct a,div.minicartitemsandtotal h3 a, #additionalservices ul li a, #myaccount #coltwo p.signoutlink a, .pclookup a, #footer .Lfooter li, #footerlogos li div,  #footercheckout .Lfooter li, #productdetail .desc p.emailme a, .minispots li.dare-mini a{background-image: url('../images/sprite.gif'); background-repeat:no-repeat; background-position: 0 0;} 
+#wrapper, #checkoutwrapper { margin:0 auto; width:960px;padding:0 10px;	background-color:#fff;position:relative;}
+#colone, #col-one, .checkoutR, #myacc-col-one, .checkoutorcfR, .checkoutorfnR { float:left;width:160px;}
+#coltwo, #col-two-three, #staticpages #coltwo, .checkoutL, #myacc-col-two, .checkoutorcfL, .checkoutorfnL, #staticpages #coltwo, #content-3dsecure { float:right; padding:0; width:780px; position:relative; }
+.iwbox, #productdetail .detailaddfunction{border:1px solid #d3d3d3;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:#fff url(../images/tabpbg.gif) repeat-x 0 100%; padding:10px;}
+.minispots{clear:both; display:block; margin-bottom:10px;height:28px;}
+.minispots .Lcat_minispots ul {background: url(../images/tabpbg.gif) repeat-x 0 100% transparent; border: 1px solid #D3D3D3; display: block; float: left; height: 28px; width: 725px; border-radius: 5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+.minispots li{float:right;padding:6px 0 0 0; margin-right:10px;}
+.minispots li.first{float:left;margin-right:0;}
+.minispots li a{font-size:14px;color:#222;font-weight:bold;background:url(../images/minispot_arrow.gif) no-repeat right 50%;	padding:0 10px 0 5px;}
+.minispots li h2{;font-size:14px;font-weight:bold;padding:0 0 0 5px;}
+.minispots li.freedeliveryonallordersov, .minispots li.spotfreedelivery {background:url(../images/freebasket.gif) no-repeat 5px 6px; padding-left:25px;}
+.minispots li.dare-mini a{background-position:-335px -918px;display:block;text-indent:-9999px;width:39px;}
+.minispots li.mini-bctop a{background-position:-335px -875px;display:block;text-indent:-9999px;width:59px;}
+div#goldspot {width: 725px;	height: 304px;position: relative; float:left;	margin-bottom:10px;border: 1px solid #D3D3D3;
+    border-radius: 5px;-moz-border-radius:5px;-webkit-border-radius:5px;}
+div#goldspot ul {position: absolute;list-style: none;padding: 0;	margin: 0;}
+ul#goldtabs {left: 0;z-index: 2;width: 126px;}
+ul#goldtabs li img { padding: 5px; border: none; float: left; margin: 10px 10px 0 0;} 
+ul#goldtabs li a {text-decoration: none; display: block; padding: 5px;	height: 50px; outline: none; border-bottom:1px solid #d5d5d5; background:url(../images/tabhbg.gif) repeat-y  right top;}
+ul#goldtabs li h2, ul#goldtabs li .h2{color: #666666;  font-size: 11px; line-height: 1.5; font-weight:bold;}
+ul#goldtabs li p, ul#goldtabs li .p{color:#666;font-size:12px;line-height:1.2;margin:0;	padding:0;display:none;}
+ul#goldtabs li a:hover {text-decoration: none; cursor:pointer;}
+ul#goldtabs li a.current {background:transparent url(../images/arrow_m.png) no-repeat scroll 118px 40px;}
+ul#goldtabs li a.current:hover {text-decoration: none;cursor: pointer;}
+ul#goldtabs li.prolist1 a.current {background:  url('../images/goldspot_selected.gif') no-repeat 0 0;}
+ul#goldtabs li.goldtab5 a{ border-bottom:none;}
+ul#goldoutput{height: 285px; left: 135px;  position: relative; top: 10px; width: 580px;}
+ul#goldoutput li { position:absolute; display:none;}
+ul#goldoutput li.prolist1 {display:block;}
+ul#goldoutput li a {display:block;padding: 0px; position:relative; height:285px; width:580px;}
+ul#goldtabs li a.current, ul#goldtabs li a.current span{ color:#EF018D;font-weight:bold;}
+#silverspot { float:right; width:220px;}
+#bronzespot{ clear:both;}
+#homeoffers{ clear:both; margin-bottom:10px;}
+#homeoffers ul.promotions li img{ width:225px;}
+#homeoffers ul.promotions li{ float:left; margin-right:20px;} 
+#homeoffers ul.promotions li.prolist3{ margin-right:0;}
+#homeoffers ul.promotions li.prolist4{ margin-right:0; float:right;}
+#ourfavourites, #topbrands, #catbestsellers, #productlist .featured{clear:both;line-height:1.5;border:1px solid #d3d3d3;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; margin-bottom:10px;background:url(../images/tabpbg.gif) repeat-x 0 100%;}
+#ourfavourites h2.title, #topbrands h2.title, #catbestsellers h2.bestsellerstitle, #productlist .featured h3{background:url(../images/tabbg.gif) repeat-x 0 100%;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0; font-size:12px; font-weight:bold; padding:10px 14px;}
+#ourfavourites li.details{ float:left; width:159px; margin-right:0;background:none;}
+#ourfavourites li.last, #bestsellers li.last, #freegifts li.last{ margin-right:0;}
+#ourfavourites li.details .image{ margin-bottom:5px; border:none;}
+#ourfavourites form{display:none;}
+#ourfavourites h3{ overflow:hidden; height:35px; font-size:11px; font-weight:bold; margin-bottom:5px;}
+#ourfavourites h3 a{ color:#333; font-weight:bold;}
+#topbrands{border-bottom: 1px solid #D3D3D3; background:none;}
+#topbrands ul.brandsubcategories{overflow: hidden; width: 990px;}
+#topbrands ul.brandsubcategories li{ border:none;padding:10px; float:left;}
+#catbestsellers li.details {width: 180px;background:none;}
+#catbestsellers ul.featprods {padding: 15px 0 15px 15px;}
+ul.promotions li a {display:block; position:relative;}
+ul.promotions li a img{}
+ul.promotions li a span.gt, .catlevel1list li a span.ga{position:absolute; bottom:0;right:0; display:block;background:url(../images/goarrow.png) no-repeat 0 0; height:20px; width:22px; text-indent:-9999px;}
+ul.promotions li a:hover span.gt, .catlevel1list li a:hover span.ga{background:url(../images/goarrowh.png) no-repeat 0 0;}
+ul.promotions li a .gsicon{position:absolute;display:block; height:140px; width:140px; cursor:pointer;}
+.minispots ul.promotions li a span {display:none!important;}
+.categorylistfeature {margin-bottom:10px;}
+.detailsprice{clear:both;}
+.details {display:block;float:left;font-size:11px;margin-right:10px;position:relative;width:185px;margin-bottom:10px;background:#FAF9F9 url(../images/pbg.gif) repeat-x scroll left bottom;}
+.details .detailswrap{padding:5px 0 5px 10px;}
+.details4,.details8,.details12,.details16,.details20,.details24{margin-right:0;} 
+.details5,.details9,.details13,.details17,.details21,.details25{clear:left;}
+.details .image{background-color:#FFFFFF;border:1px solid #F7F7F7;padding:10px;position:relative;}
+.details .image a{ display:block; text-align:center;}
+.details .image a img{height:143px; width:143px;}
+.details .image .c3for2mini img{height:33px; width:35px;}
+.details h2 {margin-bottom:5px;clear:both;}
+.details h2 a { color:#222; font-weight:700;}
+.details .promotext, .details .promotext a, .details .price .save span,.isingle .promotext, .isingle .promotext a, .isingle .price .save span { color:#EF018D;font-weight:bold;}
+.details .unitofmeasure, .isingle .unitofmeasure { clear:both; color:#999; font-size:11px; margin-bottom:5px; }
+.details .now .pricename, .details .unitofmeasure, .isingle .now .pricename{ display:none;}
+.details .price{clear:both;display:block;}
+.details .price .now, .isingle .price .now  {margin-bottom:5px;}
+.details .price .now span, .isingle .price .now span{ font-weight:bold; color:#EF018D; font-size:18px;}
+.details .price .save, .isingle .price .save{float:left; margin-right:5px;}
+.details .price .was, .isingle .price .was{color:#666;}
+.details .price .now, .details .price .save,.isingle .price .now, .isingle .price .save{ clear:both; margin-bottom:5px; display:block;}
+.details .baskettools{clear:both;}
+.details .baskettools .qty, .details .baskettools .qty label, .details .baskettools .addtobasket, 
+.isingle .iqty, .isingle .iqty label, .isingle .iaddtobasket {float:left;margin-right:5px;}
+.details .baskettools .qty label, .isingle .iqty label {margin-top:5px; margin-right:3px; font-weight:bold;}
+.details .baskettools .qty input, .isingle .iqty input{width:15px; text-align:center;padding:0;}
+.details .baskettools .addtobasket, .isingle .iaddtobasket {margin-right:5px;}
+.details .addtobasket a,.details .emailbackinstock a{display:block; height:19px; text-indent:-5000px; width:105px; }
+.details .emailbackinstock a { background-position: 0 -38px; }
+.isingle .iqty label{margin-top:0;}
+#searchresults .listcontent .products {width:800px; overflow:hidden;}
+/*** PRODUCT DETAIL *** */
+#productdetail {position:relative; }
+#productdetail h1 { font-size:24px;font-weight:700; margin-bottom:20px; }
+#productdetail .invtmedia { float:left; width:370px; position:relative; text-align:center; padding-bottom:30px;}
+#productdetail .desc { float:right; padding:0 0 10px; width:410px; }
+#productdetail .desc .backlink a { background-position: 0 -668px; display:block; height:19px;text-indent:-5000px; top:-42px; width:51px; }
+#productdetail .desc .backlink a:hover { background-position: 0 -687px; }
+#productdetail .desc .desc1 { border-bottom:1px solid #d5d5d5; clear:both; margin:0 0 10px; padding:0; }
+#productdetail .desc .desc1 ol { list-style-type:decimal; margin-left:18px; }
+#productdetail .desc .desc1 ul { list-style-type:square; margin-left:14px; margin-bottom:10px; }
+#productdetail .desc .desc1 p { margin-bottom:10px; }
+#productdetail .desc .price{margin-bottom:10px;clear:both;}
+#productdetail .price .pricename{clear:both; color:#999999; display:none;}
+#productdetail .desc .price .priceno{font-size:35px; font-weight:bold; color:#EF018D;}
+#productdetail .desc .price .unitofmeasure, #tellafriendform .price .unitofmeasure { color:#999; }
+#productdetail .desc .stockinfo, #productdetail .desc .basketlinks { float:left;}
+#productdetail .desc .basketlinks{ margin-right:20px;}
+#productdetail .desc .stockinfo{padding-top:5px;}
+#productdetail .desc .price .save {float:left;margin-right:10px;}
+#productdetail .desc .price .save span{font-weight:bold; color:#EF018D;}
+#productdetail .desc .qty label{color:#666; font-size:11px;}
+#productdetail .desc .qty { float:left; margin-right:10px; }
+#productdetail .desc .instock {font-weight:700; float:left;margin-top:5px;}
+#productdetail .desc .outstock { color:#e31230; font-size:1.1em; font-weight:700; margin-bottom:5px; }
+#productdetail .desc p.addtobasket a { background-position: 0 -802px; float:left; height:29px; text-indent:-5000px; width:135px; }
+#productdetail .desc p.addtobasket a:hover { background-position: 0 -831px; }
+#productdetail .desc p.viewbasketlink a { background-position: 0 -764px; float:left; height:19px; margin:9px 0 0 20px; text-indent:-5000px; width:92px; }
+#productdetail .desc p.viewbasketlink a:hover { background-position: 0 -783px; }
+#productdetail .desc p.emailme a { background-position: 0 -706px; float:left; height:29px; text-indent:-5000px; width:135px; }
+#productdetail .desc p.emailme a:hover { background-position: 0 -735px; }
+#productdetail ul#actions { border-top:1px solid #d5d5d5; padding:10px 0; }
+#productdetail ul#actions li a { color:#cf4170; display:block; float:left; font-size:1.1em; font-weight:700; height:14px; padding:5px 0 0 23px; text-decoration:none; width:86px; }
+#productdetail ul#actions li.printthis a { background-position: -1050px 0; }
+#productdetail ul#actions li.tellafriend a { background-position: -1050px -22px; }
+#productdetail ul#actions li.addyourreview a { background-position: -1050px -44px; }
+span#postcodelookup a, .pclookup a { background-position:0 -1183px; display:block;float:left;height:19px;text-indent:-5000px;width:97px; }
+span#postcodelookup a:hover{background-position:-96px -1183px;}
+
+/*** TABS AND CONTENT *** */
+.tabs, .tabs-static { clear:both;}
+.tabs .tabcontent { background:#fff url(../images/tabpbg.gif) repeat-x 0 100%; padding:10px 0; clear:both;}
+
+.tabcontent .deliveryinfo ul li {list-style-image:url('../images/bullet_grey.png'); margin:0 0 0 14px; }
+.tabs #youmayalsolike, .tabs #whatsnew{ display:block;}
+.hometabs .tabcontent{ border:1px solid #e9e9e9; padding:10px 0 10px 10px;}
+.bethefirstreview{	margin:10px 0;clear:both;}
+.bethefirstreview a{clear:both;background:url("../images/reviewicon.png") no-repeat scroll 0 4px transparent; color:#333333; font-weight:bold; padding:3px 3px 3px 20px; text-decoration:underline;}
+.tabs  #competitions li{float:left;width:150px;margin-right:10px; margin-bottom:10px;}
+.tabs  #competitions li h3{height:55px;display:block;overflow:hidden; margin-bottom:10px;}
+
+.newtabs, .tabs{border:1px solid #d3d3d3;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;margin-bottom:10px;overflow:hidden;padding:0;background:url(../images/tabpbg.gif) repeat-x scroll 0 100%}
+.newtabs .tabnavigation, .tabs ul.tabNavigation {list-style:none;background:url(../images/tabbg.gif) repeat-x scroll 0 100%;border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;margin:0;padding:0;overflow:hidden;height:1%;}
+.newtabs .tabnavigation li, .tabs ul.tabNavigation li{float:left;font-size:12px;font-weight:bold;border-right:1px solid #d3d3d3;}
+.newtabs .tabnavigation li.first, .newtabs .tabnavigation li.first a.selected, .tabs ul.tabNavigation li.first{border-left:0;border-radius:10px 0 0 0;-moz-border-radius:10px 0 0 0;-webkit-border-radius:9px 0 0 0;}
+.newtabs .tabnavigation li.last{border-right:1px solid #d3d3d3;}
+.newtabs .tabnavigation li a, .tabs ul.tabNavigation li a{color:#333;	padding:10px 23px;display:block;}
+.newtabs .tabnavigation li a span, .tabs ul.tabNavigation li a span{font-weight:bold;background: url(../images/arrow_m.png) no-repeat 0 3px; padding-left:12px;}
+.newtabs .tabnavigation li a:hover{text-decoration:none;}
+.newtabs .tabnavigation li a.selected, .tabs ul.tabNavigation li.selected a{background:#fff;color:#EF018D;}
+.newtabs .tabnavigation li a.selected span, .tabs ul.tabNavigation li.selected a span {background: url(../images/arrow_d.png) no-repeat 0 3px;}
+.newtabs .tabcontent, .tabs .tabcontent{padding:15px 0 15px 15px;}
+
+.tabcontent ul.promotions li,#topoffers ul.catlistfp li.cb2{ float:left;}
+.tabcontent ul.promotions li{margin-right:13px;}
+.tabcontent ul.promotions li.prolist3, .tabcontent ul.catlistfp li.cb3{ margin-right:0;}
+.tabcontent ul.catlistfp li {width:300px; margin-right:10px;}
+.tabcontent ul.promotions li a{border: 1px solid #D3D3D3;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px;overflow:hidden}
+#sddivcontainer .products .details{width:170px;background:none;line-height:1.5;height: 300px;}
+#sddivcontainer h3, #platinumspot h3{display:none;}
+#productdetail .tabs .tabcontent .details{background:none;width:180px;}
+/*** PRODUCT REVIEW *** */
+#productreviews blockquote { border-bottom:1px solid #d5d5d5; display:block; padding:5px 0; }
+#productreviews blockquote span { clear:both; display:block; font-weight:700; padding:1px 0; }
+#tellafriendimage .invtmedia, #writereviewimage .invtmedia, #emailmebackimage .invtmedia { padding:10px 58px; width:244px; }
+#tellafriendimage h1, #writereviewimage h1, #emailmebackimage h1 { font-size:3em; font-weight:700; }
+#tellafriendform, #writereviewform, #emailmebackform { float:right; margin:0 20px 0 0; width:360px; }
+#tellafriendform h2, #writereviewform h2, #emailmebackform h2 { font-size:1.4em; font-weight:700; margin:0 0 14px;color:#EF018D; }
+#tellafriendform .desc1 { clear:both; padding:16px 0 0; }
+#writereviewform .desc1 { border-bottom:1px solid #d5d5d5; clear:both; padding:16px 0 10px; }
+#tellafriendform .desc1 .promotext { color:#EF018D; font-weight:700; margin:0; padding:5px 0; }
+#tellafriendform .price { border-bottom:1px solid #d5d5d5; margin:10px 0; padding:10px 0; }
+#writereviewform ol { border-bottom:1px solid #d5d5d5; margin:0 0 10px; padding:0 0 10px; }
+#writereviewform ol li {list-style-type:decimal; margin:0 0 0 14px; }
+*:first-child+html #writereviewform ol{padding-left: 8px;}
+*:first-child+html #writereviewform legend{margin-left: -7px;}
+#tellafriendform form p, #writereviewform form p, #emailmebackform form p { clear:both; margin:0; padding:2px 0; }
+#tellafriendform form label, #writereviewform form label,  #feedbackform form label{ float:left; font-weight:700; width:130px; }
+#emailmebackform form label { float:left; font-weight:700; width:130px; }
+#tellafriendform form input, #writereviewform form input, #emailmebackform form input#email, #feedbackform form input, #writereviewform form select, #feedbackform form select, #tellafriendform form textarea, #writereviewform form textarea, #feedbackform form textarea { border:1px solid #d5d5d5; font-size:12px; padding:4px 1px; width:265px; }
+#tellafriendform form textarea, #writereviewform form textarea, #feedbackform form textarea {height:80px; width:265px;}
+#tellafriendform ul.buttons, #writereviewform ul.buttons, #emailmebackform ul.buttons { float:right; margin:5px 12px 0 0; }
+ul.buttons a { background-position:0 -114px; display:block; height:19px; text-indent:-5000px; }
+ul.buttons .back a { margin:0 10px 0 0; width:50px; }
+ul.buttons .back a:hover { background-position:0 -133px; }
+#tellafriendform ul.buttons .send a { background-position:0 -152px; width:117px; }
+#tellafriendform ul.buttons .send a:hover { background-position:0 -171px; }
+#writereviewform ul.buttons .send input, #emailmebackform ul.buttons .send input, #feedbackform .send input { border:0; height:19px; padding:0; width:93px; }
+#emailmebackform ul.buttons .send input { width:73px; }
+#writereviewform p.backtoproduct a { background-position: 0 -76px; display:block; height:19px; text-indent:-5000px; width:177px; }
+.feedbackwrap{background:url("../images/feedbackgradient.jpg") repeat-x left top #f8f8f8;border:1px solid #EF018D;margin:0 auto;padding:10px;}
+#feedbackform form p, #feedbackform form div{ clear:both;margin-bottom:10px;}
+#feedbackform .send{ margin-bottom:20px; }
+span.required { color:#e3457f; font-family:Baskerville, "Goudy Old Style", "Palatino", "Book Antiqua", serif; font-size:1.4em; font-style:italic; }
+/*** PAGER *** */
+.psel { background:url(../images/tabpbg.gif) repeat-x  0 100% transparent; clear:both; color:#fff; margin:10px 0; padding:6px;position:relative; }
+.psel span.currentpage { color:#000;text-decoration:underline; }
+.psel span.pselpages { float:right; overflow:hidden; padding:0; text-align:right; width:600px; }
+.psel span.pnumber-search { overflow:scroll; }
+.psel span.pnumber a, .psel span.pnumber-search a, .psel span.currentpage { border-right:1px solid #fff; padding:0 5px 0 0; font-weight:bold;}
+#staticpages #coltwo h1 {font-size:2em; font-weight:700; margin:0 0 0.9em; }
+#staticpages #coltwo p, #pharmacypages p, #emailmebackform p {margin:0 0 0.9em; }
+#staticpages #coltwo ul,  #pharmacypages ul{margin-bottom:10px;clear:both;}
+#staticpages #coltwo li, #pharmacypages li {list-style-image:url('../images/bullet_grey.png'); margin:0 0 0 14px; }
+#staticpages #coltwo ol li , #pharmacypages ol li{ list-style-image:none; list-style-type:decimal; margin:0 0 0 18px; }
+.mainpressblocks .blocks {float:left; margin-right:9px; padding:10px 15px; position:relative; width:210px; border:1px solid #d5d5d5; background-color:#f7f7f7;}
+.mainpressblocks .penquiries { margin-right:0; }
+.leftpressblocks .blocks { clear:both; margin-bottom:10px; }
+.blocks h2 { color:#EF018D;  font-size:16px; font-weight:bold;display:block!important;}
+.blocks h2 a { color:#EF018D; font-weight:700; text-decoration:none !important; text-transform:capitalize; }
+.penquiries { float:right; margin-right:0; }
+.newscentretop { background:transparent url(../images/presstop.jpg) no-repeat scroll 0 0; height:215px; margin-bottom:15px; width:740px; }
+.newscentretop h1 { color:#fff !important; padding:10px; width:170px; }
+.preldease h2 { background:#fff url(../images/press_release.gif) no-repeat 0 0; }
+ul.pressreleasenav li { margin-left:20px; }
+.newspagelinks ul li.parent { border-bottom:none !important; }
+.newspages #colone h3 { margin:3px 0 5px 10px; }
+.newspages .newslist { border-bottom:1px solid #d5d5d5; list-style-image:none !important; margin:0 5px 10px 0 !important; padding-bottom:5px; }
+.newspages .newslist p, .newspages .newslist h3 { margin:0 0 3px !important; }
+.newspages .floatL img { float:left; margin-bottom:20px; margin-right:20px; }
+.moreinfo { clear:both; padding:5px 0; }
+a.downloadarticle, a.readmore, a.back {background-color: #333333; color: #FFFFFF; display: block; float: left; padding: 2px 10px; margin-right:10px;}
+a.downloadarticle:hover, a.readmore:hover, a.back:hover {color:#fff;background-color: #EF018D; }
+.summary * { font-style:italic; font-weight:700; }
+.lower { text-transform:lowercase; }
+#header, #headercheckout {background: url(../images/header.png) no-repeat 0 -5px;position:relative;z-index:10;}
+#home #header{border-bottom:none;}
+#superdruglogo{ display:inline; float:left; margin:10px 15px 0 10px;}
+#superdruglogo a { display:block; background:url(../images/superdrug.png) no-repeat; width:178px; height:41px; text-indent:-9999px; }
+/* Header Top  */
+div.headertop { float:left; margin:10px 0 2px 0; width:750px; font-size:12px;}
+/* Minicart  */
+div.headerright { float:right; padding:0 10px 0 0; position:relative; width:200px; position:absolute; right:0; top:0px; }
+div.minicartitemsandtotal, div.sitesearch, div.checkoutsitesearch { float:right;}
+div.minicartitemsandtotal h2, div.minicartitemsandtotal ul, div.minicartitemsandtotal h3{ float:left; margin-right:5px;}
+div.minicartitemsandtotal a { color:#ffd5e9; font-size:12px;}
+div.minicartitemsandtotal a:hover{ color:#fff;}
+div.minicartitemsandtotal h2 a{ background:url(../images/basket.gif) no-repeat; padding-left:20px;}
+div.minicartitemsandtotal h2 a:hover{ background:url(../images/basket_hover.gif) no-repeat;}
+div.minicartitemsandtotal h3 {position:relative; bottom:4px; }
+div.minicartitemsandtotal h3 a {background-position: 0 -860px; display:block; height:19px; width:75px; text-indent:-9999px;}
+/* Welcome Message  */
+p.welcomemessage {float:left;margin-right:15px; color:#ffd5e9;}
+/* Sign In / Sign Out  */
+ul.signinsignout, div.headerlinks{ float:left;}
+ul.signinsignout li a, div.headerlinks ul li a  { margin-right:15px;  color:#ffd5e9;}
+ul.signinsignout li a:hover, div.headerlinks ul li a:hover { color:#fff; }
+/* Header Links  */
+div.headerbottom, div.checkoutheaderbottom {display:block;float:left; width:755px; padding:0; /*background: url(../images/new/mainnav_top.gif) repeat-x 0 0;*/ margin-bottom:10px;}
+div.sitesearch {width:220px; float:right; }
+div.sitesearch form fieldset { float:left; }
+div.sitesearch form fieldset input#termtextkeywordsearch, div.checkoutsitesearch form fieldset input#termtextkeywordsearch {font-size:11px;border:none; padding:6px 5px; width:167px ; float:left; font-weight:bold;border:1px solid #222;}
+
+/*SOLR search form*/
+.headerSearch {float: right; display: inline; width: 220px;}
+.headerSearch legend,
+.headerSearch label {display: none;}
+.headerSearch input {border: 1px solid #222222; float: left; font-size: 11px; font-weight: bold; padding: 6px 5px; width: 167px;}
+.headerSearch input#searchsubmit {background: url(../images/bt_go_search.gif) no-repeat 0 0; width: 39px; height: 28px; text-indent: -99999em; line-height: 10em; border: 0;}
+
+
+.crumbtrail {border-bottom:1px solid #f7f7f7; display:block;font-size: 12px;padding:6px 0;position: relative;}
+.crumbtrail a{ background:url(../images/bullet_grey.png) no-repeat left 4px; margin-right:5px; padding-left:10px;}
+.crumbtrail a.treehome{background:none;margin-left:0;padding-left:0;}
+.categorynavigation ul li ul li { background:0; border-bottom:0; padding-left:5px; }
+.categorynavigation ul li ul li a:hover { color:#000; }
+.checkoutR h2, .Lcat_myaccountnav h2, .checkoutorcfR h2, .checkoutorfnR h2 {font-weight:700; margin:0;background-color:#fcfcfc;padding:5px; border-bottom: 1px solid #d5d5d5; }
+.refineblock, #term{background:url("../images/tabpbg.gif") repeat-x scroll 0 100% #fff;margin-bottom:5px;padding-bottom:10px; border: 1px solid #D3D3D3; padding:10px;}
+.refineblock h3, #term h3{font-weight:bold;}
+.termtext{padding-left:10px;background: url(../images/bullet_grey.png) no-repeat 0 6px; clear:both; display:block;}
+.refinelist .Lcat_myaccountnav .contact ul li { background:none; border:0; padding:0; }
+.refinelist h2{background-color: #F7F7F7; color: #EF018D; font-size: 12px; font-weight: bold; padding: 3px 5px;}
+.refineblock .counter{color: #ccc;font-size: 10px;}
+.filterinput{width: 121px; padding: 2px 3px; font-family:Arial; font-size: 11px;color:#666;border: 1px solid #D3D3D3; margin-bottom:5px;}
+.buttonRefine {background-color: #333; font-size: 14px; padding: 1px 4px; color:#fff; font-weight:bold;}
+.collateoverflow {height: 124px; overflow-x: hidden; overflow-y: auto;}
+div.refinelist{background-color:#F7F7F7; padding:5px;}
+#term a,#searchresults .sort, .backlink{float:right;}
+#term .refine-link, #term .refine-remove {float:left;}
+#searchresults h4 span {font-weight:bold;}
+#searchresults h4 span.categoryname {margin-left:5px;}
+
+#searchresults h1 a{position:relative;}
+#searchresults h1 a span.refine-text{color: #CCCCCC; font-size: 9px; position: absolute; top: -8px; display:none;}
+
+.Lcat_myaccountnav .contact ul li.last a { background:url('/content/ebiz/superdrug/resources/images/core/bullet_grey.png') no-repeat 0 6px; border-bottom:1px solid #d5d5d5; clear:both; display:block; padding:4px 0 4px 10px; }
+#content, #checkout, #staticpages, #myaccount, #bcpages, #footer{padding-top:10px; clear:both;font-size:12px; line-height:1.5;} 
+/*** FOOTER *** */
+#footer, #footercheckout { clear:both; margin-top:10px;}
+#footerspots{ height:135px; margin-bottom:10px; background:url("../images/header_shadow.gif") no-repeat scroll left bottom transparent; }
+#footerspots .fspot{ position:relative; float:left; width:209px; margin-right:10px; height:90px;}
+#footerspots .flast{ margin-right:0;}
+#footerspots .fspot p, #footerspots .fspot label{margin-bottom:5px;}
+#footerspots .storefinderblock a, #footerspots .careersblock a{ float:right; width:35px; height:19px; text-indent:-9999px; display:block; background:url(../images/new/bt_go_search.gif) no-repeat 0 0 ; position:absolute; bottom:10px; right:10px;} 
+
+#footerspots .followusblock li{ float:left; margin-right:10px;}
+#footerspots .followusblock li a{ text-indent:-9999px; display:block; height:21px;}
+#footerspots .followusblock li.facebook a{background-position: -702px -1061px; width:22px;}
+#footerspots .followusblock li.twitter a{background-position: -729px -1061px; width:23px;}
+#footerspots .followusblock li.blog a{background-position:-806px -1061px; width:34px; }
+#footerspots .followusblock li.youtube a{background-position: -757px -1061px; width:45px;}
+
+#footer .Lfooter, #footercheckout .Lfooter{ float:left; width:170px; margin-right:20px; margin-bottom:20px;}
+#footer .Lfooter h3, #footercheckout .Lfooter h3, #footerspots .fspot h2{color:#EF018D; font-size:14px; font-weight:normal;}
+#footer .Lfooter li, #footercheckout .Lfooter li {background-position:-1210px -86px; padding-left:10px;}
+#footer .Lfooter a, #footercheckout .Lfooter a{color:#666; }
+
+#footercheckout .Lfooter, #footercheckout #footerlogos li.happinessguaranteed, #footercheckout #footerlogos li.buavapproved {display:none;}
+#footercheckout #footerlogos {margin-left:180px; margin-top:40px;}
+#footercheckout #footerlogos li{margin-right:20px;float:left;}
+
+#footer #footerlogos{ float:right; width:310px; margin-bottom:20px; }
+#footerspots .fspot legend { display:none;}
+ 
+#footer #footerlogos li{ float:right; margin-bottom:10px; }
+#footerlogos li.creditcard { clear:both;}
+#footerlogos li.buavapproved div {background-position: -322px -1027px; display:block; height:62px; width:60px; text-indent:-9999px;}
+#footerlogos li.happinessguaranteed div {background-position: -250px -1027px; display:block; height:62px; width:60px; text-indent:-9999px;}
+#footerlogos li.creditcards div {background-position: -132px -317px; display:block; height:56px; width:255px; text-indent:-9999px;}
+
+#footer  .copyright, #footercheckout  .copyright { clear:both; border-top:1px solid #d9d9d9; margin-top:10px; padding-top:10px; text-align:center;}
+#footer .copyright, #footercheckout .copyright{ display:block; color:#666; text-align:center; font-size:11px; line-height:1.5; }
+#footerspots #emailsignup {width:130px; font-size:10px; margin-top:5px;}
+#footerspots #newslettersubmit { margin-top:5px; }
+
+/*** CHECKOUT *** */
+#checkout h1, #myaccount h1 { font-size:30px; font-weight:700;}
+#checkout .checkoutL, #checkout .checkoutorcfL, #checkout .checkoutorfnL, #content-3dsecure{}
+#checkout form fieldset select, #myaccount form fieldset select{-moz-border-radius:3px; -webkit-border-radius:3px; background-repeat:repeat-x; background-position: -300px -66px; border:1px solid #bbb;}
+#checkout form fieldset input, #myaccount form fieldset input { -moz-border-radius:3px; -webkit-border-radius:3px; background:#fff; border:1px solid #d5d5d5; float:left; padding:2px; margin-right:10px; }
+#checkout form fieldset input#area, #myaccount form fieldset input#area{margin-right:0;}
+#checkout form fieldset span.dash, #myaccount form fieldset span.dash{padding: 0 0 0 8px;font-size: 1.4em;float: left;}
+/* fix area and phone */
+#checkout .phonewrap, #myaccount .phonewrap{width: 229px;}
+#checkout .phonewrap #area, #myaccount .phonewrap #area{float: left;margin: 0;width: 40px;}
+#checkout .phonewrap #phone, #myaccount .phonewrap #phone{float: right;margin: 0;width: 165px;}
+#checkout fieldset form label, #myaccount fieldset form label { float:left; font-size:1.1em; font-weight:700; }
+#checkout form fieldset div div, #myaccount form fieldset div div { clear:none; float:left; }
+#checkout form fieldset div div label.dontFloat{ float:left!important;}
+#checkout form fieldset div, #myaccount form fieldset div { clear:both;display:block;margin:0 0 5px; }
+label.dontFloat.invisible, label.invisible { padding:0; width:0; }
+#content-3dsecure{padding:20px; float:left;}
+#content-3dsecure li{font-size:12px;margin:0 0 0.9em;}
+#content-3dsecure iframe{border:5px solid #EF018D;}
+/* Buttons  */
+#checkout #buttons { clear:both;margin:0 0; position:relative; padding-top:10px;}
+#checkout #buttons a { display:inline;}
+.invisible { margin:0; padding:0 9px; }
+#redeemgiftcert label { width:63%; }
+.newline { width:100%; }
+.container #productlist fieldset p { margin-left:0; }
+/* ORDER SUMMARY  */
+
+#promotions { float:left; width:360px; margin-right:10px;}
+#additionalservices { float:left; width:360px;}
+/* OREDER DETAILS PAGE  */
+#orderdetail table.wizrtable th { border-bottom:1px solid #d5d5d5; color:#EF018D; font-weight:400; width:460px; }
+#orderdetail table.wizrtable td { border-bottom:1px solid #d5d5d5; padding:3px; vertical-align:top; }
+#orderdetail #buttons { margin-top:10px; padding-top:10px; }
+#orderdetail table.wizrtable th.name, #orderdetail table.wizrtable th.priceeach, #orderdetail table.wizrtable th.quantity, #orderdetail table.wizrtable th.totalprice, #orderdetail table.wizrtable th.status, #orderdetail table.wizrtable th.thumb { background:#EF018D; color:#fff; font-weight:700; }
+/* DELIVERY ADDRESS  */
+.checkoutorcfL .deliveryaddress h2, .checkoutorfnL .deliveryaddress h2, .checkoutorcfL .deliveryrate h2, .checkoutorfnL .deliveryrate h2, .checkoutorcfL .orderitems h2, .checkoutorfnL .orderitems h2, #paymentdetails h2, #additionalservices h2, #orderconfirmation #contactdetails h2 { height:28px; padding-bottom:10px; text-indent:-5000px; }
+.checkoutorcfL .deliveryaddress h2, .checkoutorfnL .deliveryaddress h2 { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summerydeladdress.png') no-repeat 0 0; }
+.checkoutorcfL .deliveryrate h2, .checkoutorfnL .deliveryrate h2 { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summerydetails.png') no-repeat 0 0; }
+.checkoutorcfL .orderitems h2, .checkoutorfnL .orderitems h2 { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summeryitems.png') no-repeat 0 0; }
+#additionalservices h2 { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summeryadditional.png') no-repeat 0 0; }
+#orderconfirmation #contactdetails h2 { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summerybilling.png') no-repeat 0 0; height:68px }
+/* DELIVERY RATE  */
+.checkoutorcfL .deliveryrate ul, .checkoutorfnL .deliveryrate ul {padding:0 10px; }
+.checkoutorcfL .deliveryrate ul li, .checkoutorfnL .deliveryrate ul li { padding-bottom:5px;}
+.checkoutorcfL .deliveryrate ul input, .checkoutorfnL .deliveryrate ul input { margin:0 5px 0 0; }
+
+.checkoutorcfL .deliveryrate li.expressorderbefore2pmford label, .checkoutorfnL .deliveryrate li.expressorderbefore2pmford label{ font-style:italic;}
+/* ORDER ITEMS TABLE  */
+.checkoutorcfL .orderitems table.wizrtable, .checkoutorfnL table.wizrtable { text-align:left; width:100%; }
+.checkoutorcfL table.wizrtable thead tr th.thumb, .checkoutorfnL table.wizrtable thead tr th.thumb { text-indent:20px; }
+.checkoutorcfL table.wizrtable thead tr th.thumb span, .checkoutorfnL table.wizrtable thead tr th.thumb span { color:#111; font-weight:700; text-indent:10px; }
+.checkoutorcfL .orderitems table.wizrtable tbody tr td, .checkoutorcfL table.wizrtable thead tr th, .checkoutorfnL table.wizrtable tbody tr td, .checkoutorfnL table.wizrtable thead tr th { padding:5px 0; vertical-align:top; }
+.checkoutorcfL .orderitems table.wizrtable tbody tr td.quantity, .checkoutorfnL table.wizrtable tbody tr td.name { padding-left:5px; }
+.checkoutorcfL table.wizrtable tbody tr th div, .checkoutorfnL .ordersummary table.wizrtable tbody tr th div, .checkoutorcfL table.wizrtable tbody tr th div.hdr-ordertotal, .checkoutorfnL table.wizrtable tbody tr th div.hdr-ordertotal { font-weight:700; text-align:left; }
+.checkoutorcfL div.ordertotal, .checkoutorcfL  .hdr-ordertotal{color:#EF018D;}
+.checkoutorcfL div.earnpoints, .checkoutorcfL  .hdr-earnpoints{color:#49176D;}
+.hdr-subtotal, .hdr-discount, .hdr-delivery { text-align:left; }
+.checkoutorcfL .Lcat_orcfcolone p.finalstep { background-color:#ECEDED;display:block;padding:8px 0 5px 160px; margin-bottom:20px;}
+.checkoutorcfL table.orderdetails, .checkoutorfnL table.orderdetails { float:right; text-transform:uppercase; width:300px; line-height:1.2; }
+.checkoutorcfL table.orderdetails thead tr th, .checkoutorfnL table.orderdetails thead tr th { font-weight:700; padding:2px 0 2px 5px; text-align:left; }
+.checkoutorcfL table.orderdetails tbody tr td, .checkoutorfnL table.orderdetails tbody tr td { font-weight:700; padding:2px 5px; text-align:right; }
+.checkoutorcfL table.orderdetails tbody tr td div { font-size:1.2em; font-weight:700; }
+/* ADDITIONAL SERVICES  */
+#additionalservices ul li { display:block; margin:0 10px 5px; }
+/* GIFT WRAP LINK  */
+#additionalservices ul li.giftwrap a { background-position: 0 -630px; display:block; height:19px; width:154px; }
+#additionalservices ul li.giftwrap a:hover { background-position: 0 -649px; display:block; height:19px; width:154px; }
+/* PROMOTIONAL VOUCHER LINK  */
+#additionalservices ul li.coupon a { background-position: 0 -592px; display:block; height:19px; width:154px; text-indent:-9999px;}
+#additionalservices ul li.coupon a:hover { background-position: 0 -611px; display:block; height:19px; width:173px; }
+#paymentdetails h2 { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summerypayment.png') no-repeat 0 0; }
+#checkout #paymentdetails fieldset .credit { display:block !important; padding-left:5px; }
+#paymentdetails fieldset .credit input, .paypal input{margin:0 5px 0 0;}
+#paymentdetails fieldset .credit label { text-align:left; width:250px; }
+#paymentdetails fieldset .credit img { margin-bottom:5px; }
+#paymentdetails fieldset div label {width:100px; }
+#checkout #paymentdetails fieldset.f-payment_details div.credit{ padding-left:0;}
+#checkout #paymentdetails fieldset.f-payment_details img{ margin-bottom:10px; margin-left:15px;}
+#paymentdetails fieldset div a { left:4px; position:relative; top:4px; }
+#paymentdetails fieldset div select { margin:0 10px 0 0; }
+#paymentdetails fieldset div.switchsolo { margin-bottom:0;clear:none;}
+#paymentdetails table {}
+#paymentdetails table th, #paymentdetails table td { text-align:left; }
+#paymentdetails .f-paypal { clear:both; margin-top:10px; }
+#paymentdetails .f-paypal p.paypaltext{ margin-left:8px; }
+/* ORFN ONLY - RIGHT HAND NAV  */
+.checkoutorfnL img { text-align:center; vertical-align:middle;}
+.checkoutorfnL p { margin:0 0 9px; }
+.checkoutorfnL p.thankyou .printicon { display:block; height:30px; margin:2px; width:200px; }
+span.printicon { display:block; height:30px; padding:5px 0; }
+span.printicon a { vertical-align:middle; }
+#orderreceipt #paymentdetails table tr td, #orderreceipt #paymentdetails table tr th {font-weight:700; padding:5px 10px 0 0; }
+#orderreceipt #contactdetails h2 { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summerybilling.png') no-repeat 0 0; height:38px; text-indent:-5000px; }
+#orderconfirmation #contactdetails, #orderreceipt #contactdetails { float:left; width:360px; }
+#contactdetails img { margin:5px 10px; }
+#contactdetails p { font-weight:700; margin:0 0 0 10px; }
+#ordersummary { background-color:#eceded; clear:both;}
+#promotions h2 {background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_summerypromo.png') no-repeat 0 0; height:38px; text-indent:-5000px; }
+#promotions p {font-weight:700; line-height:1.4em; margin:0 0 0.9em 10px; }
+p.finalstep {font-weight:700; }
+/* ADD DELIVERY ADDRESS AND REMINDER AND REDEEM VOUCHER  */
+#reminderslist h3, #addreminder h3, #editreminder h3 { font-size:1.4em; font-weight:700; margin:0 0 0.9em; }
+#addreminder table.wizrtable, #editreminder table.wizrtable, #reminderslist table.wizrtable { clear:both; width:740px; }
+#reminderslist table thead, #addreminder table thead, #editreminder table thead { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_thead740.png') no-repeat 0 0; height:28px; line-height:28px; width:740px; }
+#reminderslist td, #addreminder td, #editreminder td { font-size:1.1em; padding:10px 3px; text-align:center; }
+#reminderslist th, #addreminder th, #editreminder th { color:#fff; font-size:1.1em; }
+#redeempromocode div div.left div { float:left; font-size:1.1em; }
+#redeempromocode div.totaldiscount { clear:both; font-size:1.2em; padding:10px 0; text-align:left; }
+#redeempromocode p { clear:both; color:#333; font-size:1.2em; padding:10px 0; }
+#reminderslist h3 { margin:0 0 9px; }
+#reminderslist p { margin:0 0 5px; }
+#reminderslist p.addreminder { clear:both; height:48px; padding-top:18px; width:66%; }
+#giftwrap table.wizrtable { width:920px; }
+#giftwrap table.wizrtable thead { background:url('/content/ebiz/superdrug/resources/images/core/bkgrd_thead920.png') no-repeat 0 0; line-height:28px; }
+#giftwrap table.wizrtable thead tr th { color:#fff; font-size:1.1em; text-align:left; }
+#giftwrap table.wizrtable thead tr th.wrapitem { text-indent:10px; }
+#giftwrap table.wizrtable thead tr th.giftmessage { text-indent:30px; }
+#giftwrap table.wizrtable td { font-size:1.1em; padding:5px 0 5px 5px; vertical-align:top; }
+#giftwrap table.wizrtable tbody td textarea { -moz-border-radius:3px; -webkit-border-radius:3px; background-repeat: repeat-x; background-position: -300px -86px; border:1px solid #e1e1e1;float:right; font-size:1.1em; height:80px; padding:2px 1px; width:485px; }
+/* BASKSET  */
+#yourbasket table thead tr { background-color:#EF018D; color:#fff;}
+#yourbasket table thead th {font-weight: bold; text-align: left; }
+#yourbasket table thead th span{ font-weight:bold;}
+#yourbasket table tbody tr { border-bottom:1px solid #d5d5d5;text-align: left;  }
+#yourbasket table tbody tr td, #yourbasket table th { padding:10px 15px; vertical-align:top; }
+#yourbasket table tbody td.name h2{margin-bottom:10px;}
+#yourbasket table tbody td.name h2 a { color:#111; font-weight:700; display:block;}
+#yourbasket table tbody td.priceeach { color:#EF018D; font-weight:700; }
+#yourbasket table tbody td.priceeach p { clear:both; color:#aaa; font-weight:400; }
+#yourbasket table tbody td.quantity input { border:1px solid #e1e1e1; padding:5px; width:25px; }
+#yourbasket table tbody td.totalprice { color:#EF018D; font-weight:700; background-color:#F5F5F5; text-align:right;} 
+#yourbasket table tbody tr.orsctotal {background-color:#F5F5F5;}
+#yourbasket table tbody tr.orsctotal th { text-align:right;}
+#yourbasket table tbody tr.orsctotal th, #yourbasket table tbody tr.orsctotal td{font-weight:bold; font-size:16px;}
+#yourbasket table tbody tr.orsctotal th span{font-weight: normal; display: block; font-size: 11px; margin-top: 3px; clear: both;}
+#yourbasket table tbody tr.orsctotal td.space { padding:0; width:0px; }
+#yourbasket #buttons input.btUpdateBasket { margin-left:245px; }
+#yourbasket #buttons input.btCheckout { float:right;}
+.Lcat_basketcontent h3 { color:#111; font-size:1.4em; margin:0 0 0.9em; }
+
+/* OREDER HISTORY PAGE  */
+#orderhistory { clear:both; float:none; padding:0 20px 20px 0; width:100%; }
+#orderhistory ul#productlist li table.wizrtable th, #orderhistory ul#productlist li table.wizrtable td { padding:8px 0 0 10px; }
+#orderhistory ul#productlist li { border-bottom:1px solid #d5d5d5; padding-bottom:10px; }
+#orderhistory ul#productlist li table li { background:none; }
+#orderhistory img { margin:0 10px; }
+#orderhistory ul#orders_list li table.wizrtable { margin:0 0 10px 10px; }
+#orderhistory ul#orders_list li table.wizrtable tbody tr th { width:140px; }
+#orderhistory ul#orders_list li table.wizrtable tr td ul li { border:0; }
+/* COMMUNICATION OPTIONS PAGE  */
+#myaccount .emailformat, #myaccount .thirdpartybox {display: none;}
+/* CUSTOMER PROFILE PAGE  */
+fieldset.cprofile h3, #tlusermyform fieldset legend, .containeroradeditadd fieldset legend, .editcontactaddress fieldset legend { clear:both; color:#EF018D; font-size:1.2em; font-weight:700; height:16px; padding:5px 0; }
+/* YOUR CONTACT DETAILS  */
+input#ustandc, input#blkemail, .cbtxt { margin:0 5px 0 0; text-align:left; }
+#checkout .addcontactaddress form fieldset legend, #checkout .accountconfirm form fieldset legend, #checkout .aboutyouregister form fieldset legend, fieldset.f-pwrmemail legend{ display:block; font-weight:bold;font-size:14px;font-weight:700;text-transform:uppercase; color:#EF018D;}
+#checkout .addcontactaddress form fieldset, #checkout .accountconfirm form fieldset, #checkout .aboutyouregister form fieldset, #checkout .editcontactaddress form fieldset , fieldset.f-pwrmemail, #myaccount .postbox, #myaccount  .emailbox, #myaccount .smsbox, #myaccount .thirdpartybox, #tlusermyform fieldset, .ordersListBox #orders_list li, fieldset.f-oradsaddbook, .containeroradeditadd fieldset, #redeempromocode div, #loginform,#secondloginform, #orderconfirmation .deliveryaddress, .deliveryrate, .orderitems, #ordersummary, #promotions, #additionalservices, #paymentdetails, #contactdetails, .ohSumDetail, .ohListVoucher, #paymentdetails_orlk, #checkout .expresscheckout, #checkout .differentaddress{background:#F0F0F0 url(../images/new/pbg.gif) repeat-x scroll left top; margin-bottom:10px; padding:10px;border:1px solid #f7f7f7; }
+#checkout .addcontactaddress form fieldset.f-orbtpersonal, #checkout .addcontactaddress form fieldset.f-orbtadddetail, #checkout .addcontactaddress form fieldset.f-orbtfaccdetail, #checkout .addcontactaddress form fieldset.f-orbtpwd { padding-top:32px; }
+#checkout .addcontactaddress form fieldset.f-orbtpersonal { background:#f4f7f8 url('/content/ebiz/superdrug/resources/images/core/bkgrd_contactpersonal.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtadddetail { background:#f4f7f8 url('/content/ebiz/superdrug/resources/images/core/bkgrd_contactaddress.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtfaccdetail { background:#f4f7f8 url('/content/ebiz/superdrug/resources/images/core/bkgrd_contactcontact.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtpwd { background:#f4f7f8 url('/content/ebiz/superdrug/resources/images/core/bkgrd_contactpassword.png') no-repeat 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtfaccdetail input#area { margin:0 3px 0 0; }
+#checkout .addcontactaddress form fieldset.f-orbtfaccdetail span.cbtxt { width:510px; }
+fieldset.f-orbtfaccdetail div div label.dontFloat{ float:left!important; height:20px; font-size:11px; font-weight:normal}
+fieldset.f-orbtfaccdetail div label.dontFloat{font-weight:bold;}
+/* EDIT YOUR CONTACT DETAILS  */
+input#addr2 { margin:0 0 0 180px; }
+/* SIGN IN / REGISTER  */
+#checkout .signininstruction, #loginform p,#secondloginform p{margin-bottom:10px;}
+#checkout #loginform h2,#secondloginform h2, #checkout .expresscheckout h2{font-size:16px; font-weight:bold; color:#EF018D;}
+#checkout #loginform, #checkout .expresscheckout{float:right; width:360px;}
+#checkout #secondloginform{float:left; width:360px;}
+#checkout #secondloginform label{width:120px; display:block; clear:both;float:left;}
+#checkout #secondloginform input#email, #checkout #secondloginform #password{margin-bottom:10px;margin-right:0;width:220px;}
+#checkout #secondloginform #buttons{clear:none; float:right;margin:0;}
+#checkout #secondloginform .forgottenpassword{float:left;}
+#checkout #secondloginform #buttons input, #checkout #loginform .notregisterbtn input{border:none;padding:0;margin-right:5px;float:right;}
+#usemail { width:190px; }
+.pclookupcontact div { padding:10px; }
+.pclookupcontact fieldset,.pclookupcontact #buttons { padding:0 10px; }
+.pclookupcontact form { background:#F4F7F8 url('/content/ebiz/superdrug/resources/images/core/bkgrd_enterpostcode.png') no-repeat 0 0; clear:both; padding:38px 0 0; width:361px; }
+.pclookupcontact  div label  { width:90px;}
+.pclookupcontact #buttons { position:relative; left:90px; }
+.Lcat_orzccontent p { width:361px; }
+.pclookupcontact form div a { color:#EF018D; font-size:1.2em; line-height:1.4em; margin:0 0 0.9em; }
+.addressbook ul li fieldset{ display:inline; float:left; position:relative; margin-right:20px; width: 45%;height: 170px;}
+.addressbook ul li fieldset legend { color:#EF018D; font-weight:bold; }
+.addressbook ul li fieldset div a {  }
+.addressbook ul li fieldset.f-oradsaddbookstore{background:#EAF4F4; border: 1px solid #5CB4BD;}
+.registerrationnote{float:left;}
+#checkout .addressbook form ul li fieldset.f-oradsaddbook div label.dontFloat { padding:4px 0 0; width:180px; }
+.pclookupdelivery div { margin:10px 0 0 10px; }
+.containeroradeditadd #buttons { margin:0 0 0 10px; padding:0 0 20px; }
+ .f-oradedetail input#area { margin:0 0 2px 145px; }
+/* MY ACCOUNT  */
+#myaccount #coltwo h2 { font-size:20px; margin:0 0 10px; }
+
+#myaccount #coltwo p.signoutlink a { background-position: 0 -1012px; display:block; height:19px; text-indent:-5000px; width:73px; }
+#myaccount #coltwo p.signoutlink a:hover { background-position: 0 -1031px; }
+/* COMMUNICATION OPTIONS  */
+#myacc-col-two #tlusermyform form fieldset#myformcommoption { padding:0 10px 0 17px; position:relative; }
+#myacc-col-two #tlusermyform form fieldset#myformcommoption div label { width:95%; }
+#myformcommoption .smsbox, #myformcommoption .emailbox, #myformcommoption .postbox{border: none;margin: 0;padding: 5px 0;}
+#myformcommoption .yes{margin: 0 0 0 125px;padding:0;}
+fieldset#myformcommoption label{width: 100px;float: left;text-align: right;}
+fieldset#myformcommoption input{margin-left: 20px;}
+fieldset#myformcommoption p a{color: #E03F75;text-decoration: underline;}
+#myaccount fieldset#myformcommoption p{margin: 0.9em 0;}
+#tlusermyform #buttons .right{float: right;}
+div#countryDiv{display:none!important;}
+form fieldset.f-myformemail label, form fieldset.f-myformdetail label,  form fieldset div label { float:left; font-weight:bold; width:170px; text-align:right; margin-right:10px; }
+form fieldset div.blkemail label{height: auto;float: left;width: 690px;padding-top:0;}
+/* FORGOTTEN PASSWORD  */
+.containerpwrm, .containerpwrmthankyou { padding-bottom:30px; }
+.containerpwrm h1, .containerpwrmthankyou h1 { background:url(/content/ebiz/superdrug/resources/images/header_checkout.gif ) no-repeat left top; }
+#generalconditionsofpurcha ol h2 { margin-left:-20px; }
+#generalconditionsofpurcha ol li ol li { list-style-type:lower-roman !important; }
+#generalconditionsofpurcha ol li ol li ol li { list-style-type:lower-alpha !important; }
+
+/* DTS */
+#checkout .addcontactaddress form .differentdeliveryaddress {background:#EAF4F4; border: 4px solid #5CB4BD;}
+#checkout .addcontactaddress form .differentdeliveryaddress legend{color:#5CB4BD;} 
+.f-orzcpostcode{background:#f7f7f7 url(../images/dts/dts_h_home.gif) no-repeat 0 0; padding: 40px 0 10px 10px;}
+.f-orzcstorelocator{background:#f7f7f7 url(../images/dts/dts_h_store.gif) no-repeat 0 0; margin-bottom: 10px; padding: 40px 0 10px 10px;}
+.f-orzcstoreresult{background:#f7f7f7 url(../images/dts/dts_h_nearest.gif) no-repeat 0 0; margin-bottom: 10px; padding: 40px 0 10px 10px;}
+.storefinder_nearby {background:#f7f7f7 url(../images/dts/dts_h_nearby.gif) no-repeat 0 0; padding: 40px 0 10px 10px;float:left;width:360px;}
+.storefinder_zipc{background:#f7f7f7 url(../images/dts/dts_h_sa.gif) no-repeat 0 0; padding: 40px 0 10px 10px;float:right;width:360px;}
+.f-orzcpostcode .postcodeintro, .f-orzcstorelocator h3, .f-orzcstoreresult h3, .f-orzcstoreresult .delivertips{font-weight:bold; margin-bottom:10px;}
+.f-orzcpostcode #buttons .right, .f-orzcstorelocator #buttons .right, .f-orzcpostcode a, .storefinder_zipc #buttons .right {border: 0 none!important; float: left;  margin-left: 180px;}
+.f-orzcpostcode a, .f-orzcstorelocator p.storedelivery{font-style:italic; font-weight:bold;color:#d91e63;}
+.f-orzcpostcode a{text-decoration:underline;}
+.storefinder_zipc label{width: 100px;}
+.storefinder_zipc  #buttons .right{margin-left: 100px;}
+#storecontent h2{font-weight:bold; color:#d91e63; font-size:16px; margin-bottom:5px;}
+.deliveryaddress .dtslink{float:left;}
+.dtslink a{background:url(../images/dts/dtsbutton.gif) no-repeat 0 0; text-indent:-9999px; display:block; height:19px; width:220px;}
+.deliveryaddressoptions li{float:left;margin-right:10px;}
+#selectdtsstore {margin-left: 20px; margin-top: 5px;}
+#selectdtsstore a{background:url(../images/dts/dtsdifferent.gif) no-repeat 0 0; text-indent:-9999px; display:block; height:19px; width:156px;}
+.deliveryaddress p{margin-bottom:15px;}
+.deliveryrate .storedelivery label{font-weight:bold;}
+#orderreceipt .deliveryaddress .dtslink, .deliveryaddress .addrPhone{display:none;}
+#dtsmenu, #addressmenu{z-index:1102;display: none; font-size:12px; line-height:1.5; margin-left:140px; position: absolute; background-color: #fff; padding: 10px; border: 6px solid #5CB4BD; width: 320px; left: 160px; top: 60px;}
+#dtsmenu h3, #addressmenu h3{font-weight:bold;}
+/*#storelocator{display:none;}*/
+#address_list{overflow: auto; height: 400px;margin-bottom:20px;}
+#shipmentOption li.storedelivery{position:relative;}
+#selectdts, #selectaddress{left: -180px;padding: 10px; position: absolute;top: -25px;}
+#selectdts div.iwbox, #selectaddress div.iwbox{float: left; width: 123px;border-color: #EC008C;}
+#selectdts img, #selectaddress img{float: left; margin-top: 15px;}
+#selectaddress {top: 275px;}
+
+#press hr { border:1px solid #d5d5d5; clear:both; }
+#press .pr-link { float:left; margin-bottom:10px; margin-right:10px; }
+a:hover, #footer ul li a:hover { color:#111; text-decoration:underline; }
+.clear, body:last-child #reminderslist table.wizrtable, fieldset#myformcommoption p, #press h1 { clear:both; }
+.silverspot ul li.first, ul.subcategories li.first { margin:0; }
+.homeoffers ul, #productdetail ul#actions li, ul#iacc li, #tellafriendform ul.buttons li, #writereviewform ul.buttons li, #emailmebackform ul.buttons li, div.headertop ul li, div.minicartitemsandtotal ul li, div.headerlinks ul li, div.sitesearch form { display:inline; }
+#tellafriendform ul.buttons a, #writereviewform ul.buttons a, #emailmebackform ul.buttons a, .psel span.ptotalitems, .psel span.pselall, #searchresults h4, .paymentmethods, input#alreadyRegistered, #paymentdetails fieldset div select, #paymentdetails fieldset div select#cardtype, #paymentdetails fieldset div.issuenumber, #redeempromocode div div { float:left; }
+ul.subcategories, .container #productlist fieldset div img, #myacc-col-two #tlusermyform form fieldset#myformcommoption p { margin:0 0 10px; }
+
+ul.subcategories li h2 a:hover, body#beauty ul.mainNav li.beautyCat a.parentone,/* del on live */
+ body#hair ul.mainNav li.cathair a.parentone, body#fragrance ul.mainNav li.catfragrance a.parentone, body#mens ul.mainNav li.catmens a.parentone, body#offers ul.mainNav li.catoffers a.parentone, body#health ul.mainNav li.cathealth a.parentone, body#electricals ul.mainNav li.catelectricals a.parentone, body#makeup ul.mainNav li.catmakeup a.parentone, body#skincare ul.mainNav li.catskincare a.parentone, body#toiletries ul.mainNav li.cattoiletries a.parentone, body#summer ul.mainNav li.catsummmer a.parentone, body#webdeals ul.mainNav li.catwebdeals a.parentone, body#christmas ul.mainNav li.catchristmas a.parentone, body#brands ul.mainNav li.catbrands a.parentone, body.darecompetitions ul.mainNav li.catdare a.parentone{ color:#111;background:#f7f7f7; text-decoration:none; }
+
+#productdetail .desc .desc1 a:hover, #productdetail ul#actions li a:hover, #staticpages #coltwo #sitemap h2, .categorynavigation ul li a:hover, .termtext a:hover, .checkoutR ul li a:hover, .Lcat_myaccountnav ul li a:hover, .checkoutorcfR ul li a:hover, .checkoutorfnR ul li a:hover, .refinelist a:hover, body#beauty .categorynavigation ul li.navbeauty a span, body#makeup .categorynavigation ul li.navmakeup a span, body#skincare .categorynavigation ul li.navskincare a span, body#toiletries .categorynavigation ul li.navtoiletries a span, body#hair .categorynavigation ul li.navhair a span, body#fragrance .categorynavigation ul li.navfragrance a span, body#mens .categorynavigation ul li.navmens a span, body#health .categorynavigation ul li.navhealth a span, body#offers .categorynavigation ul li.navoffers a span, body#gifts .categorynavigation ul li.navgifts a span, body#electrical .categorynavigation ul li.navelectrical a span, body#webdeals .categorynavigation ul li.navwebdeals a span, body#summer .categorynavigation ul li.navsummer a span, span.printicon a:hover { color:#111; }
+
+.tabs .deliveryinfo h4, #staticpages #coltwo h2, #staticpages #coltwo h3, #staticpages #coltwo h4, #staticpages #coltwo h5, #pharmacypages h2, #pharmacypages h3{ color:#EF018D; font-size:18px; margin-bottom:10px ; font-weight:bold;}
+#staticpages #coltwo h3, #pharmacypages h3 {font-size:16px; color:#EF018D;}
+#tellafriendimage, #writereviewimage, #emailmebackimage, #paymentdetails { float:left; width:360px; clear:both; margin-right:10px; }
+#staticpages #coltwo h2, .newspages h2, strong, .strong, .checkoutorcfL .orderitems table.wizrtable tbody tr td.name, .checkoutorfnL table.wizrtable tbody tr td.name, .checkoutorcfL table.wizrtable tbody tr td.veryImportant, .checkoutorfnL table.wizrtable tbody tr td.veryImportant, #yourbasket table tbody tr.orsctotal td.basketTot { font-weight:700; }
+#staticpages #coltwo ul, #staticpages #coltwo ol{ margin:0 0 1.8em; }
+.categorynavigation ul, #paymentdetails input#ohccnum, #paymentdetails input#ohccname, #paymentdetails select#cardtype, #paymentdetails fieldset div select#cardtype { width:160px; }
+#staticpages #colone ul li, .categorynavigation ul li, .checkoutR ul li, .Lcat_myaccountnav ul li, .checkoutorcfR ul li, .checkoutorfnR ul li, .summershopcatlists ul li, .brandguidelinesnav ul li, #dtsmenu ul li, #addressmenu ul li{ background:url('/content/ebiz/superdrug/resources/images/core/bullet_grey.png') no-repeat 0 5px; border-bottom:1px solid #f7f7f7; clear:both; display:block; padding:0 0 4px 10px; }
+#staticpages #colone .leftcolpromotions ul li {background:none; padding:0 0 0 0; border: none}
+.leftcolpromotions ul li{background:none;border-bottom:none;padding:0;margin:10px 0;}
+.leftcolpromotions ul li a{display:block;}
+.newspagelinks ul ul li, #paymentdetails p { padding-left:10px; }
+.newspages .floatR, .pclookupdelivery #buttons { margin-bottom:20px; }
+.checkoutorcfL .orderitems table.wizrtable tbody tr td.priceeach, .checkoutorfnL table.wizrtable tbody tr td.priceeach, .checkoutorcfL .orderitems table.wizrtable tbody tr td.totalprice, .checkoutorfnL table.wizrtable tbody tr td.totalprice, #giftwrap table.wizrtable tbody td strong { color:#EF018D; }
+.hide, body#home p.crumbtrail, #productdetail .tabs #productreviews h2, #staticpages #colone h2, #orderdetail input, div.sitesearch h2, .categorynavigation h2, #searchresults div.sort h2, .footernewsletter h2, .footernewsletter form legend, .geotrustlogo, legend.orzcemail, legend.pwrm, .companydiv, .faxdiv, .mnamediv, #redeemgiftcert legend, label.dontFloat.invisible, label.invisible, #additionalservices li.redeemgift, #paymentdetails legend#paymentdetails fieldset .credit input, #paymentdetails fieldset div.switchsolo a, p.final, .newscentretop h1, #orfnfeatured, #giftwrap table.wizrtable label.re-waiHide, #orderhistory .balance, fieldset#myformcommoption .emailformat, fieldset div.smsbox, fieldset div.thirdpartybox, fieldset.cprofile legend, #checkout .signin form fieldset legend, .pclookupcontact fieldset legend, fieldset#myformcommoption label img, span.re-waiHide, .ui-helper-hidden, #paymentdetails legend, #headercheckout .checkoutsteps li .no,  div.checkoutsitesearch h2, .promslogan, .searchbrandcolumn li.topnava, .searchbrandcolumn li.topnavb, .searchbrandcolumn li.topnavc, .searchbrandcolumn li.topnavd, .searchbrandcolumn li.topnave, .searchbrandcolumn li.topnavf, .searchbrandcolumn li.topnavg, .searchbrandcolumn li.topnavh, .searchbrandcolumn li.topnavi, .searchbrandcolumn li.topnavj, .searchbrandcolumn li.topnavk, .searchbrandcolumn li.topnavl, .searchbrandcolumn li.topnavm, .searchbrandcolumn li.topnavn, .searchbrandcolumn li.topnavo, .searchbrandcolumn li.topnavp, .searchbrandcolumn li.topnavq, .searchbrandcolumn li.topnavr, .searchbrandcolumn li.topnavs, .searchbrandcolumn li.topnavt, .searchbrandcolumn li.topnavu, .searchbrandcolumn li.topnavw, .searchbrandcolumn li.topnavx,.searchbrandcolumn li.topnavv, .searchbrandcolumn li.topnavy, .searchbrandcolumn li.topnavz, .brandCat .subNav .a, .brandCat .subNav .b, .brandCat .subNav .c, .brandCat .subNav .d, .brandCat .subNav .e, .brandCat .subNav .f, .brandCat .subNav .g, .brandCat .subNav .h, .brandCat .subNav .i, .brandCat .subNav .j, .brandCat .subNav .k, .brandCat .subNav .l, .brandCat .subNav .m, .brandCat .subNav .n, .brandCat .subNav .o, .brandCat .subNav .p, .brandCat .subNav .q, .brandCat .subNav .r, .brandCat .subNav .s, .brandCat .subNav .t, .brandCat .subNav .u, .brandCat .subNav .w, .brandCat .subNav .x,.brandCat .subNav .v, .brandCat .subNav .y, .brandCat .subNav .z,.categorynavigation ul li.nava, .categorynavigation ul li.navb, .categorynavigation ul li.navc, .categorynavigation ul li.navd, .categorynavigation ul li.nave, .categorynavigation ul li.navf, .categorynavigation ul li.navg, .categorynavigation ul li.navh, .categorynavigation ul li.navi, .categorynavigation ul li.navj, .categorynavigation ul li.navk, .categorynavigation ul li.navl, .categorynavigation ul li.navm, .categorynavigation ul li.navn, .categorynavigation ul li.navo, .categorynavigation ul li.navp, .categorynavigation ul li.navq, .categorynavigation ul li.navr, .categorynavigation ul li.navs, .categorynavigation ul li.navt, .categorynavigation ul li.navu, .categorynavigation ul li.navw, .categorynavigation ul li.navx,.categorynavigation ul li.navv, .categorynavigation ul li.navy, .categorynavigation ul li.navz, .mainnavigation h2, ul.promotions li .exwrap, div.sitesearch form fieldset legend, #searchresults a#content, .notavailable, .refine-text,#buttons .Lcat_orcfcolone{display:none;}
+
+.clearfix:after, #iacc:after, #checkout .addcontactaddress form fieldset:after, #checkout form fieldset div:after, #myaccount form fieldset div:after, .ui-helper-clearfix:after, .f-oradsaddbook:after, #header:after, #headercheckout:after { clear:both; content:"."; display:block; height:0; visibility:hidden; }.clearfix, #header, #headercheckout { display:block;}
+
+ul.mainNav li.first a { margin:0; text-indent:-9999px; background:url(../images/new/home.gif) no-repeat 0 10px transparent; width:11px; float:left; padding:0; display:block;}
+
+ul.mainNav a.parentone, ul.mainNav .first a{ float:left;height:24px;padding:10px 8px 0;}
+ul.mainNav a.parentone:hover, ul.mainNav li:hover a.parentone,  ul.mainNav li.over a.parentone{ background:#f7f7f7 none ;color:#333333; font-weight:bold;}
+ul.mainNav { display:block; float:left;list-style: none;position:relative;z-index:25;font-size:12px;}
+ul.mainNav li h3{margin-bottom:10px;font-weight:bold;}
+ul.mainNav li.catlist { float:left;display:inline;z-index:25;}
+ul.mainNav li a.parentone {display: block;font-size:13px; color:#fff; font-weight:bold; border-right: 1px solid #E12F72;}
+ul.mainNav div.subNav {background-color:#f7f7f7; display: none; padding: 5px; position: absolute; top: 33px; width: 580px;z-index:30;line-height:1.5;}
+ul.mainNav li:hover .subNav, ul.mainNav li.over .subNav {display: block; z-index:20;}
+ul.mainNav div.subNav li a{background: url(../images/core/bullet_grey.png) no-repeat 0 6px; display: block;  padding: 0 0 5px 12px;}
+ul.mainNav div.subNav .subNavWrap {background-color: #FFFFFF; border: 1px solid #D3D3D3; padding: 10px;}
+ul.mainNav div.subNav li:hover .subsubNav{display: block; z-index:40;}
+ul.mainNav div.subNav .scatlist {float: left; margin-right: 10px; padding-right: 10px; width: 145px;}
+ul.mainNav div.subNav .scatlistlast{margin-right:0; padding-right:0;width: 215px;}
+ul.mainNav div.subNav .subsubNav{margin-left:14px;background:url("../images/core/tabpbg.gif") repeat-x 0 0 #F7F7F7;padding: 3px;}
+ul.mainNav div.subNav .scatlist a.valink{font-weight:bold; color:#333; margin-left:14px;}
+ul.mainNav div.subNav .subsubNav li a.parentthree{font-size:11px;background: url(../images/core/bullet_grey.png) no-repeat 0 6px; display: block;  padding: 0 0 0 12px;}
+
+
+ul.mainNav li.catlistno1 .subNav, ul.mainNav li.catlistno2 .subNav, ul.mainNav li.catlistno3 .subNav {left:0;}
+ul.mainNav li.catlistno4 .subNav, ul.mainNav li.catlistno5 .subNav, ul.mainNav li.catlistno6 .subNav, ul.mainNav li.catlistno7 .subNav, ul.mainNav li.catlistno8 .subNav, ul.mainNav li.catlistno9 .subNav, ul.mainNav li.catlistno10 .subNav, ul.mainNav li.catlistno11 .subNav {right:0;} 
+
+
+/* category specific */
+
+ul.mainNav div.snchristmas {width: 680px;}
+ul.mainNav div.snchristmas .shopbycat{width: 400px;}
+ul.mainNav div.snchristmas .subsubNav li {float: left; margin-right: 10px; width: 110px;}
+
+ul.mainNav div.snchristmas a.valink, ul.mainNav div.snoffers a.valink{display:none;}
+
+#headercheckout .checkoutsteps {background-color: #F5F5F5; height:24px;margin-left:180px;clear:both;}
+#headercheckout .checkoutsteps li {float:left; display:inline; margin-right:65px;}
+#headercheckout .checkoutsteps li span{font-size:14px; color:#666; padding:5px; float:left;}
+#headercheckout .checkoutsteps li.checkoutBasketOn span,#headercheckout .checkoutsteps li.checkoutLoginOn span,#headercheckout .checkoutsteps li.checkoutStep1On span,#headercheckout .checkoutsteps li.checkoutStep2On span,#headercheckout .checkoutsteps li.checkoutStep3On span,#headercheckout .checkoutsteps li.checkoutStep4On span { font-weight:bold; color:#EF018D;}
+#headercheckout .checkoutsteps li.checkoutStep4, #headercheckout .checkoutsteps li.checkoutStep4On{margin-right:0;}
+#headercheckout .checkoutsteps span{display:block;}
+
+.containerpwrm p, .containerpwrmthankyou p { margin:10px 0;}
+.refinelist p, #redeempromocode div label { font-size:1.1em; }
+#footer .Lcat_footer, * html .ui-helper-clearfix { height:1%; }
+#buttons input, #orderhistory ul#productlist li table.wizrtable tr { vertical-align:top; }
+.required, #orderconfirmation h2.error, #redeempromocode h2.error { color:red; }
+.dontFloat, fieldset.cprofile select { float:none; }
+#orderconfirmation #paymentdetails .paypaltext {padding-left:5px;}
+#orderconfirmation #paymentdetails .paypal img#paypallogo, #myaccount #paymentdetails  img#paypallogo{margin-bottom:10px;}
+#orderconfirmation #paymentdetails .paypal label{font-weight:bold;font-size:1.1em;width:120px;}
+#orderreceipt #paymentdetails img {padding-bottom:10px;padding-left:10px;padding-right:0;padding-top:5px;}
+#orderreceipt #paymentdetails p #displayPaypal-usemail br, #myaccount #paymentdetails  p #displayPaypal-usemail{display:none;}
+#paymentdetails fieldset .credit input {}
+.orderitems, * html .pclookupcontact #buttons { margin-bottom:0; clear:both; margin-top:10px; }
+#paymentdetails fieldset input#dontsavecc{margin: 0 5px 1.5em 12px;}
+.checkoutorcfL .orderitems table.wizrtable thead tr, .checkoutorcfL table.wizrtable tbody tr, .checkoutorfnL .orderitems table.wizrtable thead tr, .checkoutorfnL table.wizrtable tbody tr, #reminderslist tbody td, #addreminder tbody td, #editreminder tbody td, #giftwrap table.wizrtable tbody tr { border-bottom:1px solid #d5d5d5; }
+.checkoutorcfL table.wizrtable thead tr th.priceeach span, .checkoutorfnL table.wizrtable thead tr th.priceeach span, .checkoutorcfL table.wizrtable thead tr th.quantity span, .checkoutorfnL table.wizrtable thead tr th.quantity span, .checkoutorcfL table.wizrtable thead tr th.totalprice span, .checkoutorfnL table.wizrtable thead tr th.totalprice span { color:#111; font-weight:700; text-transform:uppercase; }
+* html #paymentdetails fieldset label a, *:first-child+html #paymentdetails fieldset label a { display:block; font-weight:400; width:170px; }
+#reminderslist p, #addreminder p, #editreminder p, #giftwrap p, .Lcat_basketcontent p, .Lcat_orzccontent p, .addcontactaddress p, .accountconfirm p, .aboutyouregister p, .editcontactaddress p, .addressbook p, #myaccount #coltwo p {margin-bottom:10px; }
+#reminderslist tbody td input, #addreminder tbody td input, #editreminder tbody td input, #redeempromocode div input#promo {border:1px solid #CDCEC8; font-size:1.1em; height:16px; padding:2px 1px; }
+#reminderslist tbody td select, #addreminder tbody td select, #editreminder tbody td select, #giftwrap table.wizrtable tbody td select, #checkout .addcontactaddress form fieldset select { -moz-border-radius:3px; -webkit-border-radius:3px; background-repeat:repeat-x; background-position: -300px -66px; border:1px solid #e1e1e1; font-size:1.1em; height:20px; padding:0px 1px;margin-left: 0;}
+#redeempromocode, #giftwrap, .addressbook {}
+#checkout .signin #email { width:240px; }
+fieldset div.postbox, fieldset div.emailbox { padding:0 0 0 18px; }
+fieldset div.postbox label.input, fieldset div.emailboxl label.input { position:relative; }
+.pclookupcontact, .pclookupdelivery { background:#fff; padding:0 0 20px; }
+.pclookupdelivery h1, .containeroradeditadd h1 { background:url('/content/ebiz/superdrug/resources/images/spacer.gif') no-repeat; }
+.happiness100 a{position:absolute;background:transparent url(/content/ebiz/superdrug/resources/images/events/2010e6/100/happinesswidget.png) no-repeat 0 0;display:block;	height:100px; width:100px;text-indent:-9999px; top:10px; left:0;} 
+
+.catlevelheader{background: url(../images/header_shadow.gif) no-repeat scroll center bottom;padding-bottom:10px;}
+h1{font-size:27px;font-weight:normal;color:#222; margin-bottom:10px;}
+.catlevelheader .longdesc, .catlevelheader .shortdesc, .catlevelheaderb .longdesc, .catlevelheaderb .shortdesc  {width:60%; float:left; clear:both; display:block; line-height:1.5;margin-bottom:10px;}
+.catlevelheaderb, .brandlistinner{background: url(../images/new/header_shadow.gif) no-repeat scroll center bottom!important;padding-bottom:9px;}
+.catlevelheaderb h1 {float:left;}
+.catlevelheaderb img{float:right;}
+.catlevelheaderb .longdesc, .catlevelheaderb .shortdesc{}
+.catlevel1list li {float:left; margin-right:14px; margin-bottom:14px;}
+.catlevel1list li a{float:left; font-size:18px;overflow:hidden; padding: 10px 110px 0 10px; position:relative; width:128px; height:80px; color:#222; line-height:1.2;border:1px solid #d3d3d3;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px; background:url(../images/core/tabpbg.gif) repeat-x 0 100%;}
+.catlevel1list li a span{position:relative; z-index:2; color:#666; font-weight:bold;}
+.catlevel1list li a img{position:absolute; top:0; right:0;z-index:1;}
+.catlevel1list li.subcatlist3, .catlevel1list li.subcatlist6, .catlevel1list li.subcatlist9, .catlevel1list li.subcatlist12, .catlevel1list li.subcatlist15, .catlevel1list li.subcatlist18,.catlevel1list li.subcatlist21, .catlevel1list li.subcatlist24, .catlevel1list li.subcatlist27, .catlevel1list li.subcatlist30, .catlevel1list li.subcatlist33, .catlevel1list li.subcatlist36, .catlevel1list li.subcatlist39{float:right; margin-right:0!important;}
+.catlevel2list li{ float:left;}
+.catlevel2list li a{background: url("../images/core/bullet_grey.png") no-repeat right 5px !important; border-bottom: 1px solid #D5D5D5;clear: both; color: #EF018D; display: inline-block; font-size: 12px; margin: 0 10px 10px 0; padding: 0 0 5px; width: 184px;}
+.catlevel2list li a:hover{border-bottom: 1px solid #666;}
+.catlevel h3{font-size:11px; color:#666; text-transform:uppercase; font-weight:bold;}
+#bestofferstab #catgoldspot h2, #catgoldspot h2, .categorylistfeature h2{display:none;}
+/* register  step - fix on register */
+#becomeloyaltywrap{background: url(../images/loyalty/register_your_card.png) no-repeat left top;height: 184px;margin: 30px 0 20px;}
+#becomeloyaltywrap .checkboxwrap{padding-left: 310px;padding-top: 70px;height: 20px;width: 25px;}
+#becomeloyaltywrap .checkboxwrap input{border: none;background: none;margin:0;padding:0;}
+.addcontactaddress #buttons{text-align: right;}
+
+/*checkout phase 1*/
+#buttons .left{float:left;} 
+#buttons .right{float:right;}
+#buttons .Lcat_orcfcolone {display:none;}
+
+/* lost/stolen card */
+#lostcard legend{text-indent: -5000px;width: 0px;height: 0px;}
+#myaccount #lostcard h2{font-weight: bold;padding-top: 15px;margin-bottom: 5px;}
+#lostcard .cardnumberwrap{padding-top: 5px;position: relative;width: 530px;}
+#lostcard .cardnumberwrap #cardexample{font-size:1.2em;color:#BEBEBE;font-style:italic;left:185px;letter-spacing:1px;line-height:22px;position:absolute;}
+#lostcard .loyaltycardimage{float:right;margin: 0 10px 0 0;}
+#lostcard .note{padding: 0;clear: both;width: 100%;}
+#lostcard .loyaltycardwrap{padding-top: 10px;}
+#lostcard .loyaltycardwrap label{width: 170px;line-height: 1.8em;text-align: left;}
+#lostcard .loyaltycardwrap input{width: 280px;}
+#lostcard #buttons{text-align: right;}
+#lostcard #existingcard{line-height: 2em;float: left;display: block;}
+ 
+
+/* add my card */
+#myaccount #addmycard h2{font-weight: bold;padding-top: 15px;margin-bottom: 5px;}
+#addmycard .cardnumberwrap{padding-top: 5px;position: relative;width: 530px;}
+#addmycard .cardnumberwrap #cardexample{font-size:1.2em;color:#BEBEBE;font-style:italic;left:185px;letter-spacing:1px;line-height:22px;position:absolute;}
+#addmycard .loyaltycardimage{float:right;margin: 0 10px 0 0;}
+#addmycard .note{padding: 0;clear: both;width: 100%;}
+#addmycard .loyaltycardwrap{padding-top: 10px;}
+#addmycard .loyaltycardwrap label{width: 170px;line-height: 1.8em;text-align: left;}
+#addmycard .loyaltycardwrap input{width: 280px;}
+#addmycard #buttons{text-align: right;}
+#addmycard #existingcard{line-height: 2em;float: left;display: block;}
+
+#addcardconfirm #buttonsconfirm .left{float: left;}
+#addcardconfirm #buttonsconfirm input.right{float: right;} 
+
+/* about you*/
+#questionnairewrap h3{color: #000;}
+#questionnairewrap .checkbox input,#questionnaireaccept .termsconditionwrap input{border: none;}
+#questionnairewrap .other label{width: 40px;}
+#questionnairewrap .other input{width: 200px;}
+#questionnairewrap .selectbox{width: 100%;}
+#questionnairewrap .selectbox label{width: 320px;}
+#questionnairewrap .registercollectionservice .selectbox label,
+#questionnairewrap .sendcollectionservice .selectbox label{width: 535px;}
+#questionnairewrap .childlist label{width:80px;}
+#questionnairewrap .childlist .childname input{width: 240px;}
+#questionnairewrap .childlist .childgender{width: 220px;}
+#questionnairewrap .childlist .childgender label {width:60px;}
+#questionnairewrap .childlist .childbirthdate{clear: left;width: 100%;}
+#questionnairewrap .childlist h3{}
+#questionnairewrap .addchild{clear: both;}
+#questionnairewrap #addmorechild{height: auto;width: auto;border: none;}
+#questionnairewrap h3{font-size:1.1em;font-weight:bold;margin:10px 0;}
+#questionnairewrap .suggestion{color:#EF018D;font-weight:bold;}
+#questionnairewrap .selectbox label{font-size:1.1em;font-weight:bold;}
+#questionnairewrap label{text-align: left;}
+#aboutyouwrap #continuebuttons input{height: auto;width: auto;border: none;float: right;}
+#loyaltyaboutyou #buttons{text-align: right;}
+#usxtgenderDiv{width: 100%;}
+
+/* Loyalty - terms and condition */
+#popups #loyaltyterms{padding: 8px;}
+#popups #loyaltyterms{font-size:1.2em;color:#2E2E2E;font-family:Arial,Helvetica Neue,Helvetica,sans-serif;}
+#popups #loyaltyterms h1{color:#EF018D;font-size:2em;font-weight:700;margin:0 0 0.9em;}
+#popups #loyaltyterms h2{color:#EF018D;font-size:1.4em;	margin:0 0 0.9em;font-weight:700;}
+#popups #loyaltyterms p, #popups #loyaltyterms li{line-height:1.4em;margin:0 0 0.9em;}
+#popups #loyaltyterms ol{list-style-type: decimal;padding: 0 0 0 40px ;margin: 1em 0;}
+#popups .close{font-size: 1.2em;padding: 5px;}
+
+/* point balance */
+#pointbalancewrap .pointbox{padding: 30px 0 30px 30px;background-color: #F4F7F8;border: 1px solid #CCCCCC;}
+#pointbalancewrap .pointbox div{font-size: 22px;font-weight: bold;padding:0; float:left;}
+#pointbalancewrap .pointbox .label{display: inline;padding-right: 10px;}
+#pointbalancewrap .pointbox .point{display: inline;color: #952975; float:left;height:35px;position:relative;top:-2px; width:490px;}
+
+/* account confirmation */
+#accountconfirm{padding: 10px 20px;}
+#accountconfirm .smsbox, #accountconfirm .emailbox, #accountconfirm .postbox{border: none;margin: 0;padding: 5px 0;}
+#accountconfirm .yes{margin: 10px 0 0 125px;padding:0;}
+fieldset#accountconfirm label{width: 100px;float: left;text-align: right;}
+fieldset#accountconfirm input{margin-left: 20px;}
+fieldset#accountconfirm p a{color: #E03F75;text-decoration: underline;}
+.accountconfirm #buttons .left{float: left;}
+.accountconfirm #buttons input.right{float: right;}
+
+fieldset#acceptterms label{float: left;width: 300px;}
+fieldset#acceptterms input{float: left;margin-top: 5px;}
+/* aboutyou register */
+#checkout .aboutyouregister .cardnumberwrap{padding-top: 35px;position: relative;width: 530px;}
+.aboutyouregister .cardnumberwrap #cardexample{font-size:1.2em;color:#BEBEBE;font-style:italic;left:190px;letter-spacing:1px;line-height:22px;position:absolute;}
+.aboutyouregister .loyaltycardimage{float:right;margin: 0 10px 0 0;}
+.aboutyouregister .note{padding: 10px 0;}
+.aboutyouregister .loyaltycardimage img{width: 160px;height: 100px;}
+.aboutyouregister .loyaltycardwrap{padding-top: 10px;}
+.aboutyouregister .loyaltycardwrap label{width: 170px;line-height: 1.2em;}
+.aboutyouregister .loyaltycardwrap input{width: 280px;}
+.aboutyouregister #buttons .left{float: left;}
+.aboutyouregister #buttons input.right{float: right;}
+
+/* LOYALTY BT MASTER */
+	/* generic styles */
+	.lleft{float:left;}
+	.lright{float:right;} 
+	.ltop-bg{font-size:12px; line-height:1.5; color:#49176d;}
+	.bciconsmall{margin-left:3px;}
+	span.b{font-weight:bold; color:#EF018D;} 
+	.ltop-bginner .ltext, .ltop-bginner .ltext span, .ltop-bginner .ltext a{font-weight:bold;}
+	.lblock h2{font-size:20px; font-weight:bold; color:#EF018D; margin-bottom:10px;}
+	.lblock p{margin-bottom:10px;}
+	.lbutton{display:block; text-indent:-9999px;height:19px; width:102px;}
+	.ldark h2{color:#49176d;}
+	.bigpoints{font-size:18px; color:#49176d;}
+	.lmini{height:85px;border:1px solid #d5d5d5;-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px;margin-right:10px;margin-bottom:10px;width:250px;}
+	.llast{margin-right:0;}
+/* TOP BANNER AREA on all pages */ 
+.ltop-bg{background:url(../images/loyalty/loyaltybg.gif) no-repeat 0 0;margin-bottom:10px;}
+.ltop-bginner .ltext {padding:8px;}
+
+/*L-MY ACCOUNT */
+.bccatheader{background:url(../images/loyalty/loyaltyheaderpromo.jpg) no-repeat 0 0; height:273px;}
+.bccatheaderbeauty{background:url(../images/loyalty/loyaltyheaderpromo.jpg) no-repeat 0 0; height:273px;}
+.bccatheaderwrap{padding:20px 380px 20px 20px;}
+
+.lblock {min-height:120px;margin-bottom:10px;width:381px;}
+.lblockwrap{padding:5px 120px 5px 10px;}
+.lpink{background:url(../images/loyalty/lpink.gif) no-repeat 0 0;}
+.ldark{background:url(../images/loyalty/ldark.gif) no-repeat 0 0;}
+.learnpoints{background:url(../images/loyalty/learnpoints.gif) no-repeat 0 0;}
+.lfindoutmore{background:url(../images/loyalty/lfindoutmore.gif) no-repeat 0 0;}
+.lregister{background:url(../images/loyalty/lregister.gif) no-repeat 0 0;}
+.lgo{background:url(../images/loyalty/lgo.gif) no-repeat 0 0;width:37px;}
+.lstorefinder{background:url(../images/loyalty/lstorefinder.gif) no-repeat 0 0;width:165px;}
+.lminiwrap{padding:10px;}
+.lmini h3{font-size:14px; font-weight:bold; color:#333; margin-bottom:10px;}
+#bcpages h1, #bcpages h2, #bcpages h3{ margin-bottom:5px; color:#49176d; font-weight:bold;}
+#bcpages #coltwo p{ margin-bottom:10px; color:#333;}
+#bcpages h1{ font-size:30px;color:#49176d;}
+#bcpages h2{font-size: 20px;}
+#bcpages h3{font-size: 14px; color:#ec008c;}
+.bpink{color:#ec008c; font-weight:bold;}
+.bcicon{ background:url(../images/loyalty/bcicon.gif) no-repeat 0 0; text-indent:-9999px; display:block; width:263px; height:65px; margin-bottom:20px;}
+.lsteps li h3 { padding-right:40px;}
+.lsteps li.step1 h3{background:url(../images/loyalty/s1.gif) no-repeat top right;}
+.lsteps li.step2 h3{background:url(../images/loyalty/s2.gif) no-repeat top right;}
+.lsteps li.step3 h3{background:url(../images/loyalty/s3.gif) no-repeat top right;}
+.lsteps li.step4 h3{background:url(../images/loyalty/s4.gif) no-repeat top right;}
+.bcinnericon{ margin: 30px;}
+ul.ul li{list-style-image: url(../images/core/bullet_grey.png);margin: 0 0 5px 20px;}
+.headerlinks .bclinktop a {background: url(../images/loyalty/bclinkicon.gif) no-repeat scroll 2px 1px;border: 1px solid;padding: 2px 2px 2px 29px;}
+#colone .Lmyacccontactdetails ul li{ background:none; padding:0;}
+#checkout #bcregisterwrap{background:url(../images/loyalty/loyaltyregister.jpg) no-repeat top left; padding:10px 340px 10px 10px; height:185px; border:none;}  
+#checkout #bcregisterwrap h2 { margin-bottom:10px;}
+#checkout #bcregisterwrap label{ text-align:left; width:340px;}
+#beautycardspecial .lmini{height: 385px;}
+.pcomms{background:url(../images/loyalty/pcomms.gif) no-repeat 0 0;}
+.phistory{background:url(../images/loyalty/phistory.gif) no-repeat 0 0;}
+.pprofile{background:url(../images/loyalty/pprofile.gif) no-repeat 0 0;}
+.pstorefinder{background:url(../images/loyalty/pstorefinder.gif) no-repeat 0 0;}
+.lblock .lcheck{background:url(../images/loyalty/lcheck.gif) no-repeat 0 0;width:140px;}
+.lview{background:url(../images/loyalty/lview.gif) no-repeat 0 0;width:62px;}
+.lupdate, .lcustomlinks a{background:url(../images/loyalty/lupdate.gif) no-repeat 0 0;width:62px;}
+.lblock .ladd{background:url(../images/loyalty/ladd.gif) no-repeat 0 0;width:133px;}
+.bccatheaderpromo{background:url(../images/loyalty/loyaltyheaderpromo.jpg) no-repeat 0 0; min-height: 273px; margin-bottom:10px;}
+#myformcommoption legend, .lcustomlinks h2, .lcustomlinks .first, .lcustomlinks .last{display:none;}
+.lcustomlinks a{display:block;height:19px;text-indent:-9999px;width:102px}
+#productdetail .desc .promotext a, .earnpoint, .pfreegift, .bundlein, .promotext a{font-size:11px;padding:0 2px;border-radius:3px;-moz-border-radius:3px; -webkit-border-radius:3px; border:1px solid;font-weight:bold;}
+.earnpoint{color:#49176D; float:left;} .earnpoint a{color:#49176D; font-weight:bold;} .earnpoint span{font-weight:bold;}
+.pfreegift, .bundlein{border:1px solid #EF018D;color:#EF018D;}
+.promotext, .earnpoint{margin-bottom:5px;margin-right:5px; clear:both;}
+.pfreegift{margin-right:0;}
+.bundlein{float:left;background-color:#EF018D; color:#fff;}
+.bundlein a {color:#fff;}
+/* Competition List */ 
+.competitionlist li{float:left;margin-bottom:20px;margin-right:20px;width:136px;}
+.competitionlist li h2{font-weight:bold;font-size:11px; overflow:hidden;height:35px;margin:5px 0;}
+.competitionlist li h2 a{ color:#333; font-weight:bold;}
+.competitionlist li .enternow a{background: url("../images/pages/dare/images/enternow.gif") no-repeat 0 0;display:block;height:19px;width:83px;text-indent:-9999px;}
+#topbrands .jcarousel-prev, #topbrands  .jcarousel-next {position: absolute;top: 10px;width: 12px;height: 20px;cursor: pointer;}
+#topbrands .jcarousel-prev{right:30px;background: url(../images/core/arrows/arrow_left.gif) no-repeat 0 0;}
+#topbrands .jcarousel-next {right: 10px;background: url(../images/core/arrows/arrow_right.gif) no-repeat 0 0;}
+#catgoldspot{ position:relative; margin-bottom:10px;height:auto;}
+.catgoldtabswrap {left: 20px;z-index: 2;position: absolute;bottom: 0;background:  url(../images/new/cattab_l.png) no-repeat 0 0;}
+.catgoldtabswrap ul.catgoldtabs{background:  url(../images/cattab_r.png) no-repeat  right top; float:left; margin-left:3px;}
+ul.catgoldtabs li { float:left; margin-right:2px;}
+ul.catgoldtabs li a {padding:1px 5px ; font-size:12px;}
+ul.catgoldtabs li a.current {background:url(../images/cattab_s.gif) no-repeat 0 0; color:#fff;}
+ul.catgoldtabs li a.current span{color:#fff;}
+ul#catgoldoutput{width: 780px;height: 261px; position:relative;}
+ul#catgoldoutput li { position:absolute; display:none;}
+ul#catgoldoutput li.prolist1 {display:block;}
+ul#catgoldoutput li a {display:block;padding: 0px; position:relative;}
+#productdetail .text .landing-link a, #productdetail .desc1 .landing-link a {background-position: -1210px -89px;}
+#coltwo .emailerror, .containerorscempty p {line-height: 1.5;font-weight: bold;font-size: 13px;}
+.promotions #coltwo li {margin-bottom:10px;float:left;}
+.promotions #coltwo li a {border:1px solid #cdcec8;float:left;	margin-right:20px;	padding:10px;width:210px;}
+.promotions #coltwo li a:hover {background-color:#fcfcfc;}
+#sociallike{clear:both; margin-top:10px;overflow:hidden;height:30px;}
+#sociallike a.addthis_button_expanded{display:none!important;}
+.at15t_print, .at15t_email {margin-right:4px;}
+.addthis_toolbox a{font-size:11px;}
+.addthis_toolbox a.writeareview {background:url(../images/core/icons/reviewicongrey.png) no-repeat 0 0; float:left;padding:0 0 0 20px;}
+.followusblock a.bloglink {text-indent:-9999px;display:block;height:32px;width:32px;float:left;position:relative;top:-2px;margin-left:2px;background:url("../images/core/icons/blog.gif") no-repeat 0 0;}
+div.products div.details input#qty {background-position: -290px -22px;border:0;font-size:1.2em;height:25px;padding:5px 0 0 10px;width:49px;}
+.forgottenpasswordlink {width:341px;float:left;}
+.forgottenpasswordlink a {font-size:11px;margin-left:25px;display:none;}
+.Lcat_pwrmcolumn .helpinfo li {margin-bottom:10px;}
+#orderhistory ul#orders_list li table.wizrtable, #orderdetail table.wizrtable {margin:0 0 10px 0;	text-align:left;}
+#orderhistory .ordersListBox h2, .ohSumDetail h2, .paymentdetails_orlk h2, #paymentdetails_orlk h2, #contactdetails_orlk h2, #orderdetail .orderitems h2 {color:#EF018D;font-weight:bold;}
+#orderhistory ul#orders_list li .vieworder {float:left;}
+#paymentdetails_orlk #paymentdetails h2{display:none;}
+#paymentdetails_orlk #paymentdetails {background:none; padding:0; float:none;}
+#orderdetail .deliveryaddress {float:left;margin-left:10px;}
+#orderdetail .orderitems {clear:both;background:none;width:720px;}
+#orderdetail .orderitems table th {padding:5px;}
+.indexblock {border: 1px solid #D3D3D3; float: left; margin-bottom: 20px; margin-right: 20px; padding: 15px; width: 205px;}
+#coltwo ul.catlistfp{margin-bottom:10px;}
+ul.catlistfp li{float:left; width:385px;}
+ul.catlistfp li.cb1, ul.catlistfp li.cb3, ul.catlistfp li.cb5, ul.catlistfp li.cb7, ul.catlistfp li.cb9,ul.catlistfp li.cb11, ul.catlistfp li.cb13,ul.catlistfp li.cb15,ul.catlistfp li.cb18,ul.catlistfp li.cb21{margin-right:10px;}
+ul.catlistfp li a{display:block;color:#fff;}
+ul.catlistfp li a:hover {text-decoration:none; color:#ffe7f0; cursor:pointer;}
+ul.catlistfp li a:hover .bannertitle span {text-decoration:underline;}
+ul.catlistfp li .cbleft{float:left;overflow:hidden;position:relative;width:49%; text-align:center; display:block;height:191px;border:1px solid #d5d5d5;border-top-left-radius:3px;-moz-border-radius-topleft:3px; -webkit-border-radius-topleft:3px; border-bottom-left-radius:3px;-moz-border-radius-bottomleft:3px;-webkit-border-radius-bottomleft:3px;border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;-webkit-border-radius-bottomright:3px;}
+ul.catlistfp li .cbleft img{margin-top:11px;}
+ul.catlistfp li .cbleftempty{background:url(../images/bannerl.gif) no-repeat 50% 50%;}
+ul.catlistfp li .cbright{float:left; width:50%; height:193px; position:relative; background-color:#d91e63;border-top-right-radius:3px;
+ 	-moz-border-radius-topright:3px; -webkit-border-radius-topright:3px;line-height:1;}
+
+ul.catlistfp li .cbright .bannertitle {position:absolute;bottom:0;background-color:#000;width:100%;border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;-webkit-border-radius-bottomright:3px;}
+ul.catlistfp li .cbright .bannertitle span{background:url(../images/core/bullet_white.png) no-repeat 7px 7px;display:block; padding:5px 5px 5px 17px; color:#fff;font-size:11px; line-height:1.1;}
+
+ 
+ul.catlistfp li .cbright .bannertype{display:block; height:120px;text-align:center;position:relative;}
+ul.catlistfp li .cbright .bannertype .typeitem{position:relative;}
+
+.invertfp ul.catlistfp li a{color:#EF018D;position:relative;height:195px;}
+.invertfp ul.catlistfp li .cbright {background: url("../images/core/tabpbg.gif") repeat-x scroll 0 bottom ;border:1px solid #d5d5d5;border-left:none;height:190px;}
+.invertfp ul.catlistfp li {margin-bottom:10px;}
+/* t 3for 2 or 4 for 3 or x for x singular */
+ul.catlistfp li .cbright .bannertype .txforx{top:35px;}
+ul.catlistfp li .cbright .bannertype .txforx .med{font-size:50px;font-weight:bold;}
+ul.catlistfp li .cbright .bannertype .txforx .small{font-size:25px;font-weight:normal;}
+ul.catlistfp li .cbright .bannertype .t3forxm {top:20px;}
+ul.catlistfp li .cbright .bannertype .t3forxm .text{display:block;clear:both;font-size:20px;}
+
+ul.catlistfp li .cbright .bannertype .t3forx .small, ul.catlistfp li .cbright .bannertype .t3forxm .small{position:relative; bottom:10px;}
+ul.catlistfp li .cbright .bannertype .pound{font-size:45px;}
+ul.catlistfp li .cbright .bannertype .pencei{font-size:45px;}
+
+/* t 2for £5 money type */
+ul.catlistfp li .cbright .bannertype .txforxx{top:15px;}
+ul.catlistfp li .cbright .bannertype .txforxx .med{font-size:50px;font-weight:bold;}
+ul.catlistfp li .cbright .bannertype .txforxx .small{font-size:25px;font-weight:normal;margin-right:2px;}
+ul.catlistfp li .cbright .bannertype .txforxx .medx{display:block;clear:both;font-size:60px;font-weight:bold;}
+
+/* t 1/2 price */
+ul.catlistfp li .cbright .bannertype .thp{top:15px;}
+ul.catlistfp li .cbright .bannertype .thp .med{font-size:90px;font-weight:bold;display:block;}
+ul.catlistfp li .cbright .bannertype .thp .smallx{font-size:25px;font-weight:normal;clear:both;}
+
+/* t better 1/2 price */
+ul.catlistfp li .cbright .bannertype .tbhp{top:20px;}
+ul.catlistfp li .cbright .bannertype .tbhp .med{font-size:60px;font-weight:bold;display:block;}
+ul.catlistfp li .cbright .bannertype .tbhp .smallx{font-size:20px;font-weight:normal;}
+ul.catlistfp li .cbright .bannertype .tbhp .smallxx{font-size:20px;font-weight:normal;display:block;}
+
+/* t bogof price */
+ul.catlistfp li .cbright .bannertype .bogof{top:25px;}
+ul.catlistfp li .cbright .bannertype .bogof .med{font-size:60px;font-weight:bold;display:block;clear:both;}
+ul.catlistfp li .cbright .bannertype .bogof .smallx{font-size:25px;font-weight:normal;display:block;}
+
+/* t only pence price */
+ul.catlistfp li .cbright .bannertype .pence{top:30px;}
+ul.catlistfp li .cbright .bannertype .pence .med{font-size:60px;font-weight:bold;display:block;clear:both;}
+ul.catlistfp li .cbright .bannertype .pence .smallx{font-size:25px;display:block;}
+
+/* t Free Gift price */
+ul.catlistfp li .cbright .bannertype .gift{top:25px;}
+ul.catlistfp li .cbright .bannertype .gift .med{font-size:45px;font-weight:bold;display:block;clear:both;}
+ul.catlistfp li .cbright .bannertype .egift{top:15px;}
+/* t save price */
+ul.catlistfp li .cbright .bannertype .save{top:25px;}
+ul.catlistfp li .cbright .bannertype .save .small{font-size:25px;display:block;clear:both;}
+ul.catlistfp li .cbright .bannertype .save .medx {font-size:45px;font-weight:bold;display:block;clear:both;}
+/* deal */
+ul.catlistfp li .dealoftheweek{background-color:#000;}
+ul.catlistfp li .cbright .bannertype .dealotw{top:10px;}
+ul.catlistfp li .cbright .bannertype .dealotw .small{font-size:18px;display:block;clear:both;}
+ul.catlistfp li .cbright .bannertype .dealotw .med {font-size:40px;font-weight:bold;display:block;clear:both;}
+ul.catlistfp li .cbright .bannertype .dealotw .medx {font-size:40px;font-weight:bold;display:block;clear:both;}
+
+ul.catlistfp li .cbright .bannertype .txsale {top:20px;}
+ul.catlistfp li .cbright .bannertype .txsale .small{font-size: 18px; padding: 0pt 10px; line-height: 1.5;display:block;clear:both;}
+ul.catlistfp li .cbright .bannertype .txsale .med {font-size: 46px; padding: 0pt 10px; line-height: 1.5;display:block;clear:both;}
+
+ul.catlistfp li .cbright .bannertype .emptypromo {top:20px;}
+ul.catlistfp li .cbright .bannertype .emptypromo .med{font-size: 18px; padding: 0pt 10px; line-height: 1.5;display:block;clear:both;}
+
+/* default */
+ul.catlistfp li .cbright .bannertype .default
+{
+	top:20px;
+}
+
+ul.catlistfp li .cbright .bannertype .default .med
+{
+	display: block;
+    font-size: 20px;
+}
+
+/* html */
+ul.catlistfp li .cbright .bannertype .html
+{
+	top:20px;
+}
+ul.catlistfp li .cbright .bannertype .html .large{font-size:40px;line-height:45px;}
+ul.catlistfp li .cbright .bannertype .html .mid{font-size:30px;line-height:35px;}
+ul.catlistfp li .cbright .bannertype .html .small{font-size:20px;line-height:25px;}
+ul.catlistfp li .cbright .bannertype .html .smallx{font-size:15px;line-height:20px;}
+
+.categoryofferslist ul.catlistfp li{margin-bottom:10px;}
+.categoryofferslist .categoryofferslist ul.catlistfp li.cb3, .categoryofferslist .categoryofferslist ul.catlistfp li.cb4,.categoryofferslist .categoryofferslist ul.catlistfp li.cb5,.categoryofferslist .categoryofferslist ul.catlistfp li.cb6,.categoryofferslist .categoryofferslist ul.catlistfp li.cb7,.categoryofferslist .categoryofferslist ul.catlistfp li.cb8{display:none;}
+#platinumspot {margin-bottom:10px;}
+#platinumspot ul.catlistfp li .cbleft{width:46%;overflow:hidden;}
+#platinumspot ul.catlistfp li .cbright{width:53%;}
+#platinumspot ul.catlistfp li .cbleft img{position:relative; left:-12%;}
+#platinumspot ul.catlistfp li{float:left;margin-right:10px; width:232px;}
+#platinumspot ul.catlistfp li.cb2, #platinumspot ul.catlistfp li.cb4{float:left;}
+#platinumspot ul.catlistfp li.cb4{margin-right:0;}
+#platinumspot .bannertype .pound{font-size:35px;}
+#platinumspot .bannertype .txforxx .medx, #platinumspot .bannertype .bogof .medx, #platinumspot ul.catlistfp li .cbright .bannertype .bogof .med, #platinumspot ul.catlistfp li .cbright .bannertype .txforx .med{font-size:45px;}
+#platinumspot ul.catlistfp li .cbright .bannertype .savexx .medx {font-size:40px;}
+#platinumspot ul.catlistfp li .cbright .bannertype .bogof .smallx{font-size:20px;}
+#platinumspot ul.catlistfp li .cbright .bannertype .bogof{top:35px;}
+
+#platinumspot ul.catlistfp li .cbright .bannertitle {position:absolute;bottom:0;background-color:#000;width:100%;border-bottom-right-radius:3px;-moz-border-radius-bottomright:3px;-webkit-border-radius-bottomright:3px;}
+#platinumspot ul.catlistfp li .cbright .bannertitle span{background:url(../images/core/bullet_white.png) no-repeat 7px 7px;display:block; padding:5px 5px 5px 17px; color:#fff;font-size:11px; line-height:1.1;}
+
+.innershadow .isingle .hd .c,.innershadow .isingle .ft .c,.outershadow .isingle .hd .c,.outershadow .isingle .ft .c {font-size:1px;height:11px;}.innershadow .isingle .ft .c {height:15px;background:transparent url(../images/core/corner/inner/br.png) no-repeat right 0;}.innershadow .isingle .hd,.innershadow .isingle .ft {margin-right:14px;margin-top:-1px;}.innershadow .isingle .hd .c,.innershadow .isingle .ft .c {margin-right:-14px;}.innershadow .isingle .bd {margin-right:6px;background:transparent url(../images/core/corner/inner/ml.png) repeat-y 0 0;}.innershadow .isingle .bd .c {margin-right:-6px;background:transparent url(../images/core/corner/inner/mr.png) repeat-y right 0;}.innershadow .isingle .bd .c .s {margin:0 8px;padding:10px 10px 0;}.innershadow .isingle hd {background:transparent url(../images/core/corner/inner/tl.png) no-repeat 0 0;}.innershadow .isingle .hd .c {background:transparent url(../images/core/corner/inner/tr.png) no-repeat right 0;}.innershadow isingle .bd .c .s {background:#fff url(../images/core/corner/inner/ms.png) repeat-x 0 0;}.innershadow .isingle .ft {background:transparent url(./images/core/corner/inner/bl.png) no-repeat 0 0;}.outershadow .isingle .hd,.outershadow .isingle .ft {margin-right:14px;}.outershadow .isingle .hd .c,.outershadow .isingle ft c {margin-right:-14px;}.outershadow .isingle .bd {margin-right:6px;}.outershadow .isingle .bd .c {margin-right:-6px;background:transparent url(../images/core/corner/outer/mr.png) repeat-y right 0;}.outershadow .isingle .hd {background:transparent url(../images/core/corner/outer/tl.png) no-repeat 0 0;}.outershadow .isingle .hd .c {background:transparent url(../images/core/corner/outer/tr.png) no-repeat right 0;height:17px;}.outershadow .isingle bd {background:transparent url(../images/core/corner/outer/ml.png) repeat-y 0 0;}.outershadow .isingle .bd .c .s {background:#fff url(../images/core/corner/outer/ms.png) repeat-x 0 0;}.outershadow .isingle .ft {background:transparent url(../images/core/corner/outer/bl.png) no-repeat 0 0;margin-right:14px;}.outershadow .isingle .ft .c {background:transparent url(../images/core/corner/outer/br.png) no-repeat right 0;margin-right:-14px;}.innershadow isinglelarge,.outershadow .isinglelarge {width:275px;}.innershadow .isinglemedium,.outershadow .isinglemedium {width:174px;}.innershadow isinglessmall,.outershadow .isinglesmall {width:115px;}
+.isingle h2 {font-size:14px;margin-bottom:5px;}.isingle h2 a{font-weight:bold; color:#333;}.isingle .isinglemedia {text-align:center;}.isinglelarge .isinglemedia a {display:block;}.isinglesmall .isinglemedia a {height:84px;	width:84px;}.isinglemedium .isinglemedia a {display:block;}.isingle .idesc {font-size:11px;color:#333;}.isingle .idesc li{list-style:disc inside;margin-left:5px;}.isingle .iprice {margin-bottom:5px;}.isingle .iprice .iwas {font-size:10px;	font-weight:bold;color:#666666;}.isingle .iprice .inow {color:#D91E63;float:left;font-size:1.4em;font-weight:700;text-transform:uppercase;}.isingle .iunitofmeasure {color:#666;font-size:10px;clear:both;}.isingle .promotext {color:#D91E63;font-size:11px;font-weight:700;clear:both;display:block;margin-bottom:5px;}.isingle .istockinfo .iinstock, .isingle .iprice .inow span, .isingle .iinstock, .isingle .iprice .iwas span {display:none;}.isingle div.iqty {float:left;margin-right:5px; display:none;width:70px;}.isingle .iqty .iqty{float:none;display:block;}.isingle .iqty span {float:left;margin-right:5px;margin-top:7px;}.isingle .iqty input#iqty {	margin-bottom:10px;	font-size:12px;	text-align:center;	width:15px;}.isingle .details{height:auto;border:none;padding:0;}.isingle form{clear:both;}.isingle .iinstock {	color:#009900;font-size:1.1em;font-weight:700;	margin-bottom:5px;}.isingle .ioutstock {color:#E31230;	font-size:1.1em;font-weight:700;margin-bottom:5px;}.ibasketlinks a {display:block;height:19px;margin-bottom:5px;text-indent:-9999px;}.ibasketlinks a.imoreinfo {background:url("../images/events/2010e5/eylure/moreinfo.png") no-repeat scroll 0 0 transparent;width:78px;margin-right:0px;}.ibasketlinks a.iaddtobasket {background:url("../images/events/2010e5/eylure/addtobasket.png") no-repeat scroll 0 0 transparent;width:105px;}.ibasketlinks a.iemailme {background:url("../images/events/2010e5/eylure/emailbutton.png") no-repeat scroll 0 0 transparent;width:70px;float:left;}
+
+ul.brandsubcategories li {border:1px solid #d3d3d3;background:url(../images/core/tabpbg.gif) repeat-x 0 100% transparent;float:left;height: 100px;margin:0 10px 10px 0;padding:5px 10px;text-align:center;width:162px;position:relative;}
+ul.brandsubcategories li.charcat{background: none #F7F7F7;}
+ul.brandsubcategories li.charcat a {font-size:40px; color:#d3d3d3;position:absolute; bottom:0; right:10px;}
+.a-to-z-brands ul.brandsubcategories li a span {clear:both;display:block;}
+.f_women_celebrity ul.brandsubcategories li a span {clear:both;display:block;}
+.atozlinks{margin-bottom:5px;}
+.atozlinks li{display:inline;}
+.atozlinks li a{float:left;display:block; padding:5px 8px; border:1px solid #d3d3d3; margin-right:-1px;}
+.atozlinks .filterinput{float: left; height: 24px; margin-right: 5px; width: 80px; border-color: #EC008C;color: #EC008C;}
+#orderconfirmation #ordersummary a {float:left;margin:20px;}
+.scompetitions {font-family:Georgia, "Times New Roman", Times, serif;}
+.scompetitions #colone {position:relative;top:-5px;}
+.scompetitions h2{font-size:25px;}
+.scompetitions H2 span, .scompetitions .daremaglist li span {color:#ec008c;}
+.scompetitions .dareheader .editornote h2 span {color:#222;}
+.scompetitions h3 {font-size:20px;}
+
+.daretcdesc ul
+{
+	margin:0 0 0 20px;
+}
+
+.daretcdesc ul li
+{
+	list-style:disc;
+	list-style-position:outside;
+	margin:0 0 0 20px;
+}
+.daretcdesc ol li
+{
+	list-style:decimal;
+	list-style-position:outside;
+	margin:0 0 0 20px;
+}
+
+.daretcdesc ol ol li
+{
+	list-style:lower-alpha;
+	margin:0 0 0 40px;
+}
+.dareheader .floatL {float:left;}
+.dareheader .floatR {float:right;display:block;width:407px;height:171px;background:url(/content/ebiz/superdrug/page/dareheader/editornote.jpg) no-repeat 0 0;}
+.dareheader .editornote {display:block;padding:10px 175px 10px 30px;color:#fff;font-size:12px;}
+.dareheader .floatL a {display:block;background:url(/content/ebiz/superdrug/page/dareheader/darelogo.gif) no-repeat 0 0;width:515px;height:183px; text-indent:-9999px;}
+.darefullinner {border-top:1px solid #ccc;padding-top:10px;position:relative;}
+#dareoverview h2 {color:#d91e63;font-size:2em;font-weight:700;margin:0 0 .4em;}
+.backlink a {background-image:url("../images/sprite.png");background-position:0 -668px;	display:block;height:19px;text-indent:-5000px;width:51px;}
+.darefullinner .darecompetitionexpiremain {clear:both;color:#666;font-size:12px;}
+.darebody .daremainimg {float:left;width:170px;}
+.darebody .daremainimg img, .darelike {border:1px solid #efefef;margin-bottom:10px;padding:10px;}
+.daremainsummary {float:right;width:710px;}
+h3.closed {font-weight:bold;background-color:#d91e63;color:#fff;padding:30px;margin-bottom:10px;font-size:18px;}
+.scompetitions .clist li {clear:both;margin-bottom:10px;border-bottom:2px dotted #d3d3d3;padding-bottom:10px;}
+.scompetitions .clist .competitionimage {float:left;margin-right:20px;}
+.scompetitions .crightb {float:left;width:600px;}
+.scompetitions .cimage {float:left;margin-right:20px;}
+.scompetitions .expirydate {margin-bottom:10px;}
+.scompetitions .sociallike {float:right;clear:both;}
+.info, .success, .warning, .error, .validation, p#addedmsg {border:1px solid;margin:10px 0;padding:15px 10px 15px 50px;background-repeat:no-repeat;	background-position:10px center;}
+.info {color:#00529b;background-color:#bde5f8;background-image:url(../images/core/icons/info.png);}
+.success, p#addedmsg {color:#4f8a10;background-color:#dff2bf;background-image:url(../images/core/icons/success.png);}
+.warning {color:#9f6000;background-color:#feefb3;background-image:url(../images/core/icons/warning.png);}
+.error {color:#d8000c;background-color:#ffbaba;background-image:url(../images/core/icons/error.png);}
+.freegiftwrapinvt {display:inline-block;padding:10px;border:1px solid #d5d5d5;background-color:#fff;float:right;width:143px;margin-left:10px;}
+.freegiftwrapinvt h2 {text-align:center;font-size:16px;color:#d91e63;margin-bottom:5px;	font-weight:bold;}
+.fglist .image img
+{
+	width:143px;
+	heigth:143px;
+}
+#coltwo .freegiftsku .invtmedia {width:300px;}
+#coltwo .freegiftsku .desc {width:470px;}
+.brandguidelines .catlevelheader {border:10px solid #ec008c;padding:15px;background:url(/content/ebiz/superdrug/icat/guidelines/brandh.jpg) no-repeat right bottom;}
+.addtobasketmulti {background-color:#e7e7e7;margin:5px 0;padding:5px;text-align:right;}
+.btn {background-color:#222;border:none;color:#fff;cursor:pointer;font-weight:bold;padding:5px;text-transform:uppercase;}
+.pgetgift, #bundles {padding:10px;position:relative;clear:both;}
+.singleselector {position:relative;	margin-bottom:5px;}
+.singleselector .ssoverlay {background-color:#fff;display:block;float:left;height:20px;left:0;filter:alpha(opacity=50);	opacity:.5;	-moz-opacity:.5;	osition:absolute;top:0;width:20px;}
+.pgetgift {padding:10px;border-radius:3px;-moz-border-radius:3px;-webkit-border-radius:3px;font-weight:bold;border:1px solid #d91e63;}
+.pgetgift h2 {font-weight:bold;font-size:14px;margin-bottom:5px;}
+.pgetgift h3 {font-weight:bold;color:#d91e63;margin-bottom:5px;}
+.pgetgift p {font-style:italic;	font-weight:bold;}
+.pgetgift .instock {float:right;position:absolute;bottom:0;	right:20px;}
+.pgetgift .multiselector {border:1px solid #d5d5d5;clear:both;height:84px;margin-bottom:10px;padding:10px;}
+.pgetgift .singleselector {border:1px solid #d5d5d5;clear:both;margin-bottom:10px;padding:10px;}
+.pgetgift .fmultiimg {float:left;}
+#bundles {margin-bottom:10px;clear:both;}
+#bundles h2 {font-size:16px;margin-bottom:10px;font-weight:bold;}
+.bundleimages .bi {float:left;margin-right:15px;}
+.bundleimages .plus {font-size:40px;margin-top:15px;color:#666;	margin-bottom:15px;}
+.bundleimages li#buytogether {margin-right:0;width:275px;}
+.bundleimages li#buytogether h3 {font-size:16px;font-weight:bold;line-height:1.2;}
+.bundleimages li#buytogether h3 span {font-weight:bold;color:#d91e63;font-size:17px;}
+.bundleimages li#buytogether #totalPriceno, .bundleimages li#buytogether #totalSaveno, .indselprice #totalsellingprice {border:medium none;color:#d91e63;font-family:Arial;background-color:#fcfcfc;font-size:17px;font-weight:bold;padding:0;position:relative;top:-1px;	width:45px;}
+#buytogether .btn {margin-bottom:5px;}
+.bundleimages img, .multiimg img, .multiselector .imultiimg img, .justselector .multiimg img {border:1px solid #d5d5d5;padding:3px;	background-color:#fff;}
+.justselector{position:relative;}
+.justselector .ssoverlay {background-color:#fcfcfc;display:block;float:left;height:20px;left:0;filter:alpha(opacity=50);opacity:.5;-moz-opacity:.5;	position:absolute;top:0;width:20px;}
+#discountprice {display:block;}
+.multiselectorwrap .multiinfo {background-color:#fff;border:2px solid;margin-right:10px;padding:20px;position:absolute;bottom:10px;width:710px;	z-index:10;left:10px;}
+.bundleimages .bundleselectextm {background-color:#d91363;color:#fff;font-weight:bold;margin-top:25px;padding:10px;}
+.bundleimages #totalsaving {margin-bottom:5px;font-weight:bold;}
+.bundleimages #totalsaving span {font-weight:bold;}
+.bundleimages #totalsaving #totalSavenoswrap, .bundleimages #totalsaving #discountpricenowrap {color:#d91e63;}
+.bundleimages li#buytogether #totalSaveno {width:36px;}
+.bundleimglist {position:relative;float:left;}
+.bundleimglist .bimulti, .multiselectorwrap .multiinfo, .bundlelister .clearselection, .multiselector .imultiinfo, .iclearselection, .multiselector .miprice .pricename, .justselector .multiinfo {display:none;}
+.multiimg {margin-right:10px;}
+.multiselectorwrap {margin-bottom:10px;}
+.bundleimglist .bimulti {margin-right:0;}
+.multiselector .multicheckdefault {margin-left:0;float:left;}
+.multiselector .ibundlemultichecklabel, .multiinfo .multiimg, .multiselector .multiinfobox, .multiselector .imultiimg, .justselector .multiselector {float:left;}
+.multiinfo .multiinfobox {float:left;width:430px;}
+.multiselector .multiinfobox, .justselector .multiinfobox {width:555px;}
+.multiinfobox .price .now span, .miprice .now span {font-weight:bold;color:#d91e63;font-size:18px;}
+.multiinfobox .instock, .bundlelister h3 {font-weight:bold;	margin:10px 0;}
+.multiselector .imultiimg {margin-left:25px;}
+.indselprice, .indselprice #totalsellingprice, .indselprice span {color:#222;font-weight:normal;}
+.bundlelister .multiselector {float:left;margin-right:10px;	width:92px;}
+.bundlelister .multiselector label {font-size:11px;}
+.promnote {text-align:right;}
+.mibclose {float:right;clear:both;}
+.moreinfobtn {float:left;}
+.showhidebundle, .moreinfobtn, .mibclose {color:#d91e63;cursor:pointer;}
+.bundlebuy2select h3 {color:#d91e63;font-weight:bold;margin-bottom:5px;}
+.bundlebuy2select .multiselector {float:left;width:92px;margin-right:10px;}
+#bundles .bior {font-size:20px;margin-top:25px;color:#d91e63;float:left;margin-right:10px;}
+#bundles .bior8 {clear:both;}
+.earnpoint, .bundlelister .bior2, .bundleimages .bior1 {display:none;}
+ul.catlistfp li .cbright .bannertype .save .medx {font-size:60px;}
+.styler {padding: 20px 0 20px 20px;line-height:1.5; font-size:12px;}
+.styler .isingle .isinglemedia{float:left; margin: 0 10px 10px 0; border:1px dotted #d3d3d3; padding:10px;background-color:#fff;}
+.styler .isingle .isdesciptions{float: left; width: 330px;}
+.styler .isingle .ibasketlinks a.imoreinfo {float:left; margin-right:10px;}
+.styler .isingle .ilike{display:block; clear:both;}
+#mbrandheader{background: url(../images/core/tabpbg.gif) repeat-x 0 100% transparent; border: 1px solid #D3D3D3; display: block; border-radius: 5px;-moz-border-radius:5px;-webkit-border-radius:5px;overflow:hidden; margin-bottom:10px;}
+#mbrandheader .mbrandleft{position:relative; float:left; background-color: #FFFFFF; border-right: 1px solid #D3D3D3; padding: 5px 10px;text-align: center;}
+#mbrandheader .mbrandright{float: left; margin: 25px 0pt 0pt 20px;}
+#mbrandheader .mbrandleft a img{display:block;}
+#mbrandheader .mbrandleft a.mbrandlink{background: url("../images/new/minispot_arrow.gif") no-repeat scroll left 50% transparent; padding-left:10px;font-weight:bold; text-indent:-9999px; display:block; position:absolute; bottom:5px; right:5px;}
+#mbrandheader .mbrandleft h1{margin-bottom:0;}
+
+#offer-cat{float: left;margin: 0 15px 20px 0;width: 530px;border-right:1px solid #D5D5D5;}
+#offer-type{float:left;	width:230px;}
+#offer-type .catlevellist li a {height: 28px;padding: 10px;width: 200px;}
+
+#faqs .tabNavigation li{width:110px;margin:0!important;height:50px;}
+#faqs .tabNavigation li a{padding:10px 5px 5px 10px!important;color:#aaa;}
+#faqs .tabNavigation li.selected a{color:#D91E63;}
+#faqs .tabNavigation li.selected a span{background:none;padding-left:0;}
+#faqs .tabNavigation li{list-style-image:none!important;}
+#fancybox-loading{position:fixed;top:50%;left:50%;width:40px;height:40px;margin-top: -20px;margin-left: -20px;cursor: pointer;overflow: hidden;z-index:1104;display: none;}#fancybox-loading div{position:absolute;top:0;left:0;width:40px;height:480px;background-image: url('../images/core/fancybox/fancybox.png');}#fancybox-overlay{position:absolute;top:0;left:0;width:100%;z-index:1100;display: none;}#fancybox-tmp{padding:0;margin:0;border:0;overflow:auto;display: none;}#fancybox-wrap{position:absolute;top:0;left:0;padding:20px;z-index:1101;outline: none;display: none;}#fancybox-outer{position: relative;width:100%;height:100%;background:#fff;}#fancybox-content{width:0;height:0;padding:0;outline: none;position: relative;overflow: hidden;z-index:1102;border:0px solid #fff;}#fancybox-hide-sel-frame{position:absolute;top:0;left:0;width:100%;height:100%;background: transparent;z-index:1101;}#fancybox-close{position:absolute;top: -15px;right: -15px;width:30px;height:30px;background: transparent url('../images/core/fancybox/fancybox.png') -40px 0px;cursor: pointer;z-index:1103;display: none;}#fancybox-error{color:#444;font: normal 12px/20px Arial;padding:14px;margin:0;}#fancybox-img{width:100%;height:100%;padding:0;margin:0;border: none;outline: none;line-height:0;vertical-align: top;}#fancybox-frame{width:100%;height:100%;border: none;display:block;}#fancybox-left,#fancybox-right{position:absolute;bottom:0px;height:100%;width:35%;cursor: pointer;outline: none;background: transparent url('../images/core/fancybox/blank.gif');z-index:1102;display: none;}#fancybox-left{left:0px;}#fancybox-right{right:0px;}#fancybox-left-ico,#fancybox-right-ico{position:absolute;top:50%;left: -9999px;width:30px;height:30px;margin-top: -15px;cursor: pointer;z-index:1102;display:block;}#fancybox-left-ico{background-image: url('../images/core/fancybox/fancybox.png');background-position: -40px -30px;}#fancybox-right-ico{background-image: url('../images/core/fancybox/fancybox.png');background-position: -40px -60px;}#fancybox-left:hover,#fancybox-right:hover{visibility: visible;}#fancybox-left:hover span{left:20px;}#fancybox-right:hover span{left:auto;right:20px;}.fancybox-bg{position:absolute;padding:0;margin:0;border:0;width:20px;height:20px;z-index:1001;}#fancybox-bg-n{top: -20px;left:0;width:100%;background-image: url('../images/core/fancybox/fancybox-x.png');}#fancybox-bg-ne{top: -20px;right: -20px;background-image: url('../images/core/fancybox/fancybox.png');background-position: -40px -162px;}#fancybox-bg-e{top:0;right: -20px;height:100%;background-image: url('../images/fancybox-y.png');background-position: -20px 0px;}#fancybox-bg-se{bottom: -20px;right: -20px;background-image: url('../images/fancybox.png');background-position: -40px -182px;}#fancybox-bg-s{bottom: -20px;left:0;width:100%;background-image: url('../images/fancybox-x.png');background-position:0px -20px;}#fancybox-bg-sw{bottom: -20px;left: -20px;background-image: url('../images/fancybox.png');background-position: -40px -142px;}#fancybox-bg-w{top:0;left: -20px;height:100%;background-image: url('../images/fancybox-y.png');}#fancybox-bg-nw{top: -20px;left: -20px;background-image: url('../images/fancybox.png');background-position: -40px -122px;}#fancybox-title {z-index:1102;}.fancybox-title-inside{padding-bottom:10px;text-align:center;color:#333;background:#fff;position: relative;}.fancybox-title-outside{padding-top:10px;color:#fff;}.fancybox-title-over{position:absolute;bottom:0;left:0;color:#FFF;text-align: left;}#fancybox-title-over{padding:10px;background-image: url('../images/fancy_title_over.png');display:block;}.fancybox-title-float{position:absolute;left:0;bottom: -20px;height:32px;}#fancybox-title-float-wrap{border: none;border-collapse:collapse;width:auto;}#fancybox-title-float-wrap td{border: none;white-space: nowrap;}#fancybox-title-float-left{padding:0 0 0 15px;background: url('../images/fancybox.png') -40px -90px no-repeat;}#fancybox-title-float-main{color:#FFF;line-height:29px;font-weight:bold;padding:0 0 3px 0;background: url('../images/fancybox-x.png') 0px -40px;}#fancybox-title-float-right{padding:0 0 0 15px;background: url('../images/fancybox.png') -55px -90px no-repeat;}.fancybox-ie6 #fancybox-close{background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/fancy_close.png',sizingMethod='scale');}.fancybox-ie6 #fancybox-left-ico{background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/fancy_nav_left.png',sizingMethod='scale');}.fancybox-ie6 #fancybox-right-ico{background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_nav_right.png',sizingMethod='scale');}.fancybox-ie6 #fancybox-title-over{background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_title_over.png',sizingMethod='scale');zoom:1;}.fancybox-ie6 #fancybox-title-float-left{background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_title_left.png',sizingMethod='scale');}.fancybox-ie6 #fancybox-title-float-main{background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_title_main.png',sizingMethod='scale');}.fancybox-ie6 #fancybox-title-float-right{background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_title_right.png',sizingMethod='scale');}.fancybox-ie6 #fancybox-bg-w,.fancybox-ie6 #fancybox-bg-e,.fancybox-ie6 #fancybox-left,.fancybox-ie6 #fancybox-right,#fancybox-hide-sel-frame{height:expression(this.parentNode.clientHeight + "px");}#fancybox-loading.fancybox-ie6{position:absolute;margin-top:0;top:expression( (-20 + (document.documentElement.clientHeight ? document.documentElement.clientHeight/2 :document.body.clientHeight/2 ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop :document.body.scrollTop )) + 'px');}#fancybox-loading.fancybox-ie6 div{ background: transparent;filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_loading.png',sizingMethod='scale');}.fancybox-ie .fancybox-bg{background: transparent !important;}.fancybox-ie #fancybox-bg-n{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_n.png',sizingMethod='scale');}.fancybox-ie #fancybox-bg-ne{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_ne.png',sizingMethod='scale');}.fancybox-ie #fancybox-bg-e{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_e.png',sizingMethod='scale');}.fancybox-ie #fancybox-bg-se{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_se.png',sizingMethod='scale');}.fancybox-ie #fancybox-bg-s{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_s.png',sizingMethod='scale');}.fancybox-ie #fancybox-bg-sw{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_sw.png',sizingMethod='scale');}.fancybox-ie #fancybox-bg-w{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_w.png',sizingMethod='scale');}.fancybox-ie #fancybox-bg-nw{filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='../images/core/fancybox/fancy_shadow_nw.png',sizingMethod='scale');}
+
+
+/* product detail multiple images */
+#productdetail #imageContainer {float:left;}
+#productdetail .product-large {}
+#productdetail .product-thumb {float:left;	border: 1px solid lightGrey; border-radius: 5px; -moz-border-radius: 5px;	-webkit-border-radius: 5px;	padding: 10px; margin:10px 0 0 0;}
+#productdetail .product-thumb .product-img {float:left;width:70px;}
+
+
+/* 3 for 2 cosmetics icat 31st october */
+#e12-3f2cosm li.subcatlist1.maybelline a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/maybelline.jpg);
+	text-indent: -9999px;
+}
+
+#e12-3f2cosm li.subcatlist2.lorealcos a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/loreal.jpg);
+	text-indent: -9999px;
+}
+#e12-3f2cosm li.subcatlist3.maxfactor a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/maxfactor.jpg);
+	text-indent: -9999px;
+}
+
+#e12-3f2cosm li.subcatlist4.rimmel a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/rimmel.jpg);
+	text-indent: -9999px;
+}
+
+#e12-3f2cosm li.subcatlist5.barrym a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/barrym.jpg);
+	text-indent: -9999px;
+}
+
+#e12-3f2cosm li.subcatlist6.revlon a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/revlon.jpg);
+	text-indent: -9999px;
+}
+
+#e12-3f2cosm li.subcatlist7.bourjois a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/bourjois.jpg);
+	text-indent: -9999px;
+}
+#e12-3f2cosm li.subcatlist8.sleek a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/sleek.jpg);
+	text-indent: -9999px;
+}
+
+#e12-3f2cosm li.subcatlist9 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/viewall3for2.jpg);
+ text-indent: -9999px;
+}
+/* end 3 for 2 cosmetics icat  end */
+
+/* event 12 electrical offers */
+#e12-beoffers li.catbanner.cb1.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/bthp.jpg) !important;
+}
+
+#e12-beoffers li.catbanner.cb2.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/halfprice.jpg) !important;
+}
+
+#e12-beoffers li.catbanner.cb3.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/saveuptohalf.jpg) !important;
+}
+
+#e12-beoffers li.catbanner.cb4.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/bthp.jpg) !important;
+}
+
+#e12-beoffers li.catbanner.cb5.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/saveupto10.jpg) !important;
+}
+
+#e12-beoffers li.catbanner.cb6.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/saveuptohalf.jpg) !important;
+}
+
+#e12-beoffers li.catbanner.cb7.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/saveuptohalf.jpg) !important;
+}
+
+#e12-beoffers li.catbanner.cb8.cb.clearfix .cbright {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/e12-beoffers/saveuptohalf.jpg) !important;
+}
+
+#e12-beoffers ul.catlistfp li .cbright .bannertype
+ {
+	text-indent: -9999px !important;
+}
+#e12-beoffers ul.catlistfp li .cbright .bannertype .tbhp .smallx {
+	text-indent: -9999px !important;
+	visibility:hidden;
+}
+
+#e12-beoffers ul.catlistfp li .cbright .bannertype .thp .smallx {
+	text-indent: -9999px !important;
+	visibility: hidden !important;
+}
+
+/* end electrical offers */
+
+
+/* jansale page */
+
+#jansale li.subcatlist1 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/accessories.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist2 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/bodyspray.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist3 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/confectionery.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist4 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/electricals.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist5 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/fragranceforher.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist6 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/fragranceforhim.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist7 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/kids.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist8 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/makeup.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist9 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/skincare.jpg);
+ text-indent: -9999px;
+}
+
+#jansale li.subcatlist10 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/jansale/washingandbathing.jpg);
+ text-indent: -9999px;
+}
+
+#jansale .catlevel1list li a:hover {
+/* zoom:1; silly IE */
+width:128px;
+filter: alpha (opacity=60);
+opacity:0.6;
+}
+
+#jansale ul.promotions li a span.gt, #jansale .catlevel1list li a span.ga {
+	display:none;
+}
+
+
+/* valentine page */
+
+
+#valentinegifts li.subcatlist1 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/perfectfragrance.jpg);
+ text-indent: -9999px;
+height:124px;
+padding-top:0px;
+}
+
+#valentinegifts li.subcatlist2 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/datenight.jpg);
+ text-indent: -9999px;
+height:124px;
+padding-top:0px;
+}
+
+#valentinegifts li.subcatlist3 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/nightin.jpg);
+ 	text-indent: -9999px;
+	height:124px;
+	padding-top:0px;
+}
+
+#valentinegifts li.subcatlist4 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/timetopamper.jpg);
+ 	text-indent: -9999px;
+	height:124px;
+	padding-top:0px;
+}
+
+#valentinegifts li.subcatlist5 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/daretobare.jpg);
+ 	text-indent: -9999px;
+	height:124px;
+	padding-top:0px;
+}
+
+#valentinegifts li.subcatlist6 a{
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/giftsforhim.jpg);
+ 	text-indent: -9999px;
+	height:124px;
+	padding-top:0px;
+}
+
+#valentinegifts .catlevel1list li a:hover {
+width:128px;
+filter: alpha (opacity=60);
+opacity:0.6;
+background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/overlayvalentines.jpg);
+}
+
+#valentinegifts ul.promotions li a span.gt, #jansale .catlevel1list li a span.ga {
+	display:none;
+}
+
+/*
+body#valentinegifts.valentinegifts {
+	background:url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/reworked/valentinesbackground.jpg)
+}
+*/
+
+#valentinegifts .catlevelheader {
+	display:none;
+}
+
+/* perfect fragrance gifts */
+
+
+
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist1 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/forhim.jpg);
+ text-indent: -9999px;	
+}
+
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist2 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/forher.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist3 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/new.jpg) !important;
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist4 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/newwebexclusive.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist5 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/giftsets.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist6 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/halfprice.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist7 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/save5.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist8 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/only22.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist9 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/only30.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist10 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/bigbottlesavings.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist11 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/celebsavings.jpg);
+ text-indent: -9999px;	
+}
+
+#valentinegifts.vdaygifts-perfectfrag li.subcatlist12 a{
+ background-image: url(/content/ebiz/superdrug/resources/images/cats/valentinegifts/freegwp.jpg);
+ text-indent: -9999px;	
+}
+
+
+#valentinegifts.vdaygifts-perfectfrag #categorylist div.catlevel1.catlevel img {
+display: none;
+}
+
+/* mothers day */
+
+body.md-shop li.md-pamper a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/pamper.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-be a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/beauty_electricals.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-skinhp a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/half_price_skin_care.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-frag2for50 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/fragrance_2_for_50.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-frag20offbb a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/big_bottles_save_20.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-fragsave5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/save_5_on_fragrance.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-frag2for30 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/fragrance_2_for_30.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-fraghp a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/half_price_fragrance.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+body.md-shop li.md-fragsets a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/mothersday/fragrance_giftsets.jpg); no-repeat;
+	text-indent: -9999px;
+}
+
+
+body.md-shop .catlevel1list li a {
+	padding:0 0 0 0;
+	border:0px;
+	border-radius:0px;
+	width:223px;
+	height:145px;
+	margin-left:25px;
+	margin-right:12px;
+	margin-bottom:10px;
+}
+
+body.md-shop .catlevel1list li {
+	margin: 0 0 0 0;
+	padding:0 0 0 0;
+	
+}
+
+body.md-shop .catlevel1list li a:hover {
+filter: alpha (opacity=60);
+opacity:0.6;
+}
+/* end mothers day */
+
+/* top 5 categories*/
+body.top5 li.f_bbcream_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-bb-cream1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_bronzers_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-bronzers1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_concealers_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-concealor1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_eyebrowpencils_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-eyebrow-pencil1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_eyelashes_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-lashes1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_eyeliners_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-eyeliner1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_eyeshadows_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-eyeshadow1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_primers_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-primers1.gif); no-repeat;
+	text-indent: -9999px;
+}
+
+body.top5 li.f_nails_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-nails1.gif); no-repeat;
+	text-indent: -9999px;
+}
+
+body.top5 li.f_liptints_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-liptints1.gif); no-repeat;
+	text-indent: -9999px;
+}
+
+body.top5 li.f_foundation_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-foundation1.gif); no-repeat;
+	text-indent: -9999px;
+}
+
+body.top5 li.f_mascaras_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-mascaras1.gif); no-repeat;
+	text-indent: -9999px;
+}
+
+body.top5 li.f_lipsticks_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-lipstick1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_blusher_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-blusher1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_lipgloss_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-lipgloss1.gif); no-repeat;
+	text-indent: -9999px;
+}
+body.top5 li.f_frenchmanicure_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-frenchmanicure1.gif); no-repeat;
+	text-indent: -9999px;
+}
+
+body.top5 li.f_nailpolish_top5 a {
+	background-image: url(/content/ebiz/superdrug/resources/images/cats/top5/top5-nailpolish1.gif); no-repeat;
+	text-indent: -9999px;
+}
+
+
+
+body.top5 .catlevellist li a:hover {
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+   opacity: 0.5;
+}
+
+body.top5 h1 {
+	display:none!important;
+}
+/* end top 5 categories*/
+
+/* buttons */
+.pinkrlbbutton {
+-moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	box-shadow:inset 0px 1px 0px 0px #fbafe3;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ff5bb0), color-stop(1, #ef027d) );
+	background:-moz-linear-gradient( center top, #ff5bb0 5%, #ef027d 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5bb0', endColorstr='#ef027d');
+	background-color:#ff5bb0;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ee1eb5;
+	display:inline-block;
+	color:#ffffff;
+	font-family:arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #c70067;
+}.pinkrlbbutton:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ef027d), color-stop(1, #ff5bb0) );
+	background:-moz-linear-gradient( center top, #ef027d 5%, #ff5bb0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ef027d', endColorstr='#ff5bb0');
+	background-color:#ef027d;
+}
+.pinkrlbbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.addtobasketrlb {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:arial;
+	font-size:11px;
+	font-weight:bold;
+	padding:4px 8px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffffff;
+}.addtobasketrlb:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+	text-decoration:none;
+}.addtobasketrlb:active {
+	position:relative;
+	top:1px;
+}
+/* end buttons */
+
+body.doveoffers_2013e6 ul.catlistfp li .cbleft img {display:none;}
+body.doveoffers_2013e6 ul.catlistfp .cb1 .cbleft {
+	background: url(/content/ebiz/superdrug/resources/images/cats/doveoffers/dove-hair.jpg) 0 0 no-repeat;
+}
+
+body.doveoffers_2013e6 ul.catlistfp .cb2 .cbleft {
+	background: url(/content/ebiz/superdrug/resources/images/cats/doveoffers/dove-moisturiser.jpg) 0 0 no-repeat;
+}
+
+body.doveoffers_2013e6 ul.catlistfp .cb3 .cbleft {
+	background: url(/content/ebiz/superdrug/resources/images/cats/doveoffers/dove-deos.jpg) 0 0 no-repeat;
+}
+
+body#home {
+background-color:#f6f6f6;
+}
+
+/* Beautycard Extra Styles */
+
+#bc-extras {
+	width:780px;
+}
+
+#bc-extras .bcx-header {
+	background:url(/content/ebiz/superdrug/resources/images/bcx/extras_banner.jpg) no-repeat 0 0;
+	height:275px;
+}
+
+#bc-extras .bcx-header .caption {
+	width:330px;
+	padding:20px 0 20px 20px;
+}
+
+#bc-extras .bcx-header .caption h2  {
+	font-size:30px;
+	color:#49176d;
+	padding:0;
+	margin:0;
+}
+
+#bc-extras .bcx-content {
+	background:#b4a7c8;
+	width:740px;
+	padding:20px 20px;
+}
+
+#bc-extras ul {
+	list-style:none;
+	padding:0;
+	margin:0 0 20px 0;
+}
+
+#bc-extras ul li {
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border:1px solid #fff;
+
+}
+
+#bc-extras ul.s-promo li {
+	width:320px;
+	display:inline;
+	float:left;
+	padding:240px 15px 15px 15px;
+}
+
+#bc-extras ul.s-promo li.promo1 {
+	margin:0 35px 40px 0;
+	background:#fff url(/content/ebiz/superdrug/resources/images/bcx/2f1.jpg) 15px 10px no-repeat!important;
+}
+
+#bc-extras ul.s-promo li.promo2 {
+	background:#fff url(/content/ebiz/superdrug/resources/images/bcx/save.jpg) 15px 5px no-repeat!important;
+}
+
+
+#bc-extras ul.l-promo {
+	clear:both;
+}
+
+#bc-extras ul.l-promo li.promo1 {
+	padding:410px 15px 15px 15px;
+	position:relative;
+	background:#fff;
+}
+
+#bc-extras .promobg {
+	background: url(/content/ebiz/superdrug/resources/images/bcx/vip.png) 0 0 no-repeat!important;
+	position: absolute;
+	top: -30px;
+	left: 3px;
+	width: 739px;
+	height: 425px;
+}
+#bc-extras .cta {
+	text-align:center;
+}
+
+#bc-extras .cta .pinkrlbbutton:hover {
+	color:#fff;
+	text-decoration:none;
+}
+
+#bc-extras .bcx-footer {
+	clear:both;
+}
+
+#bc-extras .bcx-footer .bc-banner {
+	background: url(/content/ebiz/superdrug/resources/images/bcx/beautycard_banner.jpg) 40px 0px no-repeat;
+	width: 740px;
+	height: 78px;
+	margin-bottom:20px;
+}
+
+#bc-extras .bcx-footer .tc p {
+	font-size:10px;
+}
+
+/* End Beautycard Extra Styles */
+
+/* Homepage Skins */
+
+
+/*Health Category Styles */
+body#health h1, body#health .catlevel h3, body#health .catlevel1list li a span {color:#62bb46;}
+body#health .catlevel1list li a:hover {opacity:0.6; filter:alpha(opacity=60); text-decoration:none;}
+body#health h1 {color: #62BB46;font-weight: bold;}
+body#health ul#catgoldoutput li {border: 3px solid #62bb46;}
+body#health ul.catlistfp li .cbleft {border: 1px solid #62bb46;}
+body#health .catlevel2list li a, body#health .catlevel2list li a:hover {border-bottom: 1px solid #62bb46;}

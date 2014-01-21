@@ -1,0 +1,67 @@
+#productdetail .pr-snippet-stars .pr-stars-small, #productdetail .pr-modal-container .pr-stars, #productdetail .pr-review-rating .pr-stars-small{background-image:url(../images/stars-rating-small.gif);width: 85px;}
+#productdetail .pr-snippet-wrapper{background:none; border:none;overflow: hidden;}
+#productdetail .pr-snippet-write-first-review{border:none; float:right;background:url(../images/write_review_icon.jpg) no-repeat left top;padding:5px 0 5px 25px;}
+#productdetail .pr-snippet-write-review{border:none; float:right;background:url(../images/write_review_icon.jpg) no-repeat 8px top;padding:5px 10px 5px 35px;width: 70px;}
+.pr-snippet-read-write {border:none;float: right;width:205px;}
+.pr-snippet-read-reviews {padding: 5px 8px 5px 0;}
+#productdetail .pr-snippet-read-write a.pr-snippet-link {color: #EF018D;}
+#productdetail .pr-snippet-review-count{display:none;}
+#productdetail .pr-snippet-stars{float:right; border:none;}
+#productdetail .pr-snippet-stars .pr-snippet-rating-decimal{background-color:#5C5C5C; font-size:92%; padding:0 3px;}
+#productdetail .pr-snapshot-rating .pr-stars{background-image:url('../images/stars-rating-large.gif');}
+#productdetail .pr-snapshot-head{margin-right:10px;}
+#productdetail .pr-snapshot-body{margin-right:10px; border-bottom:1px solid #999999;}
+#productdetail .pr-review-faceoff{margin-right:10px;}
+/*#productdetail .pr-snapshot-body-wrapper{border:none; padding:0;}*/
+#productdetail .pr-snapshot-rating-wrapper{width:700px;}
+/*#productdetail .pr-header{width:180px; float:left;}*/
+.printro h1 {font-size: 2em;font-weight: 700; margin: 0 0 0.9em;}
+p..medsmall {font-size:1em; margin: 0 0 0.9em;}
+.pr-review-count {display:none;}
+/*.pr-review-sort-wrapper {position: absolute;right: 0; top:30px;}*/
+#productdetail .pr-review-sort{border:none; background:none; margin-right:3px;}
+#productdetail .pr-review-sort-wrapper{margin-top:10px;}
+#readReview {overflow:hidden;position:relative;}
+#productdetail .tabs{width:768px;}
+#productdetail .pr-contents{background:none; border:none; padding:15px 0 0 0;}
+#productdetail .pr-contents-wrapper{background:none; border:none; padding:0 auto;}
+#productdetail .pr-snapshot-no-ratings{height:50px; width:240px; text-align:center;}
+#productdetail .pr-snapshot-average-based-on-text{padding-top:10px;}
+/*#productdetail #pr-snapshot-histogram{display:none;}*/
+#productdetail .pr-pagination-top{display:none;}
+#productdetail .pr-review-wrap{margin:0 auto; padding:20px 0 15px 0; background:#FFFFFF;}
+#productdetail .pr-fb-reviewComment{display:none;}
+#productdetail .pr-pagination-bottom{padding-top:10px;}
+#productdetail .pr-snippet-social-bar{display:none;}
+#productdetail .powereviews .pr-clear{display:none;}
+#productdetail .tabs .tabcontent, .newtabs, .tabs{background:none;}
+#productdetail .pr-snippet-write-first-review{padding-right:8px;}
+/*#productdetail .pr-snapshot-body-wrapper .pr-snapshot-consensusb, #productdetail .pr-snapshot-body-wrapper .pr-review-points, #productdetail .pr-snapshot-body-wrapper .pr-snapshot-consensus{display:none;}*/
+/*.pr-review-faceoff {display:none;}*/
+*html #productdetail .pr-snippet-stars{padding-right:8px;}
+*html #productdetail .pr-snippet-write-first-review{padding-left:25px;}
+*html #productdetail .pr-snapshot-no-ratings{height:auto;}
+*html #productdetail .pr-header{margin-top:-20px;}
+*html #productdetail .pr-snapshot-body {padding:20px 0 0 0;}
+
+#searchResults .pr-snippet-stars .pr-stars-small, #searchResults .pr-modal-container .pr-stars, #productlist .pr-snippet-stars .pr-stars-small, #productlist .pr-modal-container .pr-stars, #searchresults .pr-snippet-stars .pr-stars-small, #searchresults .pr-modal-container .pr-stars{background-image:url(../images/stars-rating-small.gif));width:85px;}
+#searchResults .pr-snippet-wrapper, #productlist .pr-snippet-wrapper, #searchresults .pr-snippet-wrapper{background:none; border:none; padding:0px; margin:0px;}
+#searchResults .pr-snippet-read-write, #productlist .pr-snippet-read-write, #searchresults .pr-snippet-read-write{display:none;}
+#searchResults .pr-snippet-review-count, #productlist .pr-snippet-review-count, #searchresults .pr-snippet-review-count{display:none;}
+#searchResults .pr-snippet-stars, #productlist .pr-snippet-stars, #searchresults .pr-snippet-stars{border:none; background:none; padding:0px; margin:5px 0 15px;}
+#searchResults .pr-snippet-stars .pr-snippet-rating-decimal, #productlist .pr-snippet-stars .pr-snippet-rating-decimal, #searchresults .pr-snippet-stars .pr-snippet-rating-decimal{margin-left:5px; width:15px; font-size:100%; background-color:#5C5C5C; padding:0 3px;}
+#searchResults .detailswrap .promotions, #searchresults .detailswrap .promotions, #productlist .detailswrap .promotions{min-height:58px;}
+#searchResults .detailswrap .earnpointprice, #searchresults .detailswrap .earnpointprice, #productlist .detailswrap .earnpointprice{float:left; width:160px;}
+#searchResults .detailswrap .promotext, #searchresults .detailswrap .promotext {float:left;}
+
+#productlist .detailswrap .promotext{float:none!important; width:200px;}
+
+#searchResults .detailswrap .baskettools, #searchresults .detailswrap .baskettools, #productlist .detailswrap .baskettools{min-height:30px;}
+#searchResults .pfreegift, #searchresults .pfreegift, #productlist .pfreegift{float:left;}
+*html #searchResults .promotions, *html #searchresults .promotions, *html #productlist .promotions{height:58px;}
+*html #searchResults .detailswrap .baskettools, *html #searchresults .detailswrap .baskettools, *html #productlist .detailswrap .baskettools{height:30px !important;}
+*html #searchResults .pr-snippet-social-bar, *html #searchresults .pr-snippet-social-bar, *html #productlist .pr-snippet-social-bar{display:none;}
+*html #searchResults .price, *html #searchresults .price, *html #productlist .price{height:50px !important;}
+*html #productlist .promotext, *html #searchResults .promotext, *html #searchresults .promotext{padding-top:5px; width:160px;}
+*html #productlist .pfreegift, *html #searchResults .pfreegift, *html #searchresults .pfreegift{margin-top:5px; width:160px;}
+.pr-review-faceoff-img{position:absolute\0/;}

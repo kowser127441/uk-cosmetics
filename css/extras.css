@@ -1,0 +1,301 @@
+
+.xmas11sale h1, #xmas11sale h1{background: url("/content/ebiz/superdrug/icat/xmas11sale/bluecross.jpg") no-repeat scroll 0 0 #007DC3;border: 1px solid #007DC3;color: #FFFFFF; height: 190px; padding: 30px 30px 30px 300px; text-transform: capitalize;}
+.l1xmas11sale #mbrandheader {background:none;border:none;}
+.l1xmas11sale #mbrandheader .mbrandleft{float:none;padding:0;border-right:none; text-align:left;}
+.l1xmas11sale h1 span{text-transform: capitalize;}
+.xmas11sale .catlevel1list li a{border: 1px solid #007DC3; background: url("/content/ebiz/superdrug/icat/xmas11sale/bluecross.jpg") no-repeat scroll 100px -60px transparent;}
+.xmas11sale .catlevel1list li a span {color: #ec008c;}
+.showadmincc{font-size:10px; text-align:right; color:#d91e63; text-decoration:underline; cursor:pointer;}
+.adminccp{ position:absolute; top:0; right:0; color:#ccc;}
+.admincc{position:absolute; display:none; top:0; right:0; background-color:#fff; border:1px solid #444; padding:10px; color:#666; width:150px; height:140px; overflow: auto;}
+.adminccp:hover .admincc{display:block!important;}
+
+/* My Account */
+
+.viewaccountactive
+{
+	background:#fff;
+	color:#000!important;
+}
+
+#mapreview-wrapper {
+    display: none;
+    left: -1px;
+    position: absolute;
+    top: 18px;
+    width: 250px;
+    z-index: 99;	
+}
+
+#mapreview
+{
+	display:none;
+	border-top:2px solid #333;
+	border-bottom:2px solid #333;
+	border-right:1px solid #cfd2d5;
+	border-left:1px solid #cfd2d5;
+	background:#fff url(../images/nav-bk.gif) repeat-x bottom left;
+	padding:8px;
+}
+
+#mapreview-close
+{
+	cursor:pointer;
+}
+
+#mapreview ul
+{
+	border-bottom:1px solid #D5D5D5;
+	margin:0 0 10px 0;
+	padding:0 0 10px 0;
+}
+
+#mapreview ul li
+{
+	display:list-item;
+	margin:0 0 5px 0;
+	padding:0;
+	float:none;
+	border:none;
+}
+
+#mapreview-top
+{
+	margin:0 0 10px 0;
+}
+
+#mapreview-top h3
+{
+	display:inline;
+	font-weight:bold;
+	float:none;
+	padding:0;
+}
+
+#mapreview-top span
+{
+	float:right;
+}
+
+#mapreview-right
+{
+	word-wrap:break-word;
+}
+
+.mapreview-username
+{
+	text-transform:capitalize;
+}
+
+.bcard
+{
+	color:#ec008d;
+}
+
+#mapreview-buttons ul
+{
+	border:none;
+	margin:0;
+	padding:0;
+}
+
+#mapreview-buttons ul li
+{
+	display:inline;
+}
+
+#mapreview-wrapper ul
+{
+	float:none!important;
+}
+
+#mapreview-logout
+{
+	float:left;
+	height:19px;
+	width:69px;
+	display:block;
+	background:url("../images/sprite.gif") no-repeat 0px -1202px;
+	text-indent:-9999px;
+}
+
+#mapreview-logout:hover
+{
+	background-position: -79px -1202px;
+}
+
+#mapreview-myaccount
+{
+	background: url("../images/sprite.gif") no-repeat scroll 0 -1221px transparent;
+    height: 19px;
+    width: 85px;
+	display:block;
+	float:right;
+	text-indent:-9999px;
+}
+
+#mapreview-myaccount:hover
+{
+	background-position: -95px -1221px;
+}
+
+/* Platinum spot */
+
+#platinumspot ul.catlistfp li.cbplat-cust1 .cbleft img, #platinumspot ul.catlistfp li.cbplat-cust2 .cbleft img, #platinumspot ul.catlistfp li.cbplat-cust3 .cbleft img, #platinumspot ul.catlistfp li.cbplat-cust4 .cbleft img
+{
+margin:0;
+left:0!important;
+}
+
+/* DARE page */
+
+#dare-bot-list li
+{
+	float:left;
+	margin:0 5px 0 0;
+}
+
+.b-item3
+{
+	margin:0!important;
+}
+
+/* Mini spot */
+
+.p-text
+{
+	color:#ed008c;
+}
+
+ul.promotions li a:hover .p-text
+{
+	text-decoration:underline;
+	color:#000;
+}
+
+/* Wide SKU for pages */
+
+.isinglemedium-w
+{
+	width:445px;
+}
+
+.isinglemedium-w .isinglemedia, .isinglemedium-w .isdesciptions
+{
+	float:left;
+}
+
+/* Sticky footer */
+#sticky-footer
+{
+ 	background:#ed008c;
+	color:#fff;
+    bottom: 0;
+    left: 0;
+    padding: 3px;
+	text-align:center;
+    position: fixed;
+    width: 100%;
+	z-index:9999;
+	box-shadow:0 0 8px #333;
+	-moz-box-shadow:0 0 8px #333;
+	-webkit-box-shadow:0 0 8px #333;
+	-o-box-shadow:0 0 8px #333;
+}
+
+/* UAT PRODUCTLIST FIX */
+
+.YUIAJAX
+{
+	display:none!important;
+}
+
+/* Quick fixes - remove if needed */
+
+#searchResults .detailswrap .promotext
+{
+	width:100%;
+}
+
+.prCImainform
+{
+	display:none;
+}
+
+/* Grid what's new */
+
+#home-new-wrapper
+{
+	margin:0 0 5px 0;
+}
+
+/* Shopping basket extras */ 
+
+.nopaddR {
+	padding-right: 0px!important;
+}
+#yourbasket #promotions {
+	float: right;
+	margin: 0;
+	width: 237px;
+	background:none!important;
+	border:none!important;
+	padding-top: 15px!important;
+}
+
+#yourbasket #promotions h2 {
+	height:29px!important;
+	padding-bottom:0!important;
+}
+
+#tot-disc {
+float:left;
+}
+#tot-disc h3 {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 0;
+	padding-top: 25px;
+}
+.promotionsTotalHead {
+	float: right;
+}
+.promotionsTotalHead, .promotionsTotal {
+	padding: 0;
+	height: 60px;
+}
+.promotionsTotalHead h3, .promotionsTotal h3{
+	color: #EF018D;
+	font-size: 16px;
+}
+.promotionsTotalHead h3, .promotionsTotal h3{
+	font-weight: bold;
+}
+
+#tweet-savings {
+    /* float: right;
+    text-align: right; */
+width:730px;
+background-color:#9BE69B;
+float:none;
+text-align:center;
+padding:10px;
+}
+#tweet-savings h3 {
+    font-size: 16px;
+    font-weight: bold;
+}
+#tweet-savings a {
+    color: #000;
+		text-decoration:underline;
+		display:none;
+}
+
+.proBorder {
+	border-bottom:1px solid #000!important;
+}
+
+.promotionsBar {
+	background:none!important!;
+	border:none!important;
+}

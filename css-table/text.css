@@ -1,0 +1,42 @@
+
+
+
+hr { border: none; border-bottom: 1px dotted #CCC; margin-bottom: 2em; margin-top: 1em; }
+
+table.data { width: 100%; border: 0; margin-bottom: 2em; border-collapse: collapse;  }
+
+	 table.data thead th
+	 {
+	 	font-size: 13px;
+		font-weight: bold;
+		text-align: left;
+		padding: 10px;
+		
+		background-color: #333;
+		
+		color: #FFF;
+		
+		border-top: 1px solid #ccc;
+		border-bottom: 1px solid #ccc;
+	}	
+	
+	table.display thead th { background-color: #333 !important; }	
+	
+	table.data td { vertical-align: top; }
+	
+	table.data tbody tr td { background: #FFF; border-bottom: 1px dotted #DDD; }
+
+	table.data th { padding: 10px 0; }
+	table.data tbody td { padding: 10px; }
+	
+	table.data tr.even td { background: #F9F9F9; }
+	
+	table.data.stripe tr:nth-child(odd) td { background-color:#F6F6F6; }
+	table.data.stripe tr:nth-child(even) td { background-color:#FFF; }
+
+
+
+
+
+
+

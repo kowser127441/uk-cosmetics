@@ -1,0 +1,718 @@
+[07-Oct-2013 05:51:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[07-Oct-2013 22:43:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[07-Oct-2013 22:43:41] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[07-Oct-2013 22:43:59] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 00:10:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 00:10:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 00:10:59] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 01:09:09] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 01:09:25] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 01:27:03] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 01:29:10] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 01:57:11] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 02:39:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 02:39:14] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 02:39:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 03:25:17] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 03:26:06] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 03:27:25] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 03:27:44] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:10:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:10:54] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:10:55] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:10:55] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:10:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:10:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:11:07] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:24:56] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:46:35] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:46:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:46:48] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:48:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:48:08] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:48:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cookie - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:48:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[08-Oct-2013 23:48:51] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home5/abhworl4/public_html/uk-cosmetics/connection.php:1) in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 14
+[21-Oct-2013 23:05:10 America/Denver] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/abhworl4/public_html/uk-cosmetics/login.php on line 51
+[21-Oct-2013 23:05:10 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[21-Oct-2013 23:05:10 America/Denver] PHP Notice:  Undefined index: sub_category_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 1079
+[21-Oct-2013 23:33:38 America/Denver] PHP Notice:  Undefined variable: salt in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 18
+[21-Oct-2013 23:33:38 America/Denver] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 24
+[21-Oct-2013 23:33:38 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'abhworl4'@'localhost' (using password: NO) in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 26
+[21-Oct-2013 23:33:38 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 26
+[21-Oct-2013 23:33:38 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 27
+[21-Oct-2013 23:35:21 America/Denver] PHP Notice:  Undefined variable: salt in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 18
+[21-Oct-2013 23:35:21 America/Denver] PHP Warning:  include(): Failed opening '../connection.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 24
+[21-Oct-2013 23:35:22 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'abhworl4'@'localhost' (using password: NO) in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 26
+[21-Oct-2013 23:35:22 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 26
+[21-Oct-2013 23:35:22 America/Denver] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 27
+[21-Oct-2013 23:35:43 America/Denver] PHP Notice:  Undefined variable: salt in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 18
+[21-Oct-2013 23:38:01 America/Denver] PHP Notice:  Undefined variable: salt in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 18
+[21-Oct-2013 23:39:09 America/Denver] PHP Notice:  Undefined variable: salt in /home5/abhworl4/public_html/uk-cosmetics/changingpassword.php on line 28
+[23-Oct-2013 03:14:00 America/Denver] PHP Notice:  Undefined variable: salt in /home5/abhworl4/public_html/uk-cosmetics/changingpassword.php on line 28
+[03-Nov-2013 05:13:35 America/Denver] PHP Notice:  Undefined variable: salt in /home5/abhworl4/public_html/uk-cosmetics/changing_password_forgote.php on line 18
+[04-Nov-2013 01:31:12 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 01:46:36 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 02:11:00 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 02:11:18 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 02:12:34 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 02:13:02 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 02:13:06 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 02:13:52 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 02:41:58 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 03:32:43 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[04-Nov-2013 03:32:57 America/Denver] PHP Notice:  Undefined index: product_id in /home5/abhworl4/public_html/uk-cosmetics/view_product.php on line 4
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:20:57 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'abhworl4'@'localhost' (using password: NO) in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 266
+[07-Nov-2013 02:20:57 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 266
+[07-Nov-2013 02:20:57 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 267
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined variable: user_point2 in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 280
+[07-Nov-2013 02:20:57 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:20:57 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:22:05 America/Denver] PHP Warning:  mysql_query(): Access denied for user 'abhworl4'@'localhost' (using password: NO) in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 266
+[07-Nov-2013 02:22:05 America/Denver] PHP Warning:  mysql_query(): A link to the server could not be established in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 266
+[07-Nov-2013 02:22:05 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 267
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined variable: user_point2 in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 280
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:22:05 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:22:05 America/Denver] PHP Notice:  Undefined variable: category_id in /home5/abhworl4/public_html/uk-cosmetics/cart.php on line 123
+[07-Nov-2013 02:22:16 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:22:16 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:22:16 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:22:16 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:22:16 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 267
+[07-Nov-2013 02:22:16 America/Denver] PHP Notice:  Undefined variable: user_point2 in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 280
+[07-Nov-2013 02:22:16 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:22:17 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:22:17 America/Denver] PHP Notice:  Undefined variable: category_id in /home5/abhworl4/public_html/uk-cosmetics/cart.php on line 123
+[07-Nov-2013 02:23:01 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:23:01 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:23:01 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:23:01 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:23:01 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:23:01 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:23:01 America/Denver] PHP Notice:  Undefined variable: category_id in /home5/abhworl4/public_html/uk-cosmetics/cart.php on line 123
+[07-Nov-2013 02:23:09 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:23:09 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:23:09 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:23:09 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:23:09 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:23:09 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:24:01 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:24:01 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:24:01 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:24:01 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:24:01 America/Denver] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 267
+[07-Nov-2013 02:24:01 America/Denver] PHP Notice:  Undefined variable: user_point2 in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 280
+[07-Nov-2013 02:24:01 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:24:01 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:24:52 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:24:52 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:24:52 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:24:52 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:24:52 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:24:52 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:26:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 02:26:02 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:26:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 02:26:02 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 02:26:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 02:26:02 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:26:02 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:26:02 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:27:53 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 02:27:53 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:27:53 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 02:27:53 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 02:27:53 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 02:27:53 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:27:53 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:27:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:28:24 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:28:24 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:28:24 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:28:24 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:28:24 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:28:24 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:28:51 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 6
+[07-Nov-2013 02:28:51 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:28:51 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:28:51 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:28:51 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:28:51 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:28:52 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:30:27 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 6
+[07-Nov-2013 02:30:27 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:27 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:27 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:30:27 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:27 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:30:27 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:30:31 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:31 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:30:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:31 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:30:31 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:30:39 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:39 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:39 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:30:39 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:30:39 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:30:39 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:31:47 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined index: q in /home5/abhworl4/public_html/uk-cosmetics/search_middle_page.php on line 31
+[07-Nov-2013 02:31:47 America/Denver] PHP Notice:  Undefined variable: discount_available in /home5/abhworl4/public_html/uk-cosmetics/search_middle_page.php on line 236
+[07-Nov-2013 02:31:53 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 02:31:53 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:31:53 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 02:31:53 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 02:31:53 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 02:31:53 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:31:53 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:31:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:32:11 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:32:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:32:11 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 02:32:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 02:32:11 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:32:11 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 02:41:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 02:41:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:41:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 02:41:15 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 02:41:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 02:41:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 02:41:16 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 02:41:16 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 03:18:55 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 03:18:56 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 03:18:56 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 03:18:56 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 03:18:56 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 03:18:56 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 03:51:20 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 03:51:20 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 03:51:20 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[07-Nov-2013 03:51:20 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[07-Nov-2013 03:51:20 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 03:51:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[07-Nov-2013 19:50:05 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[07-Nov-2013 19:50:05 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 19:50:05 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[07-Nov-2013 19:50:05 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[07-Nov-2013 19:50:05 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[07-Nov-2013 19:50:05 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[07-Nov-2013 19:50:05 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[07-Nov-2013 19:50:05 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[08-Nov-2013 01:11:23 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[08-Nov-2013 01:11:23 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:11:23 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[08-Nov-2013 01:11:23 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[08-Nov-2013 01:11:23 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[08-Nov-2013 01:11:23 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:11:23 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[08-Nov-2013 01:11:23 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[08-Nov-2013 01:12:11 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined index: q in /home5/abhworl4/public_html/uk-cosmetics/search_middle_page.php on line 31
+[08-Nov-2013 01:12:11 America/Denver] PHP Notice:  Undefined variable: discount_available in /home5/abhworl4/public_html/uk-cosmetics/search_middle_page.php on line 236
+[08-Nov-2013 01:12:19 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[08-Nov-2013 01:12:19 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:19 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[08-Nov-2013 01:12:19 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[08-Nov-2013 01:12:19 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[08-Nov-2013 01:12:19 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:19 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[08-Nov-2013 01:12:20 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[08-Nov-2013 01:12:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[08-Nov-2013 01:12:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[08-Nov-2013 01:12:31 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[08-Nov-2013 01:12:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[08-Nov-2013 01:12:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:31 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[08-Nov-2013 01:12:44 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[08-Nov-2013 01:12:44 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:44 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[08-Nov-2013 01:12:44 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[08-Nov-2013 01:12:44 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[08-Nov-2013 01:12:44 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:12:44 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[08-Nov-2013 01:19:29 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[08-Nov-2013 01:19:29 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:19:29 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[08-Nov-2013 01:19:29 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[08-Nov-2013 01:19:29 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[08-Nov-2013 01:19:29 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[08-Nov-2013 01:19:29 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[08-Nov-2013 01:19:30 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 01:34:20 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 01:34:20 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 01:34:20 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 01:34:20 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 01:34:20 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 01:34:20 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 01:34:20 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[09-Nov-2013 01:34:20 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 02:49:12 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 02:49:12 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 02:49:12 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 02:49:12 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 02:49:12 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 02:49:12 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 02:49:12 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[09-Nov-2013 02:49:12 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 02:49:50 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 02:49:50 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 02:49:50 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 02:49:50 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 02:49:50 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 02:49:50 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 02:49:50 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[09-Nov-2013 02:49:51 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 22:19:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 22:19:02 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:19:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 22:19:02 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 22:19:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 22:19:02 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:19:02 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[09-Nov-2013 22:19:02 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 22:20:50 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 22:20:50 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:20:50 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 22:20:50 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 22:20:50 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 22:20:50 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:20:50 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 22:23:28 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 22:23:28 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:23:28 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 22:23:28 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 22:23:28 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 22:23:28 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:23:28 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[09-Nov-2013 22:23:28 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 22:56:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 22:56:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:56:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 22:56:15 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 22:56:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 22:56:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:56:15 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[09-Nov-2013 22:56:15 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 22:56:33 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 22:56:33 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:56:33 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 22:56:33 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 22:56:33 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 22:56:33 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:56:33 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 22:57:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 22:57:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:57:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 22:57:31 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 22:57:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 22:57:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:57:31 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[09-Nov-2013 22:57:31 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[09-Nov-2013 22:57:36 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[09-Nov-2013 22:57:36 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:57:36 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[09-Nov-2013 22:57:36 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[09-Nov-2013 22:57:36 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[09-Nov-2013 22:57:36 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[09-Nov-2013 22:57:36 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[10-Nov-2013 01:42:13 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 01:42:13 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:42:13 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 01:42:13 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 01:42:13 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 01:42:13 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:42:13 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 01:42:13 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[10-Nov-2013 01:46:49 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 01:46:49 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:46:49 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 01:46:49 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 01:46:49 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 01:46:49 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:46:49 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 01:46:49 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[10-Nov-2013 01:47:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 01:47:17 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:47:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 01:47:17 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 01:47:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 01:47:17 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:47:17 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 378
+[10-Nov-2013 01:50:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 01:50:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:50:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 01:50:15 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 01:50:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 01:50:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:50:15 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 01:51:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 01:51:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:51:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 01:51:15 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 01:51:15 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 01:51:15 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:51:15 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 01:52:43 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 01:52:43 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:52:43 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 01:52:43 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 01:52:43 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 01:52:43 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 01:52:43 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 01:52:43 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 02:20:23 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 02:20:23 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 02:20:23 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 02:20:23 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 02:20:23 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 02:20:23 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 02:20:24 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:26:56 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:26:56 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:26:56 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:26:56 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:26:56 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:26:56 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:26:56 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:26:56 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:29:39 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:29:39 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:29:39 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:29:39 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:29:39 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:29:39 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:29:39 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:29:39 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:29:58 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:29:58 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:29:58 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:29:58 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:29:58 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:29:58 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:29:58 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:29:58 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:32:40 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:32:40 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:32:40 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:32:40 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:32:40 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:32:40 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:32:40 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:32:40 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:32:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:32:47 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:32:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:32:47 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:32:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:32:47 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:32:47 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:32:47 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:35:49 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:35:49 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:35:49 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:35:49 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:35:49 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:35:49 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:35:49 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:35:49 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:36:03 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:36:03 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:36:03 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:36:03 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:36:03 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:36:03 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:36:03 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:36:03 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:36:21 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:36:21 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:36:21 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:36:21 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:36:21 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:36:21 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:36:21 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:36:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[10-Nov-2013 11:37:46 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[10-Nov-2013 11:37:46 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:37:46 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[10-Nov-2013 11:37:46 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[10-Nov-2013 11:37:46 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[10-Nov-2013 11:37:46 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[10-Nov-2013 11:37:46 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[10-Nov-2013 11:37:46 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 02:39:26 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 02:39:26 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:39:26 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 02:39:26 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 02:39:26 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 02:39:26 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:39:27 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 02:39:27 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 02:51:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 02:51:07 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:51:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 02:51:07 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 02:51:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 02:51:07 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:51:07 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 02:51:07 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 02:57:34 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 02:57:34 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:57:34 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 02:57:34 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 02:57:34 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 02:57:34 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:57:34 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 02:57:35 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 02:57:56 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 02:57:56 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:57:56 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 02:57:56 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 02:57:56 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 02:57:56 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 02:57:56 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 02:57:56 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:12:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 03:12:02 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:12:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 03:12:02 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 03:12:02 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 03:12:02 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:12:02 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:12:04 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 6
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:13:04 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined variable: also_like_product in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 117
+[11-Nov-2013 03:13:04 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 352
+[11-Nov-2013 03:13:04 America/Denver] PHP Notice:  Undefined variable: sub_cat_info in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 757
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 6
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:22:45 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:22:46 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:22:48 America/Denver] PHP Notice:  Undefined variable: also_like_product in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 117
+[11-Nov-2013 03:22:48 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 352
+[11-Nov-2013 03:22:48 America/Denver] PHP Notice:  Undefined variable: sub_cat_info in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 757
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:25:09 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:25:09 America/Denver] PHP Notice:  Undefined variable: category_id in /home5/abhworl4/public_html/uk-cosmetics/cart.php on line 123
+[11-Nov-2013 03:25:11 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 6
+[11-Nov-2013 03:25:11 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:25:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:25:11 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[11-Nov-2013 03:25:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:25:11 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:25:11 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:25:11 America/Denver] PHP Notice:  Undefined variable: also_like_product in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 117
+[11-Nov-2013 03:25:11 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 352
+[11-Nov-2013 03:25:11 America/Denver] PHP Notice:  Undefined variable: sub_cat_info in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 757
+[11-Nov-2013 03:26:35 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:26:35 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:26:35 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[11-Nov-2013 03:26:35 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:26:35 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:26:35 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:26:35 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 15
+[11-Nov-2013 03:27:08 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 6
+[11-Nov-2013 03:27:08 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:27:08 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:27:08 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[11-Nov-2013 03:27:08 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:27:08 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:27:08 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:27:08 America/Denver] PHP Notice:  Undefined variable: also_like_product in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 117
+[11-Nov-2013 03:27:08 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 352
+[11-Nov-2013 03:27:08 America/Denver] PHP Notice:  Undefined variable: sub_cat_info in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 757
+[11-Nov-2013 03:27:13 America/Denver] PHP Notice:  A session had already been started - ignoring session_start() in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 6
+[11-Nov-2013 03:27:13 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:27:13 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:27:13 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[11-Nov-2013 03:27:13 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:27:13 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:27:13 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 03:27:13 America/Denver] PHP Notice:  Undefined variable: also_like_product in /home5/abhworl4/public_html/uk-cosmetics/productClass.php on line 117
+[11-Nov-2013 03:27:13 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 352
+[11-Nov-2013 03:27:13 America/Denver] PHP Notice:  Undefined variable: sub_cat_info in /home5/abhworl4/public_html/uk-cosmetics/view_product_middle.php on line 757
+[11-Nov-2013 03:33:37 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:33:37 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:33:37 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[11-Nov-2013 03:33:37 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 03:33:37 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 03:33:37 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[11-Nov-2013 04:43:34 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 04:43:34 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 04:43:34 America/Denver] PHP Strict Standards:  Non-static method ShopingCart::getProductPrice() should not be called statically in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 81
+[11-Nov-2013 04:43:34 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 39
+[11-Nov-2013 04:43:34 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[11-Nov-2013 04:43:34 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 00:50:18 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 00:50:18 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:50:18 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 00:50:18 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 00:50:18 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 00:50:18 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:50:19 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 00:50:19 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 00:50:33 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 00:50:33 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:50:33 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 00:50:33 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 00:50:33 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 00:50:33 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:50:33 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 00:50:34 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 00:50:52 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 00:50:52 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:50:52 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 00:50:52 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 00:50:52 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 00:50:52 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:50:52 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 00:50:53 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 00:51:11 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 00:51:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:51:11 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 00:51:11 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 00:51:11 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 00:51:11 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 00:51:11 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 00:51:11 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 01:41:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 01:41:07 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 01:41:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 01:41:07 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 01:41:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 01:41:07 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 01:41:07 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 01:41:07 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 01:42:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 01:42:47 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 01:42:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 01:42:47 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 01:42:47 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 01:42:47 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 01:42:47 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 01:42:47 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 01:45:48 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined index: q in /home5/abhworl4/public_html/uk-cosmetics/search_middle_page.php on line 31
+[12-Nov-2013 01:45:48 America/Denver] PHP Notice:  Undefined variable: discount_available in /home5/abhworl4/public_html/uk-cosmetics/search_middle_page.php on line 236
+[12-Nov-2013 02:13:43 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 02:13:43 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 02:13:43 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 02:13:43 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 02:13:43 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 02:13:43 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 02:13:43 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 02:13:43 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 02:14:22 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 02:14:22 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 02:14:22 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 02:14:22 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 02:14:22 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 02:14:22 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 02:14:22 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 02:14:22 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 02:14:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 02:14:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 02:14:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 02:14:31 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 02:14:31 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 02:14:31 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 02:14:31 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 02:14:31 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[12-Nov-2013 05:40:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[12-Nov-2013 05:40:07 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 05:40:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[12-Nov-2013 05:40:07 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[12-Nov-2013 05:40:07 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[12-Nov-2013 05:40:07 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[12-Nov-2013 05:40:07 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[12-Nov-2013 05:40:07 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[13-Nov-2013 00:07:19 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[13-Nov-2013 00:07:19 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 00:07:19 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[13-Nov-2013 00:07:19 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[13-Nov-2013 00:07:19 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[13-Nov-2013 00:07:19 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 00:07:19 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[13-Nov-2013 00:07:19 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[13-Nov-2013 01:51:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[13-Nov-2013 01:51:17 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 01:51:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[13-Nov-2013 01:51:17 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[13-Nov-2013 01:51:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[13-Nov-2013 01:51:17 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 01:51:17 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[13-Nov-2013 01:51:18 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[13-Nov-2013 01:51:58 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[13-Nov-2013 01:51:58 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 01:51:58 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[13-Nov-2013 01:51:58 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[13-Nov-2013 01:51:58 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[13-Nov-2013 01:51:58 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 01:51:58 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[13-Nov-2013 01:51:59 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382
+[13-Nov-2013 02:00:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 9
+[13-Nov-2013 02:00:17 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 02:00:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 46
+[13-Nov-2013 02:00:17 America/Denver] PHP Notice:  Undefined variable: max_counter in /home5/abhworl4/public_html/uk-cosmetics/header.php on line 115
+[13-Nov-2013 02:00:17 America/Denver] PHP Notice:  Undefined index: cart in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 29
+[13-Nov-2013 02:00:17 America/Denver] PHP Notice:  Undefined variable: total_amount in /home5/abhworl4/public_html/uk-cosmetics/cartClass.php on line 51
+[13-Nov-2013 02:00:17 America/Denver] PHP Notice:  Undefined index: cat_id in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 34
+[13-Nov-2013 02:00:17 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home5/abhworl4/public_html/uk-cosmetics/menu.php on line 382

@@ -1,0 +1,20 @@
+[03-Oct-2013 05:43:53] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/connection.php on line 2
+[03-Oct-2013 05:44:09] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/connection.php on line 2
+[03-Oct-2013 05:44:20] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/connection.php on line 2
+[02-Nov-2013 00:56:17 America/Denver] PHP Notice:  Undefined index: position in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 47
+[02-Nov-2013 00:56:17 America/Denver] PHP Notice:  Undefined variable: details in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 89
+[02-Nov-2013 00:56:17 America/Denver] PHP Notice:  Undefined variable: title in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 127
+[02-Nov-2013 00:56:17 America/Denver] PHP Notice:  Undefined variable: sort_details1 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 132
+[02-Nov-2013 00:56:17 America/Denver] PHP Notice:  Undefined variable: sort_details2 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 139
+[02-Nov-2013 00:58:26 America/Denver] PHP Notice:  Undefined index: position in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 47
+[02-Nov-2013 00:58:26 America/Denver] PHP Notice:  Undefined variable: details in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 89
+[02-Nov-2013 00:58:26 America/Denver] PHP Notice:  Undefined variable: title in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 127
+[02-Nov-2013 00:58:26 America/Denver] PHP Notice:  Undefined variable: sort_details1 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 132
+[02-Nov-2013 00:58:26 America/Denver] PHP Notice:  Undefined variable: sort_details2 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 139
+[03-Nov-2013 05:32:38 America/Denver] PHP Notice:  Undefined index: position in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 47
+[03-Nov-2013 05:32:38 America/Denver] PHP Notice:  Undefined variable: details in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 92
+[03-Nov-2013 05:32:38 America/Denver] PHP Notice:  Undefined variable: title in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 130
+[03-Nov-2013 05:32:38 America/Denver] PHP Notice:  Undefined variable: sort_details1 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 135
+[03-Nov-2013 05:32:38 America/Denver] PHP Notice:  Undefined variable: link2 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 140
+[03-Nov-2013 05:32:38 America/Denver] PHP Notice:  Undefined variable: sort_details2 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 148
+[03-Nov-2013 05:32:38 America/Denver] PHP Notice:  Undefined variable: link2 in /home5/abhworl4/public_html/uk-cosmetics/control_panel/editor/samples/dany.php on line 153

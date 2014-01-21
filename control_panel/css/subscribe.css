@@ -1,0 +1,154 @@
+/*Subscription strip*/
+.subscription-strip-wrap {
+    /*
+    background: #F05A2A;
+	*/
+	background-image:url(../images/Wood_Bottom_Bar.png);
+	background-repeat:repeat-x;
+	height:28px;
+	
+    position: fixed;
+    bottom: 0px;
+	width:961px;
+    z-index: 1000;
+	margin: 0px 0px 0px 20px;
+
+}
+
+.subscription-strip-content {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    /*padding: 10px 0 5px 0;*/
+}
+
+.subscription-strip-content div {
+    float: left;
+    padding: 0 0 0 10px;
+}
+
+.subscription-strip-input-label {
+    font-size: 10px;
+    font-weight: bold;
+    font-family:Verdana;
+    color: #333333;
+    padding: 2px 0 0 0;
+}
+
+#SubscribeEmailTextBox {
+    width: 140px;
+    padding: 4px 10px;
+    border: 1px #323232 solid;
+    font-size: 11px;
+    color: #5a5a5a;
+}
+
+#SubscribeMobileTextBox {
+    width: 140px;
+    padding: 4px 10px;
+    border: 1px #323232 solid;
+    font-size: 11px;
+    color: #5a5a5a;
+}
+
+#SubscribeButton {
+    width: 72px;
+    background: #600;
+    /*border: 1px #666666 solid;*/
+    color: #FFF;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 0;
+}
+
+.response-container {
+    color: red;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.subscription-skip {
+    background: url("../images/close.png") no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: right;
+    height: 15px;
+    position: absolute;
+    right: -15px;
+    top: -12px;
+    width: 15px;
+}
+.subscription-Logo_Sticker {
+    background: url(../images/Bottom_Logo_Sticker.png) no-repeat scroll 0 0 transparent;
+    cursor: pointer;
+    float: left;
+    height: 30px;
+    position: absolute;
+    left: -5px;
+    top: -18px;
+    width: 26px;
+}
+
+td#subscription-form-container {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fff;
+}
+
+/*Subscription popup*/
+#subscription-popup {
+    font-family: 'HelveticaRoundedLTBoldCnRg', sans-serif;
+    text-align: center;
+    padding: 15px;
+}
+
+#subscription-popup .city-name {
+    font-size: 20px;
+    color: #ffffff;
+    padding: 5px;
+    background: #5C0B3A;
+}
+
+#subscription-popup-form {
+    padding: 20px 60px;
+}
+
+#subscription-popup-title {
+    font-size: 15px;
+}
+
+#subscription-popup-email {
+    width: 254px;
+    padding: 5px 10px;
+    border: 1px solid #323232;
+    font-size: 15px;
+    color: #5a5a5a;
+    margin: 5px 0;
+}
+
+#subscription-popup-submit {
+    background: #000;
+    border: 1px #8f8888 solid;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+
+.subscription-footer span {
+    color: #c0c0c0;
+    font-size: 13px;
+}
+
+.subscription-footer span.hide-strip {
+    font-size: 14px;
+    color: #5C0B3A;
+    cursor: pointer;
+}
+
+.subscription-footer span.hide-strip:hover {
+    text-decoration: underline;
+}
+
+#subscription-popup .response-container {
+    padding-bottom: 5px;
+}

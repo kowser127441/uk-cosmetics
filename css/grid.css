@@ -1,0 +1,238 @@
+/* CSS Document */
+
+/* Container */
+
+#grid-list-container
+{
+	width:930px;
+	background:url(../images/grid-bk.gif) repeat-x 0 0;
+	padding:15px;
+}
+
+#categorylist #grid-list-container {
+	margin: 0 0 10px;
+	padding: 15px 0 0 5px;
+	width: 775px;
+}
+
+#grid-list
+{
+	
+}
+
+#grid-list li
+{
+	float:left;
+	width:215px;
+	margin:0 23px 10px 0;
+	overflow:hidden;
+}
+
+#categorylist #grid-list li
+{
+	float:left;
+	width:252px;
+	margin:0 5px 10px 0;
+	overflow:hidden;
+}
+
+#grid-list .grid-item-4, #grid-list .grid-item-8, #grid-list .grid-item-12, #grid-list .grid-item-16
+{
+	margin:0 0 10px 0;
+}
+
+#categorylist #grid-list .grid-item-3, #categorylist #grid-list .grid-item-6, #categorylist #grid-list .grid-item-9
+{
+	margin:0 0 10px 0;
+}
+
+/* Grid box stylings */
+
+.grid-item-box h2
+{
+	display:none;
+}
+
+.grid-item-box
+{
+	
+}
+
+.grid-item-box img
+{
+	/*
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-0-border-radius:5px;
+	*/
+}
+
+.grid-item-hover
+{
+	opacity:0;
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-webkit-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	position:absolute;
+	top:0;	
+	left:0;
+	height:100%;
+	width:100%;
+	background:url(../images/hover.png) repeat;
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	-0-border-radius:4px;
+}
+
+
+#categorylist .grid-item-hover
+{
+	width:250px;
+}
+
+
+.grid-item-image
+{
+	display:block;	
+	overflow:hidden;	
+	/* border:1px solid #b8b8b8; 
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;*/
+	position:relative;
+	top:0;
+	left:0;
+	margin:0 0 3px 0;
+}
+
+#categorylist .grid-item-image
+{
+	border:1px solid #b8b8b8; 
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+
+.grid-item-image a
+{
+	height:100%;
+	width:100%;
+	display:block;
+}
+
+.grid-item-image:hover .grid-item-hover
+{
+	display:block;
+	cursor:pointer;
+	opacity:1;
+	ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+}
+
+/* Links */
+
+#grid-list .grid-item-links {
+	margin:10px 0 10px 0;
+}
+
+#grid-list .grid-item-links li
+{
+	float:none;
+	width:90%;
+	color:#000;
+	padding:4px 5px 1px 10px;
+	margin:0 0 2px 5px;
+	background:url(../images/p-arrow.gif) no-repeat 0 4px;	
+	font-size:12px;
+}
+
+#grid-list .grid-item-links li a
+{
+	color:#000;
+}
+
+/* Grid Misc */
+
+#grid-misc
+{
+	margin:0 0 10px;
+}
+
+#grid-misc ul li
+{
+	float:left;
+	margin:0 5px 0 0;
+	border: 1px solid #D3D3D3;
+	text-align:center;
+}
+
+#grid-misc ul li a
+{
+	font-size:18px;
+	display:block;
+	width:218px;
+	padding:10px 5px 10px 10px;
+	background:url("../images/tabbg.gif") repeat-x 0 0;
+}
+
+#grid-misc ul li a:hover
+{
+	background:url("../images/tabbg-hover.gif") repeat-x 0 0;
+	text-decoration:none;
+}
+
+#grid-misc ul li.last
+{
+	margin:0;
+}
+
+#grid-misc ul li.beautycard a {
+	background:url(../images/card_off.jpg) 0 0 no-repeat #fcfcfc;
+}
+#grid-misc ul li.beautycard a:hover {
+	background:url(../images/card_on.jpg) 0 0 no-repeat transparent;
+}
+
+#grid-misc ul li.comp a {
+	background:url(../images/comp_off.jpg) 0 0 no-repeat #fcfcfc;
+}
+
+#grid-misc ul li.comp a:hover {
+	background:url(../images/comp_on.jpg) 0 0 no-repeat transparent;
+}
+
+#grid-misc ul li.freegift a {
+	background:url(../images/gift_off.jpg) 0 0 no-repeat #fcfcfc;
+}
+#grid-misc ul li.freegift a:hover {
+	background:url(../images/gift_on.jpg) 0 0 no-repeat transparent;
+}
+
+#grid-misc ul li.cookie a {
+	background:url(../images/cookie_off.jpg) 0 0 no-repeat #fcfcfc;
+}
+#grid-misc ul li.cookie a:hover {
+	background:url(../images/cookie_on.jpg) 0 0 no-repeat transparent;
+}
+
+#categorylist #grid-list .grid-item-links li {
+	margin: 0 0 4px 5px;
+	padding: 0 5px 1px 10px;
+}
+
+#categorylist .grid-item-box img
+{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-0-border-radius:5px;
+}
+
+#categorylist .goldspot-2012-btn {
+	padding: 4px 5px 0px 5px;
+}

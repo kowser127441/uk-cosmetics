@@ -1,0 +1,219 @@
+/**
+  * goldspot-2012slider 1.05
+  * http://goldspot-2012slider.com/
+  *
+  * Copyright 2012:Sebastian Pontow, Rene Maas (http://renemaas.de/)
+  * Dual licensed under the MIT or GPL Version 2 licenses.
+  * http://goldspot-2012slider.com/license/
+  */
+  
+#goldspot-2012  
+{
+	margin:0 0 10px 0;
+	float:left;
+	width:728px;
+	height:278px;
+}
+  
+#goldspot-2012-list {
+	width:728px;
+	height:278px;
+				
+	/*IE bugfix*/
+	padding:0;
+	margin:0;
+}
+
+#categorylist #goldspot-2012-list
+{
+	width:778px;
+}
+
+.goldspot-2012-container { position:relative; border:1px solid #d3d3d3; border-radius:5px; -moz-border-radius:5px; -webkit-border-radius:5px;}
+
+/* Number & Play/pause */
+
+#goldspot-2012-bullets-wrapper ol
+{
+	position:absolute;
+	z-index:2;
+	left:20px;
+	bottom:0;
+	border-top:1px solid #d3d3d3;
+	border-left:1px solid #d3d3d3;
+	border-right:1px solid #d3d3d3;
+	background:#fff;
+	border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-o-border-radius:5px 5px 0 0;
+	height:22px;
+}
+
+.goldspot-2012-bullets {
+	padding:0;
+}
+
+.goldspot-2012-bullets li {
+	float:left;
+	display:inline;
+	margin:0 2px;
+}
+
+.goldspot-2012-bullets li a.goldspot-2012-bullet {
+	display:block;
+	width:16px;
+	height:11px;
+	cursor:pointer;
+	font-size:12px;
+	text-align:center;
+	padding:5px 0 10px 0;
+	color:#ee008c;
+	text-decoration:none;
+}
+
+.goldspot-2012-bullets li a.goldspot-2012-bullet.goldspot-2012-active-bullet {
+    background:url(../images/number-select.png) no-repeat scroll center top;
+    color:#fff;
+    height:9px;
+    margin:-10px 0 0;
+    padding:15px 0 8px;
+}
+
+.goldspot-2012-bullets li a.goldspot-2012-bullet:hover, .goldspot-2012-bullets li a.goldspot-2012-bullet:focus {
+	background:url(../images/number-select.png) no-repeat scroll center top;
+    color:#fff;
+    height:9px;
+    margin:-10px 0 0;
+    padding:15px 0 8px;
+}
+
+.goldspot-2012-btn {
+	background:#fff;
+	color:#ee008c;
+	z-index:2;
+	display:block;
+	padding:6px 5px;
+	bottom:0;
+	left:121px;
+	text-align:center;
+	border-top:1px solid #d3d3d3;
+	border-left:1px solid #d3d3d3;
+	border-right:1px solid #d3d3d3;
+	border-radius:5px 5px 0 0;
+	-moz-border-radius:5px 5px 0 0;
+	-webkit-border-radius:5px 5px 0 0;
+	-o-border-radius:5px 5px 0 0;
+}
+
+/* Goldspot Text */
+
+.gold-text, .gold-text-promo
+{
+	border-right:1px solid #d3d3d3;
+	background:#FCE5F3 url(../images/gold-text-bk.gif) repeat-x 0 0;
+	background-size:1px 278px;
+	-webkit-background-size:1px 278px;
+	float:left;
+	width:238px;
+	height:210px;
+	padding:40px 20px 30px 20px;
+	border-radius:5px 0 0 5px;
+	-moz-border-radius:5px 0 0 5px;
+	-webkit-border-radius:5px 0 0 5px;
+	-o-border-radius:5px 0 0 5px;
+}
+
+.gold-text-promo
+{
+	height: 170px;
+	padding:80px 20px 30px 20px;	
+}
+
+.gold-text h3, .gold-text-promo h3
+{
+	color:#ee008c;
+    font-size:25px;
+	line-height:30px;
+    font-weight:normal;
+    margin-bottom:15px;
+	text-shadow:#aaa 2px 2px 2px;
+	-moz-text-shadow:#aaa 2px 2px 2px;
+	-webkit-text-shadow:#aaa 2px 2px 2px;
+	-o-text-shadow:#aaa 2px 2px 2px;
+}
+
+.gold-text-promo h3
+{
+	text-align:center;
+}
+
+.gold-text h3 a:hover, .gold-text-promo h3 a:hover
+{
+	color:#ee008c;
+}
+
+.gold-text h4
+{
+	color:#111;
+    font-size:20px;
+    font-weight:normal;
+    margin-bottom:15px;
+}
+
+.gold-text h5
+{
+	color:#111;
+    font-size:16px;
+    font-weight:normal;
+    margin-bottom:15px;
+}
+
+.gold-text-small
+{
+	font-size:10px;
+	position:absolute;
+	bottom:40px;
+}
+
+.gold-spot-wrapper a.right-image
+{
+	float:left;
+	width:449px;
+}
+
+.gold-spot-wrapper img
+{
+	border-radius: 0 5px 5px 0;
+	-moz-border-radius: 0 5px 5px 0;
+	-webkit-border-radius: 0 5px 5px 0;
+	-o-border-radius: 0 5px 5px 0;
+}
+
+.gold-spot-wrapper-full img
+{
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-o-border-radius:5px;
+}
+
+.goldspot-link-wrapper
+{
+	margin:0 0 15px 0;
+}
+
+.gold-spot-wrapper a.goldspot-link
+{
+	color:#fff;
+	font-size:12px;
+	background:url(../images/gslink-bk.png) no-repeat 0 0;
+	width:auto;
+	padding:8px 4px 12px 10px;
+	height:12px;
+}
+
+.gold-spot-wrapper a.goldspot-link:hover
+{
+	text-decoration:none;
+}

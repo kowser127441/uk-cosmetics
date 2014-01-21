@@ -1,0 +1,132 @@
+[08-Oct-2013 01:32:53] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/control_panel/seen.php:30) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/seen.php on line 61
+[08-Oct-2013 01:32:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/control_panel/seen.php:30) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/seen.php on line 61
+[08-Oct-2013 01:33:05] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/control_panel/seen.php:30) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/seen.php on line 61
+[08-Oct-2013 02:56:49] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php:30) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php on line 62
+[08-Oct-2013 02:56:58] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php:30) in /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php on line 62
+[24-Oct-2013 03:29:39 America/Denver] PHP Notice:  Undefined index: verification_code in /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php on line 33
+[24-Oct-2013 03:34:17 America/Denver] PHP Notice:  Undefined index: verification_code in /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php on line 33
+[24-Oct-2013 03:50:23 America/Denver] PHP Warning:  include(): Failed opening 'orders_menu.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/abhworl4/public_html/uk-cosmetics/control_panel/new_order.php on line 149
+[24-Oct-2013 03:50:23 America/Denver] PHP Warning:  include(): Failed opening 'orders_sidebutton.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/abhworl4/public_html/uk-cosmetics/control_panel/new_order.php on line 163
+[24-Oct-2013 03:50:51 America/Denver] PHP Warning:  include(): Failed opening 'orders_sidebutton.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/abhworl4/public_html/uk-cosmetics/control_panel/new_order.php on line 163
+[24-Oct-2013 03:50:59 America/Denver] PHP Warning:  include(): Failed opening 'orders_sidebutton.php' for inclusion (include_path='.:/usr/php/54/usr/lib64:/usr/php/54/usr/share/pear') in /home5/abhworl4/public_html/uk-cosmetics/control_panel/orders.php on line 87
+[24-Oct-2013 03:54:41 America/Denver] PHP Notice:  Undefined index: verification_code in /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php on line 33
+[25-Oct-2013 08:21:55 America/Denver] PHP Notice:  Undefined index: verification_code in /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php on line 33
+[25-Oct-2013 22:45:30 America/Denver] PHP Notice:  Undefined index: verification_code in /home5/abhworl4/public_html/uk-cosmetics/control_panel/success.php on line 33
+[28-Oct-2013 02:44:37 America/Denver] PHP Notice:  Undefined index: verification_code in /home5/abhworl4/public_html/uk-cosmetics/control_panel/dispass.php on line 33
+[28-Oct-2013 02:46:20 America/Denver] PHP Notice:  Undefined index: shipping_address in /home5/abhworl4/public_html/uk-cosmetics/control_panel/invoice.php on line 54
+[28-Oct-2013 02:47:22 America/Denver] PHP Notice:  Undefined index: shipping_address in /home5/abhworl4/public_html/uk-cosmetics/control_panel/invoice.php on line 54
+[28-Oct-2013 02:48:37 America/Denver] PHP Notice:  Undefined index: shipping_address in /home5/abhworl4/public_html/uk-cosmetics/control_panel/invoice.php on line 54
+[28-Oct-2013 02:48:53 America/Denver] PHP Notice:  Undefined index: shipping_address in /home5/abhworl4/public_html/uk-cosmetics/control_panel/invoice.php on line 54
+[28-Oct-2013 02:53:04 America/Denver] PHP Notice:  Undefined index: sell_point in /home5/abhworl4/public_html/uk-cosmetics/control_panel/edit_new_product.php on line 301
+[01-Nov-2013 08:42:34 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[01-Nov-2013 08:46:26 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[02-Nov-2013 00:53:10 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[02-Nov-2013 01:24:49 America/Denver] PHP Notice:  Undefined index: verification_code in /home5/abhworl4/public_html/uk-cosmetics/control_panel/dispass.php on line 33
+[02-Nov-2013 01:39:30 America/Denver] PHP Notice:  Undefined variable: db_password in /home5/abhworl4/public_html/uk-cosmetics/control_panel/admin_login_check.php on line 31
+[02-Nov-2013 01:39:42 America/Denver] PHP Notice:  Undefined variable: db_password in /home5/abhworl4/public_html/uk-cosmetics/control_panel/admin_login_check.php on line 31
+[02-Nov-2013 01:40:08 America/Denver] PHP Notice:  Undefined variable: db_password in /home5/abhworl4/public_html/uk-cosmetics/control_panel/admin_login_check.php on line 31
+[02-Nov-2013 01:40:21 America/Denver] PHP Notice:  Undefined variable: db_password in /home5/abhworl4/public_html/uk-cosmetics/control_panel/admin_login_check.php on line 31
+[02-Nov-2013 01:40:30 America/Denver] PHP Notice:  Undefined variable: db_password in /home5/abhworl4/public_html/uk-cosmetics/control_panel/admin_login_check.php on line 31
+[02-Nov-2013 01:41:19 America/Denver] PHP Notice:  Undefined variable: db_password in /home5/abhworl4/public_html/uk-cosmetics/control_panel/admin_login_check.php on line 31
+[02-Nov-2013 03:09:45 America/Denver] PHP Notice:  Use of undefined constant php - assumed 'php' in /home5/abhworl4/public_html/uk-cosmetics/control_panel/order_details.php on line 243
+[02-Nov-2013 03:10:22 America/Denver] PHP Notice:  Use of undefined constant php - assumed 'php' in /home5/abhworl4/public_html/uk-cosmetics/control_panel/order_details.php on line 243
+[03-Nov-2013 02:58:49 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 03:32:24 America/Denver] PHP Notice:  Undefined index: HTTP_REFERER in /home5/abhworl4/public_html/uk-cosmetics/control_panel/remove_sub_category.php on line 54
+[03-Nov-2013 03:33:08 America/Denver] PHP Notice:  Undefined index: HTTP_REFERER in /home5/abhworl4/public_html/uk-cosmetics/control_panel/remove_sub_category.php on line 54
+[03-Nov-2013 03:38:45 America/Denver] PHP Notice:  Undefined index: type_id in /home5/abhworl4/public_html/uk-cosmetics/control_panel/edit_type.php on line 130
+[03-Nov-2013 03:38:45 America/Denver] PHP Notice:  Undefined variable: type_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/edit_type.php on line 155
+[03-Nov-2013 03:41:58 America/Denver] PHP Notice:  Undefined variable: type_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/edit_type.php on line 155
+[03-Nov-2013 03:42:21 America/Denver] PHP Notice:  Undefined variable: type_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/edit_type.php on line 155
+[03-Nov-2013 04:45:12 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:47:10 America/Denver] PHP Notice:  Undefined variable: type_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/edit_type.php on line 155
+[03-Nov-2013 04:47:13 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:47:24 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:47:40 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:47:58 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:48:36 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:48:47 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:48:58 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:49:43 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:49:54 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:50:14 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 04:52:20 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:00:01 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:10:56 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:11:42 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:13:27 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:16:29 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:18:33 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:20:57 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:21:21 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:22:07 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:25:12 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:25:57 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:26:42 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:27:54 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:31:03 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:31:59 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:32:17 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:32:33 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:33:48 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:34:18 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:35:14 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:36:27 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:38:45 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:40:04 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:40:20 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:40:35 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:43:12 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:44:21 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:45:45 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:52:56 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:53:52 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 05:59:06 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:11:47 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:12:30 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:12:54 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:22:43 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:22:58 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:23:16 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:24:57 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:25:27 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:25:41 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:26:07 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:26:38 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:26:51 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:33:22 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:33:37 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:33:52 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:34:56 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:35:14 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:35:34 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:36:25 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:36:40 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:36:55 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:37:27 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:37:54 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:38:10 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:39:26 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:39:42 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:40:32 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:40:57 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:42:34 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:43:01 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:43:35 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:45:00 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:45:27 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:45:44 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 06:46:42 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[03-Nov-2013 22:34:42 America/Denver] PHP Notice:  Undefined variable: sub_category_name in /home5/abhworl4/public_html/uk-cosmetics/control_panel/add_new_type.php on line 246
+[04-Nov-2013 00:57:22 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 00:58:03 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 00:58:48 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 00:59:39 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 01:00:31 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 01:01:43 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 01:03:46 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 01:05:17 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 01:06:22 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[04-Nov-2013 01:07:55 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[07-Nov-2013 02:32:01 America/Denver] PHP Warning:  unlink(BACKGROUND_IMAGE/Liton061817 (5).jpg): No such file or directory in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 29
+[07-Nov-2013 02:32:01 America/Denver] PHP Warning:  mkdir(): File exists in /home5/abhworl4/public_html/uk-cosmetics/control_panel/adding_background_image.php on line 40
+[07-Nov-2013 19:51:13 America/Denver] PHP Notice:  Use of undefined constant php - assumed 'php' in /home5/abhworl4/public_html/uk-cosmetics/control_panel/order_details.php on line 245

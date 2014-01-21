@@ -1,0 +1,2187 @@
+body
+{
+	font:Verdana;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:12px;
+	font-weight:normal;	
+	
+}
+
+img
+{
+	border:none;
+}
+a
+{
+	text-decoration:none;
+	color:#808080;
+	/*
+	border:none;
+	*/
+}
+p
+{
+	float:left;
+	margin:5px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	/*
+	font-weight:bold;
+	*/
+	color:#000000;	
+}
+.mandatory
+{
+	color:Red;
+}
+
+.Ten_Font
+{
+	font-size:10px;
+}
+
+#Wrapper
+{
+	width:988px;
+}
+.White_Box_Background_Top
+{
+	float:left;
+	width:988px;
+	height:21px;
+	background-image:url(../Images/White_Box_Top.png);	
+	background-repeat:no-repeat;
+	position:absolute;
+}
+.White_Box_Background_Middle
+{
+	float:left;
+	width:988px;
+	background-image:url(../Images/White_Box_Middle.png);	
+	background-repeat:repeat-y;
+}
+.White_Box_Background_Bottom
+{
+	float:left;
+	width:988px;
+	height:18px;
+	background-image:url(../Images/White_Box_Bottom.png);	
+	background-repeat:no-repeat;
+}
+.Wood_Texture_Background
+{
+	float:left;
+	width:961px;
+	background-image:url(../Images/Category_Background.jpg);
+	margin:130px 0px 0px 13px;
+}
+.Empty_Space
+
+{
+	float:left;
+	width:961px;
+	height:30px;
+
+}
+#Header
+{
+	width:988px;
+	height:129px;
+	float:left;
+	position:absolute;
+	z-index:1;
+	margin:5px 0px 0px 0px;
+}
+#Logo
+{
+	float:left;
+	width:162px;
+	height:129px;
+	/*
+	background-image:url(../images/Logo.png);
+	background-repeat:no-repeat;
+	*/
+	border:none;
+	margin:20px 0px 0px 60px;
+}
+.User_Status_SignOut
+{	
+	float:left;
+	width:590px;
+	height:12px;
+	margin:18px 0px 0px 114px;
+	font:Verdana;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:11px;
+	font-weight:normal;	
+	color:#85888f;
+	text-align:right;
+}
+.User_Status_Signin
+{	
+	float:left;
+	width:590px;
+	height:11px;
+	font:Verdana;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:11px;
+	font-weight:normal;	
+	color:#85888f;
+	text-align:right;
+}
+/*
+#Background
+{	
+	float:left;
+	height:1082px;
+	height:910px;
+	width:988px;
+	background-image:url(../images/Category_Background.jpg);
+	background-repeat:no-repeat;
+}
+*/
+.Menue
+{	
+	float:left;
+	width:590px;
+	height:12px;
+	margin:60px 0px 0px 114px;
+	text-align:right;
+}
+.Menue ul
+{
+	text-decoration:none;
+	text-align:right;
+}
+.Menue li
+{
+	font:Verdana;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-size:12px;
+	font-weight:normal;	
+	color:#F05927;
+	list-style:none;
+	text-decoration:none;
+	display:inline;
+	text-align:right;
+}
+
+
+.Menue li a
+{
+	text-decoration: none;
+    color:#F05A28;
+}
+
+
+/*
+.Menue li a:active
+{
+	text-decoration: none;
+	color:#A8BE27;
+}
+
+
+.Menue li a:active
+{
+	text-decoration: none;
+	color:#A8BE27;
+}
+a.focus:link, a.focus:visited
+{color:blue;}
+
+*/
+
+
+
+.Green_a
+{
+	text-decoration:none;
+	color:#A8BE27;
+	font-weight:normal;
+}
+.Orange_a
+{
+	text-decoration:none;
+	color:#F05927;
+	font-weight:normal;
+}
+.Orange_Bold_a
+{
+	text-decoration:none;
+	color:#F05927;
+	font-weight:bold;
+}
+
+.White_a
+{
+	text-decoration:none;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#Left_Wrapper
+{
+	width:548px;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+#Right_Wrapper
+{
+	width:437px;
+	float:left;
+	margin:0px 0px 0px 0px;
+}
+#Title_theme
+{
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:28px;
+	font-weight:bold;
+	/*
+	color:#F05A28;
+	*/
+	color:#FFFFFF;
+	width:300px;
+	text-align:left;
+	margin:30px 0px 0px 46px;
+}
+/*#Transition_Images
+{
+	float:left;
+	width:288px;
+	height:184px;
+	margin:5px 0px 0px 46px;
+}*/
+#Deal_Ends
+{
+	float:left;
+	width:120px;
+	height:78px;
+	margin:70px 0px 0px 15px;
+	background-image:url(../images/Deal_Ends.png);
+	background-repeat:no-repeat;
+	/*
+	text-align:left;
+	*/
+}
+#Deal_Ends_Text
+{
+	float:left;
+	width:120px;
+	height:12px;
+	margin:10px 0px 0px 0px;
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+}
+#Left_days_or_hrs
+{
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	font-style:normal;
+	color:#FFFFFF;
+	width:120px;
+	margin:7px 0px 0px 0px;
+	/*
+	text-align:left;
+	*/
+}
+#Digital_clock
+{
+	float:left;
+	width:62px;
+	margin:8px 0px 0px 30px;
+	text-align:left;
+}
+pre
+{
+	display:none;
+}
+#TK_Wrapper
+{
+	width:450px;
+	margin:0px 0px 0px 46px;
+	float:left;
+}
+#TK_Amount_Background
+{
+	width:276px;
+	height:51px;
+	float:left;
+	background-image:url(../images/Tk_Amount.png);
+	background-repeat:no-repeat;
+	margin:8px 0px 0px 0px;
+}
+#Save_Amount_Background
+{
+	width:150px;
+	height:94px;
+	float:left;
+	background-image:url(../images/Save_Percent.png);
+	background-repeat:no-repeat;
+	margin:0px 0px 0px 23px;
+	
+}
+#Tk_amount
+{
+	float:left;
+	width:125px;
+	height:28px;
+	margin:14px 0px 0px 20px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:24px;
+	font-weight:bold;
+	text-align:left;
+	color:#F05A28;
+}
+#Original_amount
+{
+	float:left;
+	width:90px;
+	height:38px;
+	margin:12px 0px 0px 20px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	color:#333333;
+}
+#Italic_text
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:normal;
+	font-style:italic;
+	font-weight:600;
+	color:#333333;
+}
+#Save_amount_text
+{
+	float:left;
+	width:54px;
+	height:28px;
+	margin:5px 0px 0px 18px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:26px;
+	font-weight:bold;
+	color:#333333;
+}
+#Save_amount_digit
+{
+	float:left;
+	width:48px;
+	height:28px;
+	margin:5px 0px 0px 12px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:22px;
+	font-weight:bold;
+	color:#BED630;
+}
+.Menu_wrapper
+{
+	float:left;
+	width:500px;
+	margin:0px 0px 0px 46px;
+	text-align:left;
+}
+.Menu_Title
+{
+	float:left;
+	width:110px;
+	height:16px;
+	margin:10px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+}
+.Menu_Contents
+{
+	float:left;
+	width:482px;
+	margin:5px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	/*
+	font-weight:bold;
+	*/
+	color:#000000;
+}
+.Input_Field_Wrapper
+{
+	float:left;
+	width:337px;
+	margin:45px 0px 0px 100px;
+	text-align:left;
+}
+.Text_Box_Title
+{
+	float:left;
+	width:250px;
+	height:16px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	margin:15px 0px 0px 0px;
+}
+
+.Input_Field
+{
+	float:left;
+	width:220px;
+	height:22px;
+	background-image:url(../images/Input_Text_Box_Background.png);
+	background-repeat:no-repeat;
+	margin:6px 0px 0px 0px;
+}
+.Input_Field_Transparent
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:210px;
+	height:19px;
+	margin:1px 5px 0px 5px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+} 
+#Cheque_Box_Field_Wrapper
+{
+	float:left;
+	width:250px;
+	height:16px;
+	margin:15px 0px 0px 0px;
+}
+#Cheque_Box_Field
+{
+	float:left;
+	width:16px;
+	height:16px;
+	margin:0px 0px 0px 50px;
+}
+#Cheque_Box_Title
+{
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	/*
+	font-weight:bold;
+	*/
+	color:#000000;
+	width:160px;
+	height:16px;
+	margin:0px 0px 0px 6px;
+}
+.styledCheckbox
+   {
+   	height:14px;
+    width:14px;
+    /* */
+   	filter:alpha(opacity=0.0);
+   	opacity:0.0;
+	outline:0;
+   }
+   
+.styledCheckboxWrap
+{
+	position:relative;
+	float:left;
+	background:url(../images/Cheque_Box_Background.png) no-repeat top left;
+	width:16px;
+	height:15px;
+	margin:0px;
+}
+.wrapChecked
+{
+	background-position: 0px -14px;
+}
+
+.styleRadio
+   {
+   	height:14px;
+    width:14px;
+    /* */
+   	filter:alpha(opacity=0.0);
+   	opacity:0.0;
+	outline:0;
+   }
+   
+.styleRadioWrap
+{
+	position:relative;
+	float:left;
+	background:url(../images/Radio_Button_Background.png) no-repeat top left;
+	width:16px;
+	height:15px;
+	margin:0px;
+}
+.wrapRadio
+{
+	background-position: 0px -14px;
+}
+
+.Button_Wrapper
+{
+	float:left;
+	width:250px;
+	margin:15px 0px 0px 70px;
+}
+
+.Button_Background
+{
+	float:left;
+	background-image:url(../images/Button_Background.png);
+	background-repeat:no-repeat;
+	width:75px;
+	height:27px;
+}
+.Button_Transparent
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:75px;
+	height:22px;
+	margin:1px 0px 0px 0px;
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+} 
+.SignUp_ForgotPass_Text
+{	
+	float:left;
+	width:300px;
+	height:16px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	/*
+	font-weight:bold;
+	*/
+	color:#000000;
+	margin:15px 0px 0px 0px;
+	
+}
+
+.SignUp_ForgotPass_Text_Corporate
+{	
+	float:left;
+	height:16px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	
+}
+
+.SignUp_ForgotPass_Text a
+{
+	text-decoration:none;
+	color:#000000;
+}
+
+.P_Title
+{
+	height:16px;
+	margin:5px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+}
+
+#Fore_ground_Textarea
+{
+	z-index:1;
+	position:absolute;
+	height:36px;
+	width:20px;
+	float:left;
+	margin:0px 0px 0px 200px;
+}
+#Textarea_Right_Scroll
+{
+	float:left;
+	width:20px;
+	height:36px;	
+	background-image:url(../images/Text_Area_Right_scroll.png);
+	background-repeat:no-repeat;
+	margin:3px 0px 0px 0px;
+}
+
+.Fore_ground_Combo_Box
+{
+	z-index:1;
+	position:absolute;
+	height:20px;
+	width:20px;
+	float:left;
+	margin:0px 0px 0px 195px;
+}
+.Combo_Box_Right_Arrow
+{
+	float:left;
+	width:20px;
+	height:20px;	
+	background-image:url(../images/Combo_Box_Right_Arrow.png);
+	background-repeat:no-repeat;
+	margin:2px 0px 0px 0px;
+}
+/*
+.SignUp_ForgotPass_Text
+{	
+	float:left;
+	width:300px;
+	height:16px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	margin:15px 0px 0px 0px;
+}
+.SignUp_ForgotPass_Text a
+{
+	text-decoration:none;
+	color:#000000;
+}
+*/
+.SignUp_Button_Wrapper
+{
+	float:left;
+	width:170px;
+	margin:15px 0px 0px 250px;
+}
+.SignUp_Update_Button_Wrapper
+{
+	float:left;
+	width:170px;
+	margin:15px 0px 0px 180px;
+}
+.Combo_Box_Field
+{
+	float:left;
+	width:220px;
+	height:25px;
+	background-image:url(../images/Combo_Box_Background.png);
+	background-repeat:no-repeat;
+	margin:6px 0px 0px 0px;
+}
+.Combo_Box_Field_CouponQtn
+{
+	float:left;
+	width:61px;
+	height:23px;
+	background-image:url(../images/Small_Combo_Background.png);
+	background-repeat:no-repeat;
+	margin:2px 0px 0px 0px;
+}
+.Combo_Box_Field_Transparent
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:210px;
+	height:18px;
+	margin:4px 5px 0px 5px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+.Combo_Box_Field_Transparent_CouponQtn
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:55px;;
+	height:17px;
+	margin:1px 5px 0px 2px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+/*
+option
+{
+	float:left;	
+	border:none;
+	outline-style:none;
+	height:16px;	
+	margin:2px 0px 2px 0px;
+	background-color:transparent;
+	
+	background-image:url(../images/Combo_Option_Background.png);
+	background-repeat:no-repeat;
+	
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+} 
+*/
+.Text_area_Field
+{
+	float:left;
+	width:220px;
+	height:42px;
+	background-image:url(../images/Text_Area.png);
+	background-repeat:no-repeat;
+	margin:6px 0px 0px 0px;
+}
+.Text_area_Field_Transparent
+{
+	float:left;
+	height:28px;
+	width:211px;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	margin:6px 0px 0px 4px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	/* */
+	resize:none;
+	
+} 
+.SignUp_Text_Box_Title
+{
+	float:left;
+	width:85px;
+	height:16px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	margin:8px 0px 0px 0px;
+}
+.Confirm_Passward_Box_Title
+{
+	float:left;
+	width:85px;
+	height:32px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#000000;
+	margin:4px 0px 0px 0px;
+}
+
+.Bold_Text
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#000000;
+}
+
+.Bold_Gray_Text
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#AA5F40;
+}
+.Bold_White_Text
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#F05927;
+}
+.Normal_Text
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#000000;
+}
+.Normal_White_Text
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.Contents_Wrapper
+{	
+	float:left;
+	/*height:910px;*/
+	width:928px;
+	margin:0px 30px 0px 30px;		
+}
+
+.Contents
+{	
+	float:left;
+	/*		T	R	 B	  L*/
+	margin:60px 30px 0px 30px;	
+	width:100%;
+	/*margin-top:15px; text-align:left; 	*/
+}
+
+.Deal_Info_In_SignIn
+{
+	float:left;
+	text-align:left;
+	margin:10px 0px 5px 0px;
+}
+
+.Width_20_Percent
+{
+	width:20%;
+}
+.Width_15_Percent
+{
+	width:15%;
+}
+.Width_25_Percent
+{
+	width:25%;
+}
+
+.Medium_Button_Background
+{
+	float:left;
+	background-image:url(../images/Sign_me_in.png);
+	background-repeat:no-repeat;
+	width:96px;
+	height:29px;
+}
+.Medium_Button_Transparent
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:96px;
+	height:22px;
+	margin:2px 0px 0px 0px;
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+} 
+.Large_Button_Background
+{
+	float:left;
+	background-image:url(../images/Large_Button.png);
+	background-repeat:no-repeat;
+	width:198px;
+	height:29px;
+}
+.Large_Button_Transparent
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:198px;
+	height:22px;
+	margin:2px 0px 0px 0px;
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+} 
+.My_Coupons
+{
+	float:left;
+	background-image:url(../images/My_Coupons.png);
+	background-repeat:no-repeat;
+	width:198px;
+	height:29px;
+}
+.Edit_My_Account
+{
+	float:left;
+	background-image:url(../images/Edit_My_Account.png);
+	background-repeat:no-repeat;
+	width:198px;
+	height:29px;
+}
+.Change_Password
+{
+	float:left;
+	background-image:url(../images/Change_Password.png);
+	background-repeat:no-repeat;
+	width:198px;
+	height:29px;
+}
+.Small_Combo_Box_Field
+{
+	float:left;
+	width:61px;
+	height:23px;
+	background-image:url(../images/Small_Combo_Background.png);
+	background-repeat:no-repeat;
+	margin:2px 0px 0px 0px;
+}
+.Small_Combo_Box_Field_Transparent
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:61px;;
+	height:18px;
+	margin:2px 5px 0px 2px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+}
+
+#Background
+{	
+	float:left;
+	height:1040px;
+	width:988px;
+	background-image:url(../images/OthersPage_Background.jpg);
+	background-repeat:no-repeat;
+}
+
+#Transition_Images
+{
+	float:left;
+	width:290px;
+	height:186px;
+	margin:5px 0px 0px 6px;
+	position:absolute;
+	z-index:1;
+}
+#Image_Shadow
+{
+	float:left;
+	width:308px;
+	height:203px;
+	margin:0px 0px 0px 40px;
+	background-image:url(../images/Image_Shadow.png);
+	background-repeat:no-repeat;
+}
+
+.Ongoing_Discounts_Wrapper
+{
+	float:left;
+	width:961px;
+	margin:5px 0px 0px 0px;
+}
+.Ongoing_Discounts_Image_Wrapper
+{
+	float:left;
+	width:137px;
+	margin:0px 0px 0px 30px;
+}
+.Ongoing_Discounts_Description_Wrapper
+{
+	float:left;
+	width:765px;
+	margin:0px 0px 0px 10px;
+}
+.Ongoing_Discounts_Image_Shadow
+{
+	float:left;
+	width:137px;
+	height:85px;
+	background-image:url(../images/Ongoing_Img_Shadow.png);
+	background-repeat:no-repeat;
+	margin:0px 0px 0px 0px;
+}
+.Ongoing_Discounts_Image
+{
+	float:left;
+	width:122px;
+	height:70px;
+	margin:5px 0px 0px 5px;
+}
+.Ongoing_Discounts_Brandname
+{
+	float:left;
+	width:765px;
+	height:18px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#ff3e00;
+	text-align:left;
+	margin:0px 0px 5px 0px;
+}
+.Ongoing_Discounts_Product_title
+{
+	float:left;
+	width:765px;
+	height:14px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	text-align:left;
+	margin:2px 0px 2px 0px;
+}
+.Ongoing_Discounts_Discount_Description
+{
+	float:left;
+	width:765px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin:2px 0px 0px 0px;
+}
+.Ongoing_Discounts_Discount_Wrapper
+{
+	float:left;
+	width:750px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin:5px 0px 2px 0px;
+}
+.Brand_Product_Discount_Percent
+{
+	width:257px;
+	height:18px;
+	float:left;
+	margin:3px 0px 0px 5px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	color:#F05A2A;
+	text-align:left;
+}
+.Brand_Product_Discount_text
+{
+	width:88px;
+	height:18px;
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#F05A2A;
+	text-align:left;
+	margin:3px 0px 0px 0px;
+}
+.Marchant_info_Terms_Conditions_Button
+{
+	float:left;
+	width:219px;
+	height:21px;
+	background-image:url(../images/Marchantinfo_Termasandcondi_Button.png);
+	background-repeat:no-repeat;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin:5px 0px 2px 545px;
+}
+.Dark_Gray_Button_Separator
+{
+	float:left;
+	width:2px;
+	height:10px;
+	background-image:url(../images/Dark_Gray_Button_Separator.png);
+	background-repeat:no-repeat;
+	margin:5px 0px 0px 3px;
+}
+.Marchant_Info_text
+{
+	float:left;
+	width:76px;
+	height:14px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+	color:#6A3002;
+	margin:3px 0px 0px 5px;
+}
+.Terms_and_Conditions_text
+{
+	float:left;
+	width:125px;
+	height:14px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	text-align:left;
+	color:#6A3002;
+	margin:3px 0px 0px 5px;
+}
+.Ongoing_Discounts_Block_Separator
+{
+	height:1px;
+	width:900px;
+	height:2px;
+	float:left;
+	background-image:url(../images/Ongoing_Block_Separator_Darkgray.png);
+	background-repeat:repeat-x;
+	margin:5px 20px 10px 40px;
+}
+.BodyContainerHiddenText
+{
+	background-color:#FFFFFF;
+	width:450px;
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:left;
+	color:#666666;
+}
+.HiddenText_Boxshow
+{
+	background-color:#FFFFFF;
+	width:450px;
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	text-align:justify;
+	color:#666666;
+}
+
+.DarkGray_a
+{
+	text-decoration:none;
+	color:#6A3002;
+}
+.Print_Button
+{
+	float:left;
+	width:22px;
+	height:22px;
+	margin:0px 0px 2px 428px;
+}
+
+.Common_Unique_Wrapper
+{
+	float:left;
+	width:961px;
+	margin:100px 0px 100px 0px;
+	text-align:center;	
+}
+
+
+.Calender_Allelements_Erapper
+{
+	float:left;
+	width:300px;
+	margin:20px 0px 0px 120px;
+}
+.Calender_Spiral
+{
+	float:left;
+	width:255px;
+	height:26px;
+	background-image:url(../images/Calendar_Spiral.png);
+	background-repeat:repeat-x;
+	position:absolute;
+	z-index:1;
+	margin:0px 0px 0px 27px;	
+}
+
+.Calender_Ribon_Brown
+{
+	float:left;
+	width:288px;
+	height:40px;
+	background-image:url(../images/Calendar_Ribon_Brown.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	z-index:1;
+	margin:30px 0px 0px 0px;	
+}
+.Calender_Wrapper
+{
+	float:left;
+	width:288px;
+	margin:8px 0px 0px 12px;
+}
+.Calender_Top
+{
+	float:left;
+	width:288px;
+	height:14px;
+	background-image:url(../images/Calendar_Top.png);
+	background-repeat:no-repeat;	
+}
+.Calender_Middle
+{
+	float:left;
+	width:288px;
+	background-image:url(../images/Calendar_Middle.png);
+	background-repeat:repeat-y;	
+}
+.Calender_Middle_Empty_Space
+{
+	float:left;
+	width:288px;
+	height:60px;
+}
+.Calender_Bottom
+{
+	float:left;
+	width:288px;
+	height:18px;
+	background-image:url(../images/Calendar_Bottom.png);
+	background-repeat:no-repeat;	
+}
+.Ongoing_Discounts_Texts_wrapper
+{
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	width:263px;
+	margin:0px 10px 5px 15px;
+}
+.Ongoing_Discounts_Texts
+{
+	float:left;
+	height:16px;	
+}
+.Ongoing_Discounts_Digits
+{
+	float:left;
+	height:16px;
+	margin:0px 0px 0px 5px;
+}
+.Ongoing_Big_Text_Wrapper
+
+{
+	float:left;
+	width:208px;
+	height:24px;
+	background-image:url(../images/Ongoing_Discounts_Text.png);
+	background-repeat:no-repeat;
+	margin:0px 400px 0px 370px;	
+}
+
+.Calender_Allelements_Erapper a
+{
+	text-decoration:none;
+	color:#000000;
+}
+
+
+.Deal_Info_Titletext
+{
+	float:left;
+	width:160px;	
+	font-weight:bold;
+	margin:0px 0px 20px 0px;
+}
+.Deal_Info_Description
+{
+	float:left;
+	width:160px;
+}
+
+.Deal_Info_Titletext_Wrapper
+{
+	float:left;
+	width:160px;
+	height:60px;	
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+	color:#6A3002;
+	text-align:left;
+	margin:0px 0px 0px 46px;
+}
+.Deal_Info_wrapper_Darktext
+{
+	float:left;
+	width:502px;
+	margin:0px 0px 0px 25px;
+	text-align:right;
+}
+.Deal_Info_wrapper_Whitetext
+{
+	float:left;
+	width:502px;
+	margin:5px 0px 0px 25px;
+	text-align:right;
+}
+.Deal_Info_Dottext
+{
+	float:left;
+	width:480px;
+	margin:5px 0px 0px 46px;
+	height:2px;
+	background-image:url(../images/Dot_Img.png);
+	background-repeat:repeat-x;	
+}
+.Deal_Info_Darktext
+{
+	float:left;
+	width:100px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6A3002;
+
+}
+.Deal_Info_Whitetext_Tk
+{
+	float:left;
+	width:100px;
+	margin:0px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.Deal_Info_Headingtext
+{
+	float:left;
+	width:116px;
+	margin:30px 799px 10px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;	
+	font-weight:bold;
+	color:#6A3002;
+	text-align:left;
+}
+.Deal_Info_HeadingImg
+{
+	float:left;
+	background-image:url(../images/info.png);
+	background-repeat:no-repeat;
+	height:37px;
+	width:32px;
+	margin:30px 0px 0px 146px;
+	position:absolute;
+	z-index:1;	
+}
+.Deal_Info_Top_Box
+{
+	float:left;
+	background-image:url(../images/Payment_Top_Box.png);
+	background-repeat:no-repeat;
+	height:50px;
+	width:368px;
+	margin:0px 0px 0px 46px;
+}
+.Quantity_wrapper_Darktext
+{
+	float:left;
+	width:301px;
+	margin:6px 0px 0px 10px;
+	text-align:right;
+}
+.Deal_Info_Darktext
+{
+	float:left;
+	width:100px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6A3002;
+
+}
+.Quantity_wrapper_Darktext
+{
+	float:left;
+	width:301px;
+	margin:6px 0px 0px 10px;
+	text-align:right;
+}
+.Deal_Info_Whitetext_Tk
+{
+	float:left;
+	width:100px;
+	margin:0px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+	font-weight:bold;
+	color:#FFFFFF;
+}
+.Pay_Tk_Text
+{
+	float:left;
+	width:915px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+	font-weight:bold;
+	color:#6A3002;
+	text-align:left;
+	margin:0px 0px 0px 46px;
+}
+.Payment_Method_Darktext
+{
+	float:left;
+	width:730px;
+	margin:0px 0px 0px 46px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+}
+.Darktext_Gray
+{
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6A3002;
+}
+.Online_Payment_Wrapper
+{
+	float:left;
+	width:961px;	
+}
+.Manual_Payment_Wrapper
+{
+	float:left;
+	width:961px;	
+}
+.Payment_Method_Titletext
+{
+	float:left;
+	width:905px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6A3002;
+	text-align:left;
+}
+/*
+.Payment_Method_Description_Text
+{
+	float:left;
+	width:905px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+	margin:5px 0px 0px 46px;
+}
+*/
+.Payment_Method_Card_Type
+{
+	float:left;
+	width:905px;
+	height:35px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+	margin:15px 0px 5px 46px;
+}
+#DivInstruction
+{
+	float:left;
+	width:905px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	font-weight:bold;
+	text-align:left;
+	margin:10px 0px 10px 46px;
+}
+.Confirm_Online_Payment_Button
+{
+	float:left;
+	background-image:url(../images/Confirm_Online_payment.png);
+	background-repeat:no-repeat;
+	width:198px;
+	height:29px;
+	margin:10px 0px 0px 46px;
+}
+.Confirm_Online_Payment_Button_Transparent
+{
+	float:left;
+	background-color:transparent;
+	border:none;
+	outline-style:none;
+	width:198px;
+	height:22px;
+	margin:2px 0px 0px 0px;
+	font-size:13px;
+	font-weight:bold;
+	color:#6A3002;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+} 
+.Payment_Method_Place_Type
+{
+	float:left;
+	width:905px;
+	height:20px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+	margin:15px 0px 5px 46px;
+}
+.Payment_Method_Contact_Address
+{
+	float:left;
+	width:905px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+	margin:0px 0px 5px 46px;
+}
+.Payment_Method_Contact_Address_Mobile
+{
+	float:left;
+	width:185px;
+	margin:15px 0px 0px 20px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+	
+}
+.Payment_Method_Contact_Address_Present
+{
+	float:left;
+	width:465px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+	margin:0px 0px 0px 5px;
+}
+.Manual_Payment_Button
+{
+	float:left;	
+	width:110px;
+	height:25px;
+	margin:5px 0px 0px 46px;
+	text-align:left;
+}
+
+.Calendar_Dot_Img
+{
+	float:left;
+	height:1px;
+	background-image:url(../images/Calendar_Dot_Img.png);
+	background-repeat:repeat-x;
+	width:255px;
+	margin:0px 10px 7px 15px;
+}
+.Ongoing_Discounts_Texts_wrapper
+{
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	width:263px;
+	margin:0px 10px 7px 15px;
+}
+
+.How_It_Works_Icon
+{
+	float:left;
+	width:40px;
+	height:40px;
+	background-image:url(../images/Work_Tools_Img.png);
+	background-repeat:no-repeat;
+	margin:0px 0px 0px 20px;
+}
+.How_It_Works_Title
+{
+	float:left;
+	width:888px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-align:left;
+	color:#693314;
+	margin:8px 10px 5px 2px;
+}
+.How_It_Works_Title_Text_Bottom
+{
+	float:left;
+	width:888px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	text-align:left;
+	color:#693314;
+	margin:8px 10px 5px 62px;
+}
+.How_It_Works_Description_Text
+{
+	float:left;
+	width:888px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin:5px 0px 0px 62px;
+}
+.Discount_Bubble_Wrapper
+{
+	float:left;
+	width:921px;	
+	margin:15px 0px 10px 42px;
+}
+.Discount_Bubble
+{
+	float:left;
+	width:62px;
+	height:62px;
+	background-image:url(../images/Discount_Bubble_Img.png);
+	background-repeat:no-repeat;	
+	margin:0px 0px 0px 10px;
+}
+.Discount_Percent_White_Text
+{
+	float:left;
+	width:57px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	margin:20px 5px 0px 0px;
+}
+.Three_Column_Wrapper
+{
+	float:left;
+	width:921px;
+	background-image:url(../images/Dark_Vertical_Separator.png);
+	background-repeat:repeat-y;	
+	margin:10px 0px 10px 42px;
+}
+.Horizontal_Seperator_Dark_Dot_Img
+{
+	float:left;
+	width:906px;
+	height:1px;
+	background-image:url(../images/Dark_Horizontal_Separator.png);
+	background-repeat:repeat-x;	
+	margin:0px 10px 0px 42px;
+}
+.Img_Column_Wrapper
+{
+	float:left;
+	width:300px;	
+	margin:25px 0px 0px 0px;
+}
+.English_Column_Wrapper
+{
+	float:left;
+	width:295px;	
+	margin:0px 5px 0px 10px;
+}
+.Bangla_Column_Wrapper
+{
+	float:left;
+	width:300px;	
+	margin:0px 0px 0px 10px;
+}
+.Steps_Title
+{
+	float:left;
+	width:295px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	color:#693314;
+	margin:5px 0px 5px 0px;
+}
+.Steps_Description_Text
+{
+	float:left;
+	width:295px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:left;
+	margin:5px 0px 5px 0px;
+}
+.White_Text
+{
+	float:left;
+	width:300px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+	margin:5px 0px 5px 0px;
+}
+.Buy_Coupon_Img
+{
+	float:left;
+	width:73px;
+	height:61px;
+	background-image:url(../images/Coupon_Hand.png);
+	background-repeat:no-repeat;
+	margin:0px 0px 0px 100px;
+}
+.Lets_Roll_Img
+{
+	float:left;
+	width:275px;
+	height:106px;
+	background-image:url(../images/Lets_roll.gif);
+	background-repeat:no-repeat;
+	margin:0px 0px 0px 0px;
+}
+.Buy_Coupon_Img
+{
+	float:left;
+	width:275px;
+	height:106px;
+	background-image:url(../images/Buy_Coupon.gif);
+	background-repeat:no-repeat;
+	margin:0px 0px 0px 15px;
+}
+.Show_Coupon_Img
+{
+	float:left;
+	width:275px;
+	height:252px;
+	background-image:url(../images/Show_Coupon.gif);
+	background-repeat:no-repeat;
+	margin:0px 0px 0px 15px;
+}
+.Bangla_Font
+{
+	font:SolaimanLipi;
+	font-family:SolaimanLipi, Likhan, Bangsee Alpona, NikoshLight, NikoshLightBAN;
+}
+.Highlighted_Text
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.How_It_Works_Description_Text a
+{
+	text-decoration:none;
+	color:#693314;
+}
+
+.Steps_Description_Text a
+{
+	text-decoration:none;
+	color:#693314;
+}
+.Brand_Product_Discount_text_Dark
+{
+	width:78px;
+	height:18px;
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#6A3002;
+	text-align:left;
+	margin:3px 0px 0px 0px;
+}
+.Brand_Product_Discount_Percent_Dark
+{
+	width:416px;
+	float:left;
+	margin:3px 0px 0px 5px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#6A3002;
+	text-align:left;
+}
+.Brand_Product_Discount_text_Ash
+{
+	width:78px;
+	height:18px;
+	float:left;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#999999;
+	text-align:left;
+	margin:3px 0px 0px 0px;
+}
+.Brand_Product_Discount_Percent_Ash
+{
+	width:416px;
+	float:left;
+	margin:3px 0px 0px 5px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:normal;
+	color:#999999;
+	text-align:left;
+}
+.Need_Help_Wrapper
+{
+	float:left;
+	width:961px;
+	margin:10px 0px 0px 0px;
+}
+.Need_Help_Buzz_bold
+{
+	float:left;	
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:bold;
+	color:#693314;
+	text-align:center;
+	width:961px;
+}
+.Need_Help_Buzz_Normal
+{
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight:normal;
+	color:#693314;
+}
+
+.Deal_Info_Darktext_Type_C
+{
+	float:left;
+	width:250px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6A3002;
+}
+
+.Deal_Info_Whitetext_Tk_Type_C
+{
+	float:left;
+	width:250px;
+	margin:0px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+.KnowingSourceWraper
+{
+	float:left;
+	width:961px;
+	height:30px;
+	text-align:left;
+	margin:0px 0px 0px 50px;
+	font-weight:bold;
+	color:#6A3002;
+}
+
+
+/*Commented By Tanzila
+.Deal_Info_Top_Box
+{
+	float:left;
+	background-image:url(../images/Payment_Top_Box.png);
+	background-repeat:no-repeat;
+	height:50px;
+	width:368px;
+	margin:0px 0px 0px 46px;
+}*/
+/*Added By Tanzila(20-11-12)*/
+.Modified_Deal_Info_Top_Box
+{
+	border:1px solid #C2A275;
+	margin: 0 0 0 46px;
+	opacity:.8;
+	background:#C2A275;
+	
+	min-height: 50px;
+	width: 600px;
+	border-radius:5px;
+	-moz-border-radius:5px; /* Firefox 3.6 and earlier */
+	float:left;
+	
+}
+/*End of Added By Tanzila(20-11-12)*/
+/*Added By Tanzila(21-11-12)*/
+/*Added For Making CSS Table With Div
+
+.Deal_Info_Top_Box
+{
+	border:1px solid #C2A275;
+	margin: 0 0 0 46px;
+	opacity:.8;
+	background:#C2A275;
+	
+	min-height: 50px;
+	width: 468px;
+	border-radius:5px;
+	-moz-border-radius:5px; 
+	float:left;
+	
+}
+.Deal_Info_Darktext
+{
+	float:left;
+	width:100px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6A3002;
+
+}
+.Deal_Info_Whitetext_Tk
+{
+	float:left;
+	width:100px;
+	margin:0px 0px 0px 0px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;	
+	font-weight:bold;
+	color:#FFFFFF;
+}
+
+*/
+.table_container
+{
+
+display: table;
+
+	width:100%;
+
+}
+
+.table_row
+
+{
+	display: table-row;
+	float:left;
+	width:100%;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	color:#6D0000;
+}
+
+
+
+.table_col
+
+{
+
+display: table-cell;
+margin:0px 5px 0px 5px;
+text-align: center;
+width:100px;
+vertical-align: middle;
+
+
+}
+.Modified_Combo_Box_Field_CouponQtn
+{
+	text-align: center;
+	width:90%;
+	/*background-image:url(../images/Small_Combo_Background.png);
+	background-repeat:no-repeat;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	float: left;
+	margin:5px 5px 0px 10px;
+}
+.Modified_Combo_Box_Field_Transparent_CouponQtn
+{
+	float:left;
+	border:2px solid #6A3002;
+	background-color:transparent;
+	text-align: center;
+	width:61px;
+	
+	margin:3px 5px 0px 10px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+/*End of Added By Tanzila(21-11-12)*/
+
+
+.table_row
+
+{
+
+display: table-row;
+
+float:left;
+width:100%;
+font:Arial;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+font-weight:bold;
+color:#6A3002;
+
+}
+
+
+
+.table_col
+
+{
+
+display: table-cell;
+margin:0px 5px 0px 5px;
+text-align: center;
+width:120px;
+vertical-align: middle;
+
+
+}
+.Modified_Combo_Box_Field_CouponQtn
+{
+	text-align: center;
+	width:80px;
+	/*background-image:url(../images/Small_Combo_Background.png);
+	background-repeat:no-repeat;*/
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	float: none;
+	margin:5px 5px 0px 15px;
+}
+.Modified_Combo_Box_Field_Transparent_CouponQtn
+{
+	float:none;
+	border:2px solid #6A3002;
+	background-color:transparent;
+	text-align: center;
+	width:80px;
+	
+	margin:3px 5px 0px 15px;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	font-weight: bold;
+	color:#000000;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-o-border-radius: 5px;
+	border-radius: 5px;
+	border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+/*End of Added By Tanzila(21-11-12)*/
+
+/*MOdified By Tanzila Akter(03-12-12)*/
+.Payment_Method_Description_Text
+{
+	float:left;
+	width:850px;
+	margin:0px 0px 0px 46px;
+	font:Arial;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#6A3002;
+	text-align:left;
+	letter-spacing:1px;
+	line-height:200%;
+	margin:5px 0px 0px 46px;
+}
+/*End of MOdified By Tanzila Akter(03-12-12)*/

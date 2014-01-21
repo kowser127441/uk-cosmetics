@@ -1,0 +1,137 @@
+/*
+Copyright (c) 2007, Yahoo! Inc. All rights reserved.
+Code licensed under the BSD License:
+http://developer.yahoo.net/yui/license.txt
+version: 2.3.0
+*/
+
+
+/* Panel modality mask styles */
+/* See http://developer.yahoo.com/yui/examples/container/panelskin1.html for skining tutorial*/
+
+/* general panel */
+.yui-panel {border:none;}
+.yui-panel .hd {
+	background-color: #999999;
+}
+.mask {background-color:#000;}
+/* popup panel */
+#popupcontent_panel.yui-panel, #lightboxcontent_panel.yui-panel, #signin_panel.yui-panel {border:none;}
+
+/* modal mask */
+#popupcontent_panel_mask, #lightboxcontent_panel_mask, #wait_panel_mask, #signin_panel_mask {background-color:#000;}
+
+/* underlay */
+#popupcontent_panel_c.yui-panel-container.shadow .underlay, #minicart_detail_c.yui-panel-container.shadow .underlay, #lightboxcontent_panel_c.yui-panel-container.shadow .underlay { top: 3px; bottom: -3px; right: -3px; left: 3px; background-color: #000; opacity: .12; filter: alpha(opacity=0); }
+
+/* header */
+/* margin-left matches width of corner graphic */
+#popupcontent_panel.yui-panel .hd, #lightboxcontent_panel.yui-panel .hd, #wait_panel.yui-panel .hd, #signin_panel.yui-panel .hd { padding:0; border:none; background-color:#lime; color:#FFF; height:20px; margin-left:8px; margin-right:8px; text-transform:uppercase; font-weight:bold; font-size:1em; overflow:visible; }
+#popupcontent_panel.yui-panel .hd span, #lightboxcontent_panel.yui-panel .hd span, #wait_panel.yui-panel .hd span, #signin_panel.yui-panel .hd span {line-height:20px; padding-left:3px;}
+#popupcontent_panel.yui-panel .hd .tl, #lightboxcontent_panel.yui-panel .hd .tl, #wait_panel.yui-panel .hd .tl, #signin_panel.yui-panel .hd .tl { width:8px; height:20px; top:0; left:0; background:#999999; position:absolute; }
+#popupcontent_panel.yui-panel .hd .tr, #lightboxcontent_panel.yui-panel .hd .tr, #wait_panel.yui-panel .hd .tr, #signin_panel.yui-panel .hd .tr { width:8px; height:20px; top:0; right:0; background:#999999; position:absolute; }
+
+/* close window button */
+#popupcontent_panel.yui-panel .container-close, #lightboxcontent_panel.yui-panel .container-close, #signin_panel.yui-panel .container-close { top:2px; right:4px; height:17px; width:17px; background-image:url(../../../images/popup_hd_bt_close.gif); }
+/*#popupcontent_panel.yui-panel .container-close:hover, #lightboxcontent_panel.yui-panel .container-close:hover, #signin_panel.yui-panel .container-close:hover { background-image:url(../../../images/popup_hd_bt_closeover.gif); }*/
+	
+/* body */
+#popupcontent_panel.yui-panel .bd, #lightboxcontent_panel.yui-panel .bd, #wait_panel.yui-panel .bd{ padding:10px; background-color:#FFF; }
+#popupcontent_panel #buttons, #lightboxcontent_panel #buttons { width:350px; }
+
+/* product list specific */
+#icat_popup #popupcontent_panel.yui-panel { width: 430px; }
+#icat_popup #popupcontent_panel.yui-panel .bd { height: 425px; overflow: auto; }
+
+/* product detail specific */
+#invt_popup #popupcontent_panel.yui-panel { width: 390px; }
+#invt_popup #popupcontent_panel.yui-panel .bd { overflow:hidden; }
+#invt_popup #popupcontent_panel h1 { display:none; } /* hide the title because it is already supplied in the popup header */
+
+/* lightbox - product detail */
+#lightbox_holder #lightboxcontent_panel.yui-panel .bd { overflow:hidden; }
+#lightbox_holder #lightboxcontent_panel h1 { display:none; } /* hide the title because it is already supplied in the */
+#lightboxflash { display:block; }
+
+/* loading panel */
+#wait_panel.yui-panel { width:240px; }
+#wait_panel.yui-panel .bd #loadPanelImg {	background-image:url(../../../images/loading_bar.gif); display:block; width:220px; height:19px; }
+
+/* minicart detail */
+
+#minicart_detail { position:absolute; top:10px; left:700px; font-size:0.9em; color:#333; z-index:1;} /* add the z-index for IE to float popup above Element heading graphics */
+#minicart_detail #popupcart_panel {overflow:hidden;} /*leave overflow hidden when using animation*/
+#minicart_detail #popupcart_panel.yui-panel { width: 250px;} /* obsolete after 5_3_16 */
+
+/* header */
+/* margin-left matches width of corner graphic */
+#minicart_detail .yui-panel .hd { padding:0; border:none; background-color:#666; color:#FFF; height:20px; margin-left:8px; margin-right:8px; text-transform:uppercase; font-weight:bold; font-size:1em; overflow:visible; }
+#minicart_detail .yui-panel .hd span {line-height:20px; padding-left:3px;}
+#minicart_detail .yui-panel .hd .tl { width:8px; height:20px; top:0; left:0; background:transparent url(../../../images/popup_hd_tl.png); position:absolute; }
+#minicart_detail .yui-panel .hd .tr { width:8px; height:20px; top:0; right:0; background:transparent url(../../../images/popup_hd_tr.png); position:absolute; }
+
+/* body */
+#minicart_detail .yui-panel .bd {border:1px solid #343434; background-color:#CCCCCC; }
+
+
+.items_added li span#updatemdItems, li.total span#updatemdTotal,ul#minicart_products h2,
+ul#minicart_products p.price {font-weight:bold;}
+
+/* products */
+#minicart_detail ul { width: 100%; overflow: hidden; clear: both; }
+ul#minicart_products { margin:5px 0; }
+ul#minicart_products li {border-bottom:1px solid #999999;
+clear:both;
+overflow:hidden;
+padding:10px 0 10px;
+width:250px;}
+ul#minicart_products h2 {padding: 0;border:none;font-size:0.9em;}
+ul#minicart_products p { margin: 0; padding-top:0.25em; }
+
+ul#minicart_products .image { float: left; padding-left:5px;}
+ul#minicart_products .details { float: right; width: 177px; border:none;}
+ul#minicart_products img { width:50px; }
+/* links */
+ul#minicart_links { width:100%; } /* We add this because IE6 doesn't like float right on li.checkout without it */
+ul#minicart_links li {margin:5px}
+/* close window button */
+#minicart-close { top:2px; right:4px; height:17px; width:17px; background-image:url(../../../images/popup_hd_bt_close.gif); position:absolute; z-index:6; margin:0px; padding:0px; cursor:pointer; visibility:inherit; background-repeat:no-repeat; }
+#minicart-close:hover { background-image:url(../../../images/popup_hd_bt_closeover.gif); }
+
+
+/* sign in */
+#signin_popup {text-align: left;}
+#iframewrapper {margin:0 auto; padding-top:0; text-align: left; position: relative;}
+#iframewrapper .checkoutR, #signin_popup .checkoutR {display:none;} /* hides the help & info section */
+#iframewrapper h1, #signin_popup h1 {display:none;} /* hides the title sourced in the popup */
+#iframewrapper fieldset.f-loginemail div {margin:10px 0;}
+#iframewrapper .dontFloat {float:none;width:auto;}
+#signin_popup #signInPanelIframe1 {width:505px; height:220px;}
+#signin_popup .containerpwrm, #signin_popup .containerpwrmthankyou {margin: 10px;}
+
+/* underlay */
+#signin_panel_c.yui-panel-container.shadow .underlay {left:3px;right:-3px;top:3px;bottom:-3px;position:absolute;background-color:#000;opacity:0.12;filter:alpha(opacity=12);}
+
+
+/* body */
+#signin_panel .bd { padding:10px; height:230px; border-bottom:none; border-top:1px solid #343434; border-left:1px solid #343434; border-right:1px solid #343434; background-color:#FFF; }
+#signin_panel .bd #loadPanelImg { background-image:url(../../../images/loading_bar.gif); display:block; width:220px; height:19px; }
+
+/* footer */
+#signin_panel .ft { padding:0 10px 10px 10px; border-top:none; border-bottom:1px solid #343434; border-left:1px solid #343434; border-right:1px solid #343434; background-color:#FFF; font-size:0.9em; overflow:visible;}
+#signin_panel .ft p { padding:0; margin:0;}
+
+ /* ALTERNATE VIEW IMAGES */
+#mainImage img {margin:0 0 5px 0; padding:0; border:solid 1px #C7C7C7;}
+#alternateViewList {float:left; text-align:left; margin:10px 0 0 8px;}
+#altviewHeader {text-align:left; margin:0 0 5px 0;}
+#closeWindow {float:left; width:100%; margin:10px 0 0 0; padding:0;}
+#closeWindow a {color:#333;}
+ 	 
+/* alternate view display as image list */
+#alternateViewList img {margin:5px 3px 0 0; border:1px solid #C7C7C7;}
+#alternateViewList a:hover img, #alternateViewList a.selected img {border:1px solid #999999;}
+ 	 
+/* alternate view display as number list */
+#alternateViewList a span {float:left; margin:0 5px 0 0; padding:5px; border:1px solid #C7C7C7; display:block; cursor:pointer;}
+#alternateViewList a:hover span, #alternateViewList a.selected span {border:1px solid #838383; text-decoration:none; background:#C7C7C7;}

@@ -1,0 +1,736 @@
+/* Brand shops */
+
+/* CAT PAGES */
+
+.brandshops h1, #brandshops h1
+{
+	height: 40px;
+    padding: 40px 0 0;
+	float:left;
+}
+
+.brandshops .catlevelheader img, #brandshops .catlevelheader img
+{
+	float:right;
+}
+
+.brand-catlevel1list li {
+    float: left;
+    margin-bottom: 14px;
+    margin-right: 14px;
+}
+
+.brand-catlevel1list li.subcatlist2, .brand-catlevel1list li.subcatlist4, .brand-catlevel1list li.subcatlist6, .brand-catlevel1list li.subcatlist8, .brand-catlevel1list li.subcatlist10, .brand-catlevel1list li.subcatlist12, .brand-catlevel1list li.subcatlist14, .brand-catlevel1list li.subcatlist16, .brand-catlevel1list li.subcatlist18, .brand-catlevel1list li.subcatlist20
+{
+	margin-right: 0!important;
+}
+
+.brand-catlevel1list li a {
+    color: #fff;
+    float: left;
+    font-size: 18px;
+    height: 164px;
+    line-height: 1.2;
+    overflow: hidden;
+    padding: 8px 90px 0 30px;
+    position: relative;
+    width: 263px;
+}
+
+.brand-catlevel1list li a img
+{
+	position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.brand-catlevel1list li a span {
+    position: relative;
+    z-index: 2;
+	font-weight:bold;
+}
+
+#catdropdown
+{
+	width:100%;
+	margin:0 0 10px 0;
+}
+
+#dropdown-link
+{
+	width:100%;
+	position:relative;
+}
+
+#dropdown-link a
+{
+	display:block;
+	position:absolute;
+	text-indent:-9999px;
+}
+
+#dropdown-link a.up
+{
+	background:#000 url(../images/brandshops/dropdown-link.gif) no-repeat 0 0;
+}
+
+.brandshops #ourfavourites li.details
+{
+	width:180px;
+	margin-right:18px;
+}
+
+.brandshops #ourfavourites li.last
+{
+	margin-right:0;
+}
+
+.brandshops #ourfavourites form
+{
+	display:block;
+}
+
+/* PRODUCT PAGES */
+
+.brandshops #productlist .catlevelheader, .brandshops #productlist .catlevelheaderb
+{
+	background:none!important;
+}
+
+/* NIvea */
+
+body.bs-nivea
+{
+	background:url(../images/brandshops/nivea-bk.gif) 0 0 repeat;
+}
+
+body.bs-n-formen
+{
+	background:url(../images/brandshops/men-bk.jpg) 0 0 repeat-x;
+}
+
+/* Tena */
+
+body.bs-tena, body.bs-tena-sub
+{
+	background:#F5FCFF url(../images/brandshops/tena-bk.gif) 0 0 repeat-x;
+}
+
+.bs-tena .brand-catlevel1list li a span
+{
+	display:none;
+}
+
+.bs-tena .brand-catlevel1list li a span.ga
+{
+    background: url("../images/core/goarrow.png") no-repeat scroll 0 0 transparent;
+    bottom: 0;
+    display: block;
+    height: 20px;
+    position: absolute;
+    right: 0;
+    text-indent: -9999px;
+    width: 22px;
+}
+
+.bs-tena .brand-catlevel1list li a:hover span.ga
+{
+	background:url(../images/core/goarrowh.png) no-repeat 0 0;
+}
+
+.bs-tena-sub .brand-catlevel1list li a span {
+
+	font-weight:normal;
+	font-size:16px;
+	display:block;
+}
+
+/* Gaultier */
+
+body.bs-gaultier .brand-catlevel1list li a, body.classique .brand-catlevel1list li a,  body.lemale .brand-catlevel1list li a{
+    height: 246px;
+}
+
+body.bs-gaultier .brand-catlevel1list li a span, body.classique .brand-catlevel1list li a span, body.lemale .brand-catlevel1list li a span
+{
+	display:none;
+}
+
+body.bs-gaultier #dropdown-link
+{
+	height:21px;
+}
+
+body.bs-gaultier #dropdown-link a
+{
+	width:252px;
+	height:21px;
+	left:270px;
+}
+
+body.bs-gaultier #dropdown-link a.down
+{
+	display:none;
+	background:#000 url(../images/brandshops/dropdown-link-down.gif) no-repeat 0 0!important;
+}
+
+body.classique-sub .longdesc
+{
+	border:1px solid #ddd;
+	color:#825e61;
+	font-size:14px;
+	padding:10px;
+	margin:10px 0;
+	background:url(../images/brandshops/jpg-class-ldesc-bk.jpg) no-repeat top right;
+}
+
+body.kokorico .longdesc
+{
+	border:1px solid #ddd;
+	color:#ba252b;
+	font-size:14px;
+	padding:10px;
+	margin:10px 0;
+	background:url(../images/brandshops/jpg-kok-ldesc-bk.jpg) no-repeat top right;
+}
+
+body.lemale-sub .longdesc
+{
+	border:1px solid #ddd;
+	color:#29757a;
+	font-size:14px;
+	padding:10px;
+	margin:10px 0;
+	background:url(../images/brandshops/jpg-kok-ldesc-bk.jpg) no-repeat top right;
+}
+
+/* Bodyform */
+
+body.bs-bodyform, body.ultra-towels
+{
+	background:url(../images/brandshops/bf-bk.gif) repeat;
+}
+
+body.bs-bodyform .shortdesc
+{
+	color:#005A9C;
+}
+
+body.bs-bodyform ul#catgoldoutput.promotions span.gt, body.bs-bodyform ul.catgoldtabs {	
+	display: none!important;
+}
+
+/*end Bodyform */
+
+
+/* loreal */
+body.bs-loreal .brand-catlevel1list li a span {
+	display:none;
+}
+
+
+body.bs-loreal .catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-loreal .catlevelheader {
+	display:none;
+}
+/* eo loreal */
+
+
+
+/* ann summers */
+body.bs-annsummers .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-annsummers .catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-annsummers .catlevelheader {
+	display:none;
+}
+
+
+
+/* eo ann summers */
+/* e45 brandshop */
+
+.bs-e45 .brand-catlevel1list li a span
+{
+	display:none;
+}
+
+
+.bs-e45 .brand-catlevel1list li a:hover img
+ {  
+	opacity:0.1;
+	-webkit-transition: opacity 300ms; /* property duration timing-function delay */
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+	filter: alpha(opacity = 50);
+}
+
+.bs-e45 .brand-catlevel1list li a:hover{
+	background-image:url('../images/brandshops/shopnow.jpg');
+	-webkit-transition: opacity 1s ease-in-out;
+	opacity:0.8;
+	
+}
+
+.bs-e45 .brand-catlevel1list li a:active {
+	background-image:url('../images/brandshops/shopnow.jpg');
+	opacity:0.8;
+}
+.bs-e45 ul.catgoldtabs li {
+	display:none;
+}
+
+.bs-e45 ul.promotions li a span.gt, .catlevel1list li a span.ga {
+	display:none !important;
+}
+
+.bs-e45 .catlevelheader {
+	display:none;
+}
+/* end e45 brandshop */
+
+/* b brandshop */
+.bs-b .brand-catlevel1list li a span
+{
+	display:none;
+}
+.bs-b .brand-catlevel1list li a:hover img
+ {  
+	opacity:0.1;
+	-webkit-transition: opacity 300ms; /* property duration timing-function delay */
+    -moz-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+	filter: alpha(opacity = 30);
+}
+.bs-b .brand-catlevel1list li a:hover{
+	background-image:url('../images/brandshops/b-rollover.jpg');
+	-webkit-transition: opacity 1s ease-in-out;
+	opacity:0.8;	
+
+}
+.bs-b .brand-catlevel1list li a {
+	height:219px;	
+}
+
+
+
+.bs-b .brand-catlevel1list li a:active {
+	background-image:url('../images/brandshops/b-rollover.jpg');
+	opacity:1;
+}
+.bs-b ul.catgoldtabs li {
+	display:none;
+}
+.bs-b ul.promotions li a span.gt, .catlevel1list li a span.ga {
+	display:none !important;
+}
+.bs-b .catlevelheader {
+	display:none;
+}
+
+.bs-b .brand-catlevel1list {
+	padding-top:140px;
+}
+
+body#brands.brandshops.brandshops.bs-b {
+	background-color:#939BA1;
+} 
+
+body#brands.brandshops.brandshops.bs-b.bs-bmakeup {
+			background-image: url('../images/brandshops/b-home-bg.jpg');
+			background-size:100%;
+}
+
+body#brands.brandshops.brandshops.bs-b.bs-bskin {
+		background-image: url('../images/brandshops/b_skincare_bg.jpg');
+		background-size:100%;
+		height:auto;
+		width:auto;
+		min-height:100%;
+		min-width:100%;
+}
+
+.brand-catlevel1list .bs-tedbakersweet1 {
+	width:777px;
+	border: 1px solid #ddd;
+}
+.brand-catlevel1list .bs-tedbakersweet1 a {
+	width:657px;
+}
+
+.brand-catlevel1list .bs-tedbakerm {
+	margin-left:14px;
+	margin-right:0!important;
+}
+/* end b brandshop */
+/* diesel */
+body.bs-diesel .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-diesel .catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-diesel .catlevelheader {
+	display:none;
+}
+
+body.bs-diesel ul#catgoldoutput {
+width: 780px;
+height: 376px;
+position: relative;
+}
+
+body.bs-diesel .brand-catlevel1list li a, body.bs-dieselotb .brand-catlevel1list li a,  body.bs-dieselfuel .brand-catlevel1list li a, body.bs-dieselloverdose .brand-catlevel1list li a{
+    height: 217px;
+}
+
+/* eo diesel */
+/* lanvin */
+body.bs-lanvin .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-lanvin .catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-lanvin .catlevelheader {
+	display:none;
+}
+
+body.bs-lanvin ul#catgoldoutput {
+width: 780px;
+height: 405px;
+position: relative;
+}
+
+body.bs-lanvin .brand-catlevel1list li a, body.bs-lanvineclat .brand-catlevel1list li a,  body.bs-lanvinjeanne .brand-catlevel1list li a, body.bs-lanvincouture .brand-catlevel1list li a, body.bs-lanvinr2r .brand-catlevel1list li a, body.bs-lanvinarpege .brand-catlevel1list li a, body.bs-lanvinavant .brand-catlevel1list li a{
+    height: 238px!important;
+}
+
+/* eo lanvin */
+/* vo5 */
+body.bs-vo5 .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-vo5 .catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-vo5 .catlevelheader {
+	display:none;
+}
+
+body.bs-vo5 ul#catgoldoutput {
+width: 780px;
+height: 258px;
+position: relative;
+}
+
+body.bs-vo5 .brand-catlevel1list li a{
+    height: 236px!important;
+}
+body.bs-vo5-men .brand-catlevel1list li a{
+    height: 160px!important;
+}
+body.bs-vo5-women .brand-catlevel1list li a{
+    height: 160px!important;
+}
+
+body.bs-vo5holdncontrol .brand-catlevel1list li a, body.bs-vo5groomed .brand-catlevel1list li a, body.bs-vo5messy .brand-catlevel1list li a, body.bs-vo5shampoo .brand-catlevel1list li a, body.bs-vo5matt .brand-catlevel1list li a, body.bs-vo5mlonger .brand-catlevel1list li a{
+    height: 160px!important;
+}
+
+
+body.bs-vo5 ul.promotions li a span.gt, .catlevel1list li a span.ga, body.bs-vo5groomed ul.promotions li a span.gt, .catlevel1list li a span.ga, body.bs-vo5messy ul.promotions li a span.gt, .catlevel1list li a span.ga, body.bs-vo5-shampoo ul.promotions li a span.gt, .catlevel1list li a span.ga, body.bs-vo5matt ul.promotions li a span.gt, .catlevel1list li a span.ga, body.bs-vo5mlonger ul.promotions li a span.gt, .catlevel1list li a span.ga
+{
+	display:none;
+}
+/* eo vo5 */
+/* fathersday */
+body.fday .catlevel1 li a span {
+	display:none;
+}
+body.fday ul#catgoldoutput {
+height: 290px;
+}
+body.fday  .catlevel1list li {
+float: left;
+margin-right: 19px;
+margin-bottom: 14px;
+
+}
+
+body.fday .catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.fday .catlevelheader {
+	display:none;
+}
+body.fday .catlevel1 li a{
+    height: 149px!important;
+	width: 125px;
+}
+/* eo fathersday */
+/* dove */
+body.bs-dove .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-dove.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-dove .catlevelheader {
+	display:none;
+}
+
+body.bs-dove ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-dove .catgoldtabswrap {
+	display:none;
+}
+
+
+
+/* eo dove */
+/* st tropez */
+body.bs-sttropez .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-sttropez ul#catgoldoutput {
+height: 358px;
+}
+
+body.bs-sttropez.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-sttropez .catlevelheader {
+	display:none;
+}
+
+body.bs-sttropez ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-sttropez .catgoldtabswrap {
+	display:none;
+}
+
+
+
+/* eo st tropez */
+/* juicy */
+body.bs-juicy .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-juicy.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-juicy .catlevelheader {
+	display:none;
+}
+
+body.bs-juicy ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-juicy .catgoldtabswrap {
+	display:none;
+}
+
+body.bs-juicy ul#catgoldoutput {
+	height:401px;
+}
+
+body.bs-juicy li.subcatlist7 a, body.bs-juicy li.subcatlist8 a{
+	height:300px;
+}
+
+
+
+
+/* eo juicy */
+/* versace */
+body.bs-versace .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-versace.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+body.bs-versace .catlevelheader {
+	display:none;
+}
+
+body.bs-versace ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-versace .catgoldtabswrap {
+	display:none;
+}
+
+
+
+/* eo versace */
+
+
+/* zegna */
+body.bs-zegna .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-zegna.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+
+
+body.bs-zegna ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-zegna .catgoldtabswrap {
+	display:none;
+}
+
+
+
+/* eo zegna */
+
+/* agent */
+body.bs-agent h1 {
+	display:none;
+}
+
+body.bs-agent .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-agent.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+
+
+body.bs-agent ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-agent .catgoldtabswrap {
+	display:none;
+}
+
+
+
+/* eo oralb */
+
+/* agent */
+body.bs-oralb h1, body.bs-oralbpower h1, body.bs-oralbmanual h1, body.bs-oralbpaste h1, body.bs-oralbdenture h1 {
+	display:none;
+}
+
+body.bs-oralb .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-oralb .catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+
+
+body.bs-oralb  ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-oralb  .catgoldtabswrap {
+	display:none;
+}
+
+/* eo oralb */
+
+
+/* ralph lauren */
+body.bs-ralphlauren h1 {
+	display:none;
+}
+
+body.bs-ralphlauren .brand-catlevel1list li a span {
+	display:none;
+}
+
+body.bs-ralphlauren.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+
+
+body.bs-ralphlauren ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-ralphlauren .catgoldtabswrap {
+	display:none;
+}
+
+
+
+/* eo ralphlauren */
+
+/* rimmel */
+body.bs-rimmel ul#catgoldoutput {
+width: 780px;
+height: 306px;
+position: relative;
+}
+
+body.bs-rimmel h1 {
+	display:none;
+}
+
+body.bs-rimmel .brand-catlevel1list li a span {
+	display:none;
+	text-indent: -9999px;
+}
+
+body.bs-rimmel.catgoldtabswrap ul.catgoldtabs {
+	display:none;
+}
+
+
+
+body.bs-rimmel ul.promotions li a span.gt {
+	display:none !important;
+}
+
+body.bs-rimmel .catgoldtabswrap {
+	display:none;
+}
+
+
+
+/* eo rimmel */
