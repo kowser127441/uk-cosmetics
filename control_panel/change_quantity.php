@@ -1,5 +1,8 @@
 <?php
+
 ob_start();
+?>
+<?php
 session_start();
 
 if (isset($_SESSION['admin_access'])) 
@@ -10,26 +13,12 @@ else
 	header("Location:logout.php");
 	}
 	
-// Session Time out
-
-
-$inactive =600; // Set timeout period in seconds
-
-if (isset($_SESSION['timeout'])) {
-    $session_life = time() - $_SESSION['timeout'];
-    if ($session_life > $inactive) {
-        session_destroy();
-        header("Location: logout.php");
-		echo "session time out";
-    }
-}
-$_SESSION['timeout'] = time();
+include('timeout.php');
 ?>
-
-
 <?php
-include('../connection.php');
-$order_id=$_REQUEST['order_id'];
+$order_id = mysql_escape_string($_POST['order_id']);
+$product_id = mysql_escape_string($_POST['product_id']);
+$quantity = mysql_escape_string($_POST['quantity']);
 
 //// SMS start
 //
@@ -45,7 +34,7 @@ $order_id=$_REQUEST['order_id'];
 //                $phone = '88'.$data[0];
 //            }
 //
-//include('../smsClass.php');
+////include('../smsClass.php');
 //
 //$sms = new SMS();
 //
@@ -55,10 +44,10 @@ $order_id=$_REQUEST['order_id'];
 //// End SMS
 
 
+include('../connection.php');
 
 
-
-$query ="DELETE FROM order_table WHERE  order_id='$order_id'" ;
+$query ="UPDATE orders_product SET quantity= '$quantity' WHERE product_id='$product_id' " ;
 
  if(!mysql_query($query))
 				 {
@@ -66,19 +55,15 @@ $query ="DELETE FROM order_table WHERE  order_id='$order_id'" ;
 					$_SESSION['error']=1 ; 
 				 }
 				 else
-				 {	
-				        $_SESSION['error']= 2; 
-				
-				 }
+				 {
 				 
-				 echo mysql_error();
+					$_SESSION['error']= 2;
+
+				 }
 
 
-
-
-
-header('Location: ' . $_SERVER['HTTP_REFERER']);
-die();
+ header('Location: ' . $_SERVER['HTTP_REFERER']);
+ die();
 
 
 

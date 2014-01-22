@@ -371,7 +371,12 @@ else
 				<?php echo $product_name; ?> 
                 </td>
                 <td class="center">
-				<?php echo $quantity; ?> 
+                    <form action="change_quantity.php" method="post">
+                        <input type="hidden" name="product_id" value="<?php echo $product_id ?>">
+                        <input type="hidden" name="order_id" value="<?php echo $order_id ?>">
+                        <input type="text" value="<?php echo $quantity; ?>" name="quantity" style="width: 100px">
+                    <input type="submit" value="change">
+                    </form>
                 </td>
                 
               
