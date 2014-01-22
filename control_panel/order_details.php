@@ -322,6 +322,7 @@ else
                     <th>Size</th>
                     <th>Discount</th>
                     <th>Total</th>
+                    <th>Action</th>
                 
 
 			</tr>
@@ -421,6 +422,13 @@ else
 							echo $buy_point.' Point' ; 
 					 }
                      ?>
+                </td>
+                
+                 <td class="center">
+	            
+                     <a href="remove_order_product.php?product_id=<?php echo $product_id?>"  onClick="return confarmation()">Remove</a>
+                   
+                  
                 </td>
                 
                 

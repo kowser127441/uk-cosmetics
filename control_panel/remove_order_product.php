@@ -30,35 +30,37 @@ $_SESSION['timeout'] = time();
 <?php
 include('../connection.php');
 $order_id=$_REQUEST['order_id'];
-
-// SMS start
-
-// get Emai
- $esql = mysql_query("SELECT user_id FROM order_table WHERE order_id='$order_id'");
-            while($edata=  mysql_fetch_array($esql)){
-                $email = $edata[0];
-            }
+$product_id=$_REQUEST['product_id'];
 
 
-            $sql = mysql_query("SELECT mobile FROM user WHERE email='$email'");
-            while($data=  mysql_fetch_array($sql)){
-                $phone = '88'.$data[0];
-            }
+//// SMS start
+//
+//// get Emai
+// $esql = mysql_query("SELECT user_id FROM order_table WHERE order_id='$order_id'");
+//            while($edata=  mysql_fetch_array($esql)){
+//                $email = $edata[0];
+//            }
+//
+//
+//            $sql = mysql_query("SELECT mobile FROM user WHERE email='$email'");
+//            while($data=  mysql_fetch_array($sql)){
+//                $phone = '88'.$data[0];
+//            }
+//
+////include('../smsClass.php');
+//
+//$sms = new SMS();
+//
+//$sms->sendSms($phone, 'cancel', $order_id);
+//
+//
+//// End SMS
 
-include('../smsClass.php');
-
-$sms = new SMS();
-
-$sms->sendSms($phone, 'cancel', $order_id);
-
-
-// End SMS
 
 
 
 
-
-$query ="DELETE FROM order_table WHERE  order_id='$order_id'" ;
+$query ="DELETE FROM orders_product WHERE  product_id='$product_id'";
 
  if(!mysql_query($query))
 				 {
