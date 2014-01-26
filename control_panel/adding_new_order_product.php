@@ -101,12 +101,13 @@ if (!mysql_query($sql))
   }
  else {
     $_SESSION['error']=2;
+   // echo $order_id;
 }
 
 
 
 
-header('Location: ' . 'new_order.php');
+header('Location: ' . 'order_details.php?order_id='.$order_id);
 die();
 
 

@@ -49,10 +49,10 @@ function validateForm()
 
   
   	// SUb-Category velidation -
-	 var n=document.forms["myForm"]["sub_category_id"].value;
+	 var n=document.forms["myForm"]["product_code"].value;
   if (n==0)
   {
-  alert("Please Choose a Sub-Category");
+  alert("Product Code name field can't be empty");
   return false;
   }
   
@@ -60,18 +60,25 @@ function validateForm()
 
   
     //Details velidation -
-	 var n=document.forms["myForm"]["details"].value;
+	 var n=document.forms["myForm"]["sale_price"].value;
   if (n==null || n=="")
   {
-  alert("Details field can't be empty");
+  alert("Price field can't be empty");
   return false;
   }
   
     //Price velidation -
-	 var n=document.forms["myForm"]["price"].value;
+	 var n=document.forms["myForm"]["size"].value;
   if (n==null || n=="")
   {
-  alert("Price field can't be empty");
+  alert("Size field can't be empty");
+  return false;
+  }
+  
+   //Quantity velidation -
+	 var n=document.forms["myForm"]["quantity"].value;
+  if (n==0 || n=="" ) {
+  alert("Quantity field can't be 0 and empty");
   return false;
   }
   
@@ -352,7 +359,7 @@ $sell_point=$data['earn_point'];
          <tr>
         <td>Product Name : </td>
         <td>
-       	<input type="text" name="product_name" value="<?php echo $product_name; ?>"  />
+            <input type="text" name="product_name" value="<?php echo $product_name; ?>" readonly="readonly"  />
         </td>
         </tr>
         
@@ -360,7 +367,7 @@ $sell_point=$data['earn_point'];
          <tr>
         <td>Product Code : </td>
         <td>
-           <input type="text" name="product_code" value="<?php echo $product_code; ?>"  />
+           <input type="text" name="product_code" value="<?php echo $product_code; ?>" readonly="readonly" />
         </td>
         </tr>
     
@@ -368,18 +375,18 @@ $sell_point=$data['earn_point'];
         
           <tr>
         <td>Sale Price : </td>
-        <td> <input type="text" name="sale_price"  value="<?php echo $sale_price; ?>"  /></td>
+        <td> <input type="text" name="sale_price"  value="<?php echo $sale_price; ?>" readonly="readonly"  /></td>
         </tr>
          
         
           <tr>
         <td>Size : </td>
-        <td> <input type="text" name="size" value="<?php echo $size; ?>"  /></td>
+        <td> <input type="text" name="size" value="<?php echo $size; ?>" readonly="readonly"  /></td>
         </tr>
         
           <tr>
         <td>Color : </td>
-        <td> <input type="text" name="color" value="<?php echo $color; ?>"  /></td>
+        <td> <input type="text" name="color" value="<?php echo $color; ?>" readonly="readonly"   /></td>
         </tr>
         
         <tr>
