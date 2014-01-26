@@ -288,7 +288,7 @@ else
  ?>   
     
     <br/><br/><br/>
-    <form method="post"   action="remove_productsnew.php" style="margin-left:20px"  name="myForm" onsubmit="return validateForm-duisabled()">
+    <form method="post"   action="view_discount.php" style="margin-left:20px"  name="myForm" onsubmit="return validateForm-duisabled()">
     
     
     <table width="500" border="0">
