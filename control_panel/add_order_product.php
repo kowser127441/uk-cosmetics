@@ -532,7 +532,7 @@ else
                 
                  <td class="center" style="width:150px;">
                  
-                     <a href="add_new_order_product.php?order_id=<?php echo $order_id; ?> && product_id=<?php echo $product_id; ?>">ADD</a> 
+                     <a href="add_new_order_product.php?order_id=<?php echo $order_id;?> & product_id=<?php echo $product_id; ?> "><button type="button">ADD</button></a> 
                   
                 
                 </td>
