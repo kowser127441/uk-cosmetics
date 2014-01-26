@@ -39,12 +39,12 @@ $_SESSION['timeout'] = time();
 
     <!-- Le styles -->
     <link rel="stylesheet" type="text/css" href="css/super_admin.css" />
-     <link href="css/bootstrap.css" rel="stylesheet">
-	 <link rel="shortcut icon" href="images/favicon.ico">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon.ico">
     
    
    
-    <!-- Form Velidation--> 
+  
     
 <script type="text/javascript">
 function validateForm1()
@@ -160,7 +160,8 @@ else
 </center>
 
  <?php
-			include("orders_sidebutton.php");
+	include("orders_sidebutton.php");
+        
 	?>
     
     
@@ -193,8 +194,8 @@ else
 		<thead>
 			<tr>
 		            <th>SL.</th>
-					<th>Invoice No.</th>
-					<th>Customer Name</th>
+		     <th>Invoice No.</th>
+		     <th>Customer Name</th>
                     <th>Customer Email</th>
                     <th>Customer Mobile</th>
                     <th>Total product</th>
@@ -202,7 +203,7 @@ else
                     <th>Payment Type</th>
                     <th>Total amount/Point</th>
                     <th>Order Date</th>
-					<th>Action</th>
+		    <th>Action</th>
                 
 
 			</tr>
@@ -270,6 +271,29 @@ else
 								
 								
 							}
+                                                        
+                                                  //Getting Total point
+                                                        
+                                                       $total_point = 0;
+						
+							$t_point_sql = mysql_query("SELECT * FROM orders_product WHERE order_id='$order_id'");
+							while($t_point_data = mysql_fetch_array($t_point_sql))
+							{
+								$t_pr_id = $t_point_data['product_id'];
+								$t_pr_qty = $t_point_data['quantity'];
+								
+								$point_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_pr_id'");
+								while($point_data = mysql_fetch_array($point_sql))
+								{
+									$t_p_point = $point_data['buy_point'];	
+									
+								}
+								
+								$qty_point = $t_p_point * $t_pr_qty ; 
+								
+								$total_point = $total_point + $qty_point ; 
+                                                        }
+							
 						/*
 							$amount_sql = mysql_query("SELECT * FROM product WHERE product_id = '$product_number'");
 							while($amount_data= mysql_fetch_array($amount_sql))
@@ -290,59 +314,59 @@ else
                     	
 			<tr class="odd gradeX">
 
-				<td><?php echo $i;?></td>
-				<td class="center">
-					 <?php 				
-					echo $order_id;
+		<td><?php echo $i;?></td>
+		<td class="center">
+		<?php 				
+		   echo $order_id;
 					
-                      ?>
+                 ?>
                                         
                 </td>
-				<td class="center">
-					 <?php	echo $user_name;  ?>
+		<td class="center">
+		<?php	echo $user_name;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $user_email;  ?>
+		<?php	echo $user_email;  ?>
                 </td>
                 <td class="center">
-					 <?php	echo $mobile;  ?>
+	        <?php	echo $mobile;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $product_number;  ?>
+		<?php	echo $product_number;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $quantity;  ?>
+		 <?php	echo $quantity;  ?>
                 </td>
                 <td class="center">
-					 <?php	echo $payment_type;  ?>
+		<?php	echo $payment_type;  ?>
                 </td>
                 
                 <td class="center">
 					 
                      <?php
-					 if($payment_type=='cash')
-					 {
+			if($payment_type=='cash')
+			 {
                      	echo 'BDT '. $total_price ; 
-					 }
-					 else
-					 {
-						 echo $buy_point.' POINT';  
-					 }
-					 ?>
+			}
+			 else
+			 {
+			 echo $total_point.' POINT';  
+			 }
+		 ?>
                      
                 </td>
                 
                 <td class="center">
-					 <?php	echo $rowCategory['date'];  ?>
+		<?php	echo $rowCategory['date'];  ?>
                 </td>
                 
                 
                 <td class="center">
                     <a href="invoice.php?order_id=<?php echo $order_id; ?>" target="_blank"> Invoice </a> |
-					<a href="order_details.php?order_id=<?php echo $order_id; ?>"> Details </a> |
+		    <a href="order_details.php?order_id=<?php echo $order_id; ?>"> Details </a> |
                    <a href="seen.php?order_id=<?php echo $order_id; ?>&mobile=<?php echo $mobile; ?>"> Seen </a> |
                   <a href="remove_order.php?order_id=<?php echo $rowCategory['order_id']; ?>" onClick="return confarmation()"> Remove </a>
                 </td>
@@ -352,17 +376,17 @@ else
 			
            <?php
 
-					 $i=$i+1;
-						}
+		 $i=$i+1;
+		}
 					
-					}
-					}
+	   }
+             }
 					
 					
-					 ?>
+	 ?>
                         
 		</tbody>
-				</table>
+		</table>
      
       
     

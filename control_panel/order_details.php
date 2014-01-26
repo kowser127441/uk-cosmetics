@@ -1,6 +1,8 @@
 <?php
 session_start();
 
+error_reporting(0);
+
 if (isset($_SESSION['admin_access'])) 
 {
 }
@@ -221,6 +223,56 @@ else
 				
 				 }
 			}
+                        
+                        
+                  // Getting total amount
+						
+						$total_price = 0;
+						
+							$t_p_sql = mysql_query("SELECT * FROM orders_product WHERE order_id='$order_id'");
+							while($t_p_data = mysql_fetch_array($t_p_sql))
+							{
+								$t_p_id = $t_p_data['product_id'];
+								$t_p_qty = $t_p_data['quantity'];
+								
+								$price_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_p_id'");
+								while($price_data = mysql_fetch_array($price_sql))
+								{
+									$t_p_price = $price_data['sale_price'] - $price_data['discount'];	
+									
+								}
+								
+								$qty_price = $t_p_price * $t_p_qty ; 
+								
+								$total_price = $total_price + $qty_price ; 
+								
+								
+								
+							}      
+                                                        
+                           //Getting Total point
+                                                        
+                                                       $total_point = 0;
+						
+							$t_point_sql = mysql_query("SELECT * FROM orders_product WHERE order_id='$order_id'");
+							while($t_point_data = mysql_fetch_array($t_point_sql))
+							{
+								$t_pr_id = $t_point_data['product_id'];
+								$t_pr_qty = $t_point_data['quantity'];
+								
+								$point_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_pr_id'");
+								while($point_data = mysql_fetch_array($point_sql))
+								{
+									$t_p_point = $point_data['buy_point'];	
+									
+								}
+								
+								$qty_point = $t_p_point * $t_pr_qty ; 
+								
+								$total_point = $total_point + $qty_point ; 
+                                                        }
+								
+								
 			?>
           	
 					
@@ -296,7 +348,16 @@ else
         Address : <?php echo $shipping_address; ?> 
         
         <h3 style="color:#03C;">Payment Type :  <?php echo $payment_type; ?> </h3>
-       
+        <h3 style="color: #F00"> Total Amount - <?php
+			if($payment_type=='cash')
+			 {
+                     	echo 'BDT '. $total_price ; 
+			}
+			 else
+			 {
+			 echo $total_point.' POINT';  
+			 }
+		 ?></h3>
         
         </div>
         
@@ -305,20 +366,26 @@ else
         
         </table>
         
+      <a href="add_order_product.php?order_id=<?php echo $order_id;?>" style="color:#03C; font-size:xx-large; font-style:inherit; font-weight: bolder; " ><button>ADD PRODUCT</button></a>
+        
   <h3> Ordered Product : </h3>
+  
+
        
         <h3 style="color:#39C; display:inline; margin-left:650px;">Status -  <?php echo $status; ?></h3>       
-      
-   
+
+        
 <table class="data display datatable" id="example" style="width:850px;">
-		<thead>
+   
+    
+   <thead>
 			<tr> 
                     <th>Order Id</th>
-		           	<th>Product Name</th>
+		    <th>Product Name</th>
                     <th>Purchase Quantity</th>
-					<th>Details</th>
+		    <th>Details</th>
                     <th>Price/Point</th>
-					<th>Color</th>
+		    <th>Color</th>
                     <th>Size</th>
                     <th>Discount</th>
                     <th>Total</th>
@@ -327,7 +394,10 @@ else
 
 			</tr>
 		</thead>
+            
 		<tbody>
+        
+		
            
              <?php
 			
@@ -360,6 +430,7 @@ else
                                        
                     	
 			<tr class="odd gradeX">
+                            
 
 				<td class="center">
 				<?php echo $order_id; ?> 
@@ -380,83 +451,81 @@ else
                 </td>
                 
               
-				<td class="center">
-					 <?php	echo $details;?>
+		<td class="center">
+		 <?php	echo $details;?>
                 </td>
                 
                  <td class="center">
 					 
                      <?php
-					 if($payment_type=='cash')
-					 {
-                     	echo 'BDT '. $price ; 
-					 }
-					 else
-					 {
-						 echo $point.' POINT';  
-					 }
-					 ?>
+			if($payment_type=='cash')
+			  {
+                     	      echo 'BDT '. $price ; 
+			  }
+			else
+				{
+				     echo $point.' POINT';  
+				}
+			 ?>
                      
                 </td>
                 
                 <td class="center">
-					 <?php	echo $color; ?>
+	          <?php	echo $color; ?>
                      
                 </td>
                 
                  <td class="center">
-					 <?php  echo $size;  
+		<?php  echo $size;  
                      
                      ?>
                 </td>
                 
                 <td class="center">
-					 <?php  echo $discount;
+		 <?php  echo $discount;
                      ?>
                 </td>
                 
                  <td class="center">
-					 <?php 
+		 <?php 
 					 
-					 if($payment_type=='cash')
-					 {
-					  echo 'BDT '.$price*$quantity;
-					 }
-					 else
-					 {
-							echo $buy_point.' Point' ; 
-					 }
+		 if($payment_type=='cash')
+			 {
+			    echo 'BDT '.$price*$quantity;
+		         }
+			else
+			 {
+		            echo $point*$quantity.' Point' ; 
+			 }
                      ?>
                 </td>
                 
                  <td class="center">
 	            
-                     <a href="remove_order_product.php?product_id=<?php echo $product_id?>"  onClick="return confarmation()">Remove</a>
+                     <a href="remove_order_product.php?product_id=<?php echo $product_id?>"  onClick="return confarmation()"><button>Remove</button></a>
                    
                   
                 </td>
-                
-                
+               
 				
 		     </tr>
 			
-        <?php
-					}
-						}
+                 <?php
+		    }
+			}
 					
-					?>
-        
-         
+		?>
+                   
                         
 		</tbody>
-				</table>
+                       </table>
      
-     
-    
+             
+             
 	</div>
     
   
-	
+    	
 
 
 

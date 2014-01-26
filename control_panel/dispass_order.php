@@ -213,9 +213,9 @@ else
 <table class="data display datatable" id="example" style="width:850px;">
 		<thead>
 			<tr>
-		            <th>SL.</th>
-					<th>Invoice No.</th>
-					<th>Customer Name</th>
+		     <th>SL.</th>
+		    <th>Invoice No.</th>
+		    <th>Customer Name</th>
                     <th>Customer Email</th>
                     <th>Customer Mobile</th>
                     <th>Total product</th>
@@ -304,54 +304,54 @@ else
                       ?>
                                         
                 </td>
-				<td class="center">
-					 <?php	echo $user_name;  ?>
+		<td class="center">
+		<?php	echo $user_name;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $user_email;  ?>
+		<?php	echo $user_email;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $mobile;  ?>
+		<?php	echo $mobile;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $product_number;  ?>
+		<?php	echo $product_number;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $quantity;  ?>
+		<?php	echo $quantity;  ?>
                 </td>
                 
                  <td class="center">
-					 <?php	echo $payment_type;  ?>
+		 <?php	echo $payment_type;  ?>
                 </td>
                 
                  <td class="center">
 					 
                      <?php
-					 if($payment_type=='cash')
-					 {
-                     	echo 'BDT '. $total_price ; 
-					 }
-					 else
-					 {
-						 echo $buy_point.' POINT';  
-					 }
-					 ?>
+			if($payment_type=='cash')
+			  {
+                              echo 'BDT '. $total_price ; 
+			  }
+			 else
+			     {
+			     echo $buy_point.' POINT';  
+			     }
+		     ?>
                      
                 </td>
                 
                 
                 <td class="center">
-					 <?php	echo $rowCategory['date'];  ?>
+		<?php	echo $rowCategory['date'];  ?>
                 </td>
                 
                 <td class="center">
                      <a href="invoice.php?order_id=<?php echo $order_id; ?>"  target="_blank"> Invoice </a> |
-					<a href="order_details.php?order_id=<?php echo $rowCategory['order_id']; ?>"> Details </a> |
-					<a href="success.php?order_id=<?php echo $rowCategory['order_id']; ?>&mobile=<?php echo $mobile; ?>" > Success </a>
+		     <a href="order_details.php?order_id=<?php echo $rowCategory['order_id']; ?>"> Details </a> |
+		     <a href="success.php?order_id=<?php echo $rowCategory['order_id']; ?>&mobile=<?php echo $mobile; ?>" > Success </a>
                 </td>
                 
 				
@@ -359,10 +359,10 @@ else
 			
            <?php
 
-					 $i=$i+1;
-						}
-					}
-					 ?>
+		 $i=$i+1;
+		}
+	    }
+	   ?>
                         
 		</tbody>
 				</table>
