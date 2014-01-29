@@ -275,14 +275,14 @@ function Out()
         <!--START NORNAL NO GIFT 103-->  
         <div class="price">
 
-            <div class="now"><span class="pricename">now</span> <span class="priceno"> BDT <?php echo $product_info['discount_price']; ?></span></div>
+     <div class="now"><span class="pricename">now</span> <span class="priceno">  <?php echo $product_info['discount_price']; ?></span></div>
             
             <?php 
               if($product_info['discount_available'] =='yes')   
 			  {
 			?>	 
 				        
-            <div class="save"><span class="savename">save</span> <span class="saveprice"> BDT<?php echo $product_info['discount']; ?></span></div>
+            <div class="save"><span class="savename">save</span> <span class="saveprice"> BDT<?php echo $product_info['discount'].'%'; ?></span></div>
             <div class="was"><span class="wasname">was</span> <span class="wasprice"> BDT<?php echo $product_info['sale_price']; ?></span></div>    
             <?php
 			  }
@@ -438,19 +438,6 @@ foreach($also_like_product as $also_like)
     
   
     
-		<!--
-
-
-
-
-<div id="productreviews" class="bethefirstreview">
-	<a href="&temp=writereview&layout=defaultnocolthree" title="Be the first to review this product">Be the first to review this product</a> 
-
-</div>
-
--->
-
-
 
 
 
@@ -740,7 +727,6 @@ Comments:
 
 
 </script>
-
 
 
 

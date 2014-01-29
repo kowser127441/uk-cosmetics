@@ -328,6 +328,7 @@ function changecategory3()
          <table  style="width: 200px; height: 30px; margin-left: 100px">
              <tr>
                  <td>
+                    
                      SELECT OPTION:
                    
      <select id="position"  onChange="source()" >
@@ -463,7 +464,6 @@ function changecategory3()
                 <p style="color:red">ADD DISCOUNT BY BRAND</p>
             </td>
         </tr>
-  
         
          <tr>
         <td>Choose Brand :</td>

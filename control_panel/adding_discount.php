@@ -20,6 +20,10 @@ include('timeout.php');
 
 $product_id = mysql_escape_string($_POST['product_id']);
 $discount = mysql_escape_string($_POST['discount']);
+
+
+
+
 $duration = mysql_escape_string($_POST['duration']);
 $date = date('Y-m-d H:i:s');
 

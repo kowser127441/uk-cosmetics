@@ -207,7 +207,10 @@ $rating = $rating / 5 ;
 $discount_aailable = $product_data['discount_available'];
 $discount = $product_data['discount'];
 
-$price = $price - $discount ; 
+$discount = $discount/100;
+$discount_per = $discount * $price;
+
+$price = $price - $discount_per ; 
 
 $earn_point = $product_data['earn_point'];
 

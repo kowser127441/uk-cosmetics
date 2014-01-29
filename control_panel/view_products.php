@@ -151,9 +151,7 @@ function changecategory2()
 			xmlhttp.send();	
 
 		}
-
-
-
+                
 
 
 </script>
@@ -248,6 +246,7 @@ else
 
  <?php
 			include("view_sidebutton.php");
+                        
 	?>
     
     
@@ -281,17 +280,27 @@ else
  $category_id=$_POST['category'];
   $sub_category_id=$_POST['sub_category'];
  $brand_id=$_POST['brand'];
+ $product_code=$_POST['product_code'];
  
+ $order_id = $_REQUEST['order_id'];
+
  
+ //echo $order_id;
  
  ?>   
-    
+     
     <br/><br/><br/>
-    <form method="post"   action="view_products.php" style="margin-left:20px"  name="myForm" onsubmit="return validateForm-duisabled()">
+    <form method="post" enctype="multipart/form-data" action="view_products.php" style="margin-left:20px"  name="myForm" onsubmit="return validateForm-duisabled()">
     
-    
+       
+        <table>   
+            <tr>
+                <td>
+        
+       
+        
     <table width="500" border="0">
- 
+    
          
          <tr>
         <td>Choose Category :</td>
@@ -352,6 +361,17 @@ else
         
         </td>
         </tr>
+        
+    
+    
+    
+        
+<!--         <tr>
+        <td>Product Code : </td>
+        <td><span id="bodyspan">
+       
+         </span></td>
+        </tr>-->
        
        
         
@@ -369,23 +389,45 @@ else
           </tr>
   
 </table>
+                     </form>
+                </td>
+                <form action="view_products.php" method="POST" enctype="multipart/form-data"> 
+                    <input type="hidden" name="order_id" value="<?php echo $order_id?>">
+                <td>
+                    
+                    
+                    <p>Product Code :</p>
+                    <input type="text" name="product_code">
+                   
+                    
+                </td>
+                
+                <td>
+                     
+                     <input type="submit" value="Search" style="margin-left: -100px; margin-top: 100px">  
+                </td>
+                  
+        
+       </tr>
+        </table>
+    </form>
 
   
-      </form>
+     
     
     
     <h3>Products : </h3>
     
 <table class="data display datatable" id="example" style="width:850px; magin-left:100px;">
 		<thead>
-			<tr>
-		            <th>SL.</th>
-					<th>Product Name</th>
-					<th>Product Code</th>
+		<tr>
+		    <th>SL.</th>
+		    <th>Product Name</th>
+		    <th>Product Code</th>
                     <th>Category</th>
                     <th>Sub-Category</th>
                     <th>Brand</th>
-					<th>Details</th>
+		    <th>Details</th>
                     <th>Sale Price</th>
                     <th>Discount</th>
                     <th>Picture</th>
@@ -393,23 +435,26 @@ else
                     
                 
 
-			</tr>
+		</tr>
 		</thead>
 		<tbody>
                         <?php
 						
-						echo $category_id.'--'.$sub_category_id.'--'.$brand_id;
+						//echo $category_id.'--'.$sub_category_id.'--'.$brand_id.'--'.$product_code.'--'.$order_id;
 						
 						$i = 1;
-							
+							//echo $order_id;
 						
-						$p_query=mysql_query("SELECT * FROM product WHERE category_id = $category_id AND sub_category_id LIKE '%$sub_category_id%' AND brand_id LIKE '%$brand_id%'");	
+						$p_query=mysql_query("SELECT * FROM product WHERE  
+                                                        (category_id = '$category_id' AND sub_category_id ='$sub_category_id' AND brand_id = '$brand_id') 
+                                                        OR (product_code = '$product_code')");	
 						while($h_data=mysql_fetch_array($p_query))
 						{	
 							$product_id = $h_data['product_id'];
 							$category_id = $h_data['category_id'];
 							$sub_category_id = $h_data['sub_category_id'];
 							$brand_id = $h_data['brand_id'];
+                                                        $product_code = $h_data['product_code'];
 							
 							$pic_query=mysql_query("SELECT * FROM product WHERE product_id='$product_id'");
 							while($pic=mysql_fetch_array($pic_query))
@@ -444,51 +489,53 @@ else
                     	
 			<tr class="odd gradeX">
 
-				<td><?php echo $i;?></td>
+		<td><?php echo $i;?></td>
                 
-				<td class="center">
-				<?php echo $h_data['product_name']; ?>
+		<td class="center">
+		<?php echo $h_data['product_name']; ?>
                 </td>
                 
                 <td class="center">
-				<?php echo $h_data['product_code']; ?>
+		<?php echo $h_data['product_code']; ?>
                 </td>
                 
                 <td class="center">
-				<?php echo $category_name; ?>
+		<?php echo $category_name; ?>
                 </td>
                 
                 <td class="center">
-				<?php echo $sub_category_name; ?>
+		<?php echo $sub_category_name; ?>
                 </td>
                 
                  <td class="center">
-				<?php echo $brand_name; ?>
+		<?php echo $brand_name; ?>
                 </td>
                 
                 
-				<td class="center">
-					   <?php echo $h_data['details']; ?>
-                </td>
-                
-                <td class="center">
-					   <?php echo $h_data['sale_price']; ?>
+		<td class="center">
+		 <?php echo $h_data['details']; ?>
                 </td>
                 
                 <td class="center">
-					   <?php echo $h_data['discount']; ?>
+		 <?php echo $h_data['sale_price']; ?>
                 </td>
                 
                 <td class="center">
-					 <img src="<?php echo '../control_panel/'.$pic_url; ?>" style="width:150px;" >
+		  <?php echo $h_data['discount'].'%'; ?>
+                </td>
+                
+                <td class="center">
+		 <img src="<?php echo '../control_panel/'.$pic_url; ?>" style="width:150px;" >
                     
                 </td>
 				
                 
                  <td class="center" style="width:150px;">
                  
+                    
                   <a href="edit_new_product.php?product_id=<?php echo $product_id; ?>"  >Edit</a> |
                   <a href="remove_product.php?product_id=<?php echo $product_id; ?>"  onClick="return confarmation()">Remove</a>
+                  
                 
                 </td>
                 
@@ -497,11 +544,11 @@ else
 			
            <?php
 
-					 $i=$i+1;
+		 $i=$i+1;
 						
-						}
+		}
 					
-					 ?>
+		?>
                         
 		</tbody>
 				</table>

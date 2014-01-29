@@ -440,7 +440,7 @@ else
 		<tbody>
                         <?php
 						
-						echo $category_id.'--'.$sub_category_id.'--'.$brand_id.'--'.$product_code.'--'.$order_id;
+						//echo $category_id.'--'.$sub_category_id.'--'.$brand_id.'--'.$product_code.'--'.$order_id;
 						
 						$i = 1;
 							//echo $order_id;
@@ -521,7 +521,7 @@ else
                 </td>
                 
                 <td class="center">
-		  <?php echo $h_data['discount']; ?>
+		  <?php echo $h_data['discount'].'%'; ?>
                 </td>
                 
                 <td class="center">
@@ -542,11 +542,11 @@ else
 			
            <?php
 
-					 $i=$i+1;
+		 $i=$i+1;
 						
-						}
+		}
 					
-					 ?>
+		?>
                         
 		</tbody>
 				</table>

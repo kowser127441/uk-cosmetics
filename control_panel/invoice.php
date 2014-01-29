@@ -203,6 +203,8 @@ Phone: <?php echo $user_phone; ?></p>
 							
 							
 							$discount=$data['discount'];
+                                                        
+                                                        $percent = $discount / 100;
 							$price =$price-$discount;
 							
 							$sub_total = $sub_total + $price * $quantity ;
@@ -230,7 +232,7 @@ Phone: <?php echo $user_phone; ?></p>
 					 ?>
                      
                 </td>
-              <td><?php  echo $discount; ?></td>
+              <td><?php  echo $percent.'%'; ?></td>
               <td><?php  echo $size; ?></td>
               <td><?php  echo $color; ?></td>
 		       <td>

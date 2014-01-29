@@ -238,7 +238,11 @@ else
 								$price_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_p_id'");
 								while($price_data = mysql_fetch_array($price_sql))
 								{
-									$t_p_price = $price_data['sale_price'] - $price_data['discount'];	
+									  $price = $price_data['sale_price'];
+                                                                    $discount = $price_data['discount'];
+                                                                    $discount = $discount /100;
+                                                                    $discount_per = $price * $discount;
+									$t_p_price = $price - $discount_per;	
 									
 								}
 								
@@ -419,9 +423,16 @@ else
 							$price=$data['sale_price'];
 							$color=$data['color'];
 							$size=$data['size'];
+                                                        $discount1=$data['discount'];
 							
 							$discount=$data['discount'];
-							$price =$price-$discount;
+                                                       $discount = $discount/100;
+                                                       $discount_per = $discount * $price;
+                                                        
+                                                       
+                                                        
+                                                        
+							$price =$price-$discount_per;
 				
 				?>
            
@@ -482,7 +493,7 @@ else
                 </td>
                 
                 <td class="center">
-		 <?php  echo $discount;
+		 <?php  echo $discount1 .'%';
                      ?>
                 </td>
                 

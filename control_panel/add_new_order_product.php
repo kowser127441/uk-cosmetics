@@ -39,41 +39,7 @@ include('timeout.php');
 function validateForm()
 {
 	
-	   //product Name velidation -
-	 var n=document.forms["myForm"]["product_name"].value;
-  if (n==null || n=="")
-  {
-  alert("Product name field can't be empty");
-  return false;
-  }
 
-  
-  	// SUb-Category velidation -
-	 var n=document.forms["myForm"]["product_code"].value;
-  if (n==0)
-  {
-  alert("Product Code name field can't be empty");
-  return false;
-  }
-  
-	
-
-  
-    //Details velidation -
-	 var n=document.forms["myForm"]["sale_price"].value;
-  if (n==null || n=="")
-  {
-  alert("Price field can't be empty");
-  return false;
-  }
-  
-    //Price velidation -
-	 var n=document.forms["myForm"]["size"].value;
-  if (n==null || n=="")
-  {
-  alert("Size field can't be empty");
-  return false;
-  }
   
    //Quantity velidation -
 	 var n=document.forms["myForm"]["quantity"].value;

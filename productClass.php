@@ -37,6 +37,8 @@ public  function getProductInfo($product_id){
 		$this->product_info['discount_date'] = $product_data['discount_date'];
 		$this->product_info['purchase_price_1'] = $product_data['purchase_price_1'];
 		$this->product_info['sale_price'] = $product_data['sale_price'];
+		
+		
 		$this->product_info['quantity_1'] = $product_data['quantity_1'];
 		$this->product_info['purchase_price_2'] = $product_data['purchase_price_2'];
 		$this->product_info['quantity_2'] = $product_data['quantity_2'];
@@ -112,7 +114,11 @@ private function getTermsCondition(){
 	  }// END OF getSubCategory	
 	  
  public function getDiscountPrice($regular_prize,$discount){
-	 $discount_price = $regular_prize - $discount ; 
+	 $discount = $discount / 100;
+	 
+	 $discount_per = $discount * $regular_prize;
+
+	 $discount_price = $regular_prize - $discount_per ; 
 	 return $discount_price ;
 	 
  }// End of getDiscountPrice

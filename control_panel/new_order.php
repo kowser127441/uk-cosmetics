@@ -260,7 +260,11 @@ else
 								$price_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_p_id'");
 								while($price_data = mysql_fetch_array($price_sql))
 								{
-									$t_p_price = $price_data['sale_price'] - $price_data['discount'];	
+                                                                    $price = $price_data['sale_price'];
+                                                                    $discount = $price_data['discount'];
+                                                                    $discount = $discount /100;
+                                                                    $discount_per = $price * $discount;
+									$t_p_price = $price - $discount_per;	
 									
 								}
 								

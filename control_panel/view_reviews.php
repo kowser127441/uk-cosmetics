@@ -341,11 +341,11 @@ else
 		<thead>
 			<tr>
 		            <th>SL.</th>
-					<th>Product Name</th>
+		     <th>Product Name</th>
                     <th>Headline</th>
                     <th>Rating</th>
                     <th>Comment</th>
-					<th>Nickname</th>
+		    <th>Nickname</th>
                     <th>Location</th>
                     <th>Action</th>
                   
@@ -362,14 +362,16 @@ else
 						
 						$p_query=mysql_query("SELECT * FROM reviews WHERE product_id LIKE '%$product_id%'");	
 						while($h_data=mysql_fetch_array($p_query))
-						{	
+						{
+                                                    
 							$product_id = $h_data['product_id'];
+                                                        $review_id = $h_data['review_id'];
 							$headline = $h_data['headline'];
 							$comment = $h_data['comments'];
 							$nickname = $h_data['nickname'];
 							$location = $h_data['location'];
 							
-							// GETTING CATEGORY NAME
+							// GETTING Product NAME
 							
 						$cat_sql=mysql_query("SELECT product_name FROM product WHERE product_id='$product_id' ");
 						while($cat_data=mysql_fetch_array($cat_sql))
@@ -386,8 +388,8 @@ else
 
 				<td><?php echo $i;?></td>
                 
-				<td class="center">
-				<?php echo $product_name; ?>
+		<td class="center">
+		<?php echo $product_name; ?>
                 </td>
                 
                 <td class="center">
@@ -415,8 +417,8 @@ else
                 
                  <td class="center" style="width:150px;">
                  
-                  <a href="edit_reviews.php?product_id=<?php echo $product_id; ?>"  >Edit</a> |
-                  <a href="remove_reviews.php?product_id=<?php echo $product_id; ?>"  onClick="return confarmation()">Remove</a>
+                  <a href="edit_reviews.php?review_id=<?php echo $review_id; ?>" >Edit</a> |
+                  <a href="remove_reviews.php?review_id=<?php echo $review_id; ?>"  onClick="return confarmation()">Remove</a>
                 
                 </td>
                 
