@@ -245,7 +245,7 @@ else
 </center>
 
  <?php
-			include("orders_sidebutton.php");
+	include("orders_sidebutton.php");
                         
 	?>
     
@@ -353,11 +353,7 @@ else
 					  }
 			?>
 				 </select>
-        
-        
-        
-        
-        
+    
         
         </td>
         </tr>
@@ -465,11 +461,14 @@ else
 						{
 							$brand_name=$cat_data['brand_name'];	
 						}
+                                                
+                                               
+                                               
 					
 						
 					?>
                     	
-			<tr class="odd gradeX">
+		<tr class="odd gradeX">
 
 		<td><?php echo $i;?></td>
                 
@@ -533,18 +532,7 @@ else
 		</tbody>
 				</table>
 
-    
-    
-    
-    
-
 	</div>
-
-
-
-    
-    
-    
 
 </div>
 

@@ -21,7 +21,7 @@ include('timeout.php');
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Admin Panel-All Sky Shop</title>
+    <title>Admin Panel</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -258,27 +258,6 @@ else
 	   
 	   ?>
      </center>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <?php 
 
@@ -309,8 +288,6 @@ while($cat_data=mysql_fetch_array($cat_sql))
   }
 						
 	
-
-	
 }
 
 
@@ -328,9 +305,6 @@ while($cat_data=mysql_fetch_array($cat_sql))
 <td><?php echo $product_name; ?></td>
 </tr>
 
-
-
-
 <tr>
 <td><b>Current Headline<b> : </td>
 <td><?php echo $headline ; ?></td>
@@ -347,12 +321,9 @@ while($cat_data=mysql_fetch_array($cat_sql))
 </tr>
 
 <tr>
-<td><b>Review  <b> : </td>
+<td><b>Comment  <b> : </td>
             <td><textarea style="width: 300px;height: 50px" readonly="readonly"><?php echo $comment; ?></textarea></td>
 </tr>
-
-
-
 
 </table>
 <br/>
@@ -377,9 +348,7 @@ while($cat_data=mysql_fetch_array($cat_sql))
         <td><b>Edit Headline<b>: </td>
         <td> <input type="text" name="headline" /></td>
         </tr>
-          
-       
-        
+
        <tr><td></td><td><input type="submit" value="Update" /></td>
        </tr>  
  

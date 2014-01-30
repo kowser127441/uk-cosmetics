@@ -276,25 +276,6 @@ else
     
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <?php 
 
 $product_id = $_REQUEST['product_id'];
@@ -323,9 +304,6 @@ $discount=$data['discount'];
 $discount_available=$data['discount_available'];
 $discount_duration=$data['discount_duration'];
 $discount_date=$data['discount_date'];
-
-	
-
 	
 }
 
@@ -429,8 +407,6 @@ $discount_date=$data['discount_date'];
 <td><b>Current Discount date<b> : </td>
 <td><?php echo $discount_date; ?></td>
 </tr>
-
-
 
 
 </table>
