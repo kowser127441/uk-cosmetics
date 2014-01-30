@@ -426,7 +426,7 @@ function changecategory3()
         
         
          <tr>
-        <td>Discount Amount : </td>
+        <td>Discount Amount By Percent(%) : </td>
         <td><input type="text" name="discount" /></td>
         </tr>
         
@@ -493,7 +493,7 @@ function changecategory3()
         
         
          <tr>
-        <td>Discount Amount : </td>
+        <td>Discount Amount By Percent(%) : </td>
         <td><input type="text" name="discount" /></td>
         </tr>
         
@@ -558,7 +558,7 @@ function changecategory3()
         </tr>
         
          <tr>
-        <td>Discount Amount : </td>
+        <td>Discount Amount By Percent(%): </td>
         <td><input type="text" name="discount" /></td>
         </tr>
         
@@ -625,7 +625,7 @@ function changecategory3()
         
         
          <tr>
-        <td>Discount Amount : </td>
+        <td>Discount Amount By Percent(%) : </td>
         <td><input type="text" name="discount" /></td>
         </tr>
         
