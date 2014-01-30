@@ -265,31 +265,56 @@ else
 							while($quantity_data= mysql_fetch_array($quantity_sql))
 							{
 							    $quantity = $quantity_data[0];
+								// Getting total amount
+						
+						$total_price = 0;
+						
+							$t_p_sql = mysql_query("SELECT * FROM orders_product WHERE order_id='$order_id'");
+							while($t_p_data = mysql_fetch_array($t_p_sql))
+							{
+								$t_p_id = $t_p_data['product_id'];
+								$t_p_qty = $t_p_data['quantity'];
 								
-										// Getting total amount
+								$price_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_p_id'");
+								while($price_data = mysql_fetch_array($price_sql))
+								{
+                                                                    $price = $price_data['sale_price'];
+                                                                    $discount = $price_data['discount'];
+                                                                    $discount = $discount /100;
+                                                                    $discount_per = $price * $discount;
+									$t_p_price = $price - $discount_per;	
+									
+								}
 								
-											$total_price = 0;
-										
-											$t_p_sql = mysql_query("SELECT * FROM orders_product WHERE order_id='$order_id'");
-											while($t_p_data = mysql_fetch_array($t_p_sql))
-											{
-												$t_p_id = $t_p_data['product_id'];
-												$t_p_qty = $t_p_data['quantity'];
-												
-												$price_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_p_id'");
-												while($price_data = mysql_fetch_array($price_sql))
-												{
-													$t_p_price = $price_data['sale_price'] - $price_data['discount'];	
-													
-												}
-												
-												$qty_price = $t_p_price * $t_p_qty ; 
-												
-												$total_price = $total_price + $qty_price ; 
-												
-												
-												
-											}
+								$qty_price = $t_p_price * $t_p_qty ; 
+								
+								$total_price = $total_price + $qty_price ; 
+								
+								
+								
+							}
+                                                        
+                                                  //Getting Total point
+                                                        
+                                                       $total_point = 0;
+						
+							$t_point_sql = mysql_query("SELECT * FROM orders_product WHERE order_id='$order_id'");
+							while($t_point_data = mysql_fetch_array($t_point_sql))
+							{
+								$t_pr_id = $t_point_data['product_id'];
+								$t_pr_qty = $t_point_data['quantity'];
+								
+								$point_sql = mysql_query("SELECT * FROM product WHERE product_id='$t_pr_id'");
+								while($point_data = mysql_fetch_array($point_sql))
+								{
+									$t_p_point = $point_data['buy_point'];	
+									
+								}
+								
+								$qty_point = $t_p_point * $t_pr_qty ; 
+								
+								$total_point = $total_point + $qty_point ; 
+                                                        }
 								
 							}
 							
@@ -338,7 +363,7 @@ else
 					 }
 					 else
 					 {
-						 echo $buy_point.' POINT';  
+						 echo $total_point.' POINT';  
 					 }
 					 ?>
                      

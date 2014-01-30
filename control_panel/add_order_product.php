@@ -278,7 +278,7 @@ else
  
  
  $category_id=$_POST['category'];
-  $sub_category_id=$_POST['sub_category'];
+ $sub_category_id=$_POST['sub_category'];
  $brand_id=$_POST['brand'];
  $product_code=$_POST['product_code'];
  
@@ -361,26 +361,7 @@ else
         
         </td>
         </tr>
-        
-    
-    
-    
-        
-<!--         <tr>
-        <td>Product Code : </td>
-        <td><span id="bodyspan">
-       
-         </span></td>
-        </tr>-->
-       
-       
-        
-    <!-- <tr>
-        <td>Product Name : </td>
-        <td><span id="bodyspan_2"> </span></td>
-        </tr>
-      -->
-       
+
          <tr>
           <td></td>
             <td>
@@ -442,12 +423,13 @@ else
 						
 						//echo $category_id.'--'.$sub_category_id.'--'.$brand_id.'--'.$product_code.'--'.$order_id;
 						
-						$i = 1;
+				$i = 1;
 							//echo $order_id;
 						
-						$p_query=mysql_query("SELECT * FROM product WHERE  
-                                                        (category_id = '$category_id' AND sub_category_id ='$sub_category_id' AND brand_id = '$brand_id') 
-                                                        OR (product_code = '$product_code')");	
+				$p_query=mysql_query("SELECT * FROM product WHERE  
+                                (category_id = '$category_id' AND sub_category_id ='$sub_category_id' AND brand_id = '$brand_id') 
+                                 OR 
+                                  (product_code = '$product_code')");	
 						while($h_data=mysql_fetch_array($p_query))
 						{	
 							$product_id = $h_data['product_id'];

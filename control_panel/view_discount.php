@@ -453,36 +453,36 @@ else
                 </td>
                 
                 <td class="center">
-				<?php echo $category_name; ?>
+	         <?php echo $category_name; ?>
                 </td>
                 
                 <td class="center">
-				<?php echo $sub_category_name; ?>
+	        <?php echo $sub_category_name; ?>
                 </td>
                 
                  <td class="center">
-				<?php echo $brand_name; ?>
+		<?php echo $brand_name; ?>
                 </td>
                 
                 
-				<td class="center">
-					   <?php echo $h_data['discount']; ?>
-                </td>
-                
-                <td class="center">
-					   <?php echo $h_data['discount_available']; ?>
+		<td class="center">
+	       <?php echo $h_data['discount'].'%'; ?>
                 </td>
                 
                 <td class="center">
-					   <?php echo $h_data['discount_duration']; ?>
+		 <?php echo $h_data['discount_available']; ?>
                 </td>
                 
                 <td class="center">
-					   <?php echo $h_data['discount_date']; ?>
+		 <?php echo $h_data['discount_duration']; ?>
                 </td>
                 
                 <td class="center">
-					 <img src="<?php echo '../control_panel/'.$pic_url; ?>" style="width:150px;" >
+		<?php echo $h_data['discount_date']; ?>
+                </td>
+                
+                <td class="center">
+		 <img src="<?php echo '../control_panel/'.$pic_url; ?>" style="width:150px;" >
                     
                 </td>
 				

@@ -60,7 +60,7 @@ $_SESSION['timeout'] = time();
 				{
 				 $user_name=$data2['first_name'].' '.$data2['last_name'];
 				
-                 $user_phone=$data2['mobile'];
+                                 $user_phone=$data2['mobile'];
 				 
 				 $user_address=$data2['address'];
 				 
@@ -205,7 +205,8 @@ Phone: <?php echo $user_phone; ?></p>
 							$discount=$data['discount'];
                                                         
                                                         $percent = $discount / 100;
-							$price =$price-$discount;
+                                                        $discount_per = $percent*$price;
+							$price =$price-$discount_per;
 							
 							$sub_total = $sub_total + $price * $quantity ;
 							
@@ -232,7 +233,7 @@ Phone: <?php echo $user_phone; ?></p>
 					 ?>
                      
                 </td>
-              <td><?php  echo $percent.'%'; ?></td>
+              <td><?php  echo $discount.'%'; ?></td>
               <td><?php  echo $size; ?></td>
               <td><?php  echo $color; ?></td>
 		       <td>
